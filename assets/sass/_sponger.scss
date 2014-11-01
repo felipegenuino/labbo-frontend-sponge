@@ -1118,7 +1118,10 @@ s
 .pattern-tertiary{background-image: url("../images/background/pattern-tertiary.jpg");}
 
  
-body{@extend .pattern-primary;}
+body{
+  @extend .pattern-primary; 
+  @include single-text-shadow;
+}
 
  
 /*'Tipografy
@@ -1846,9 +1849,9 @@ border: none;
 							border: 1px solid #ccc;
 							position: absolute;
 							left: 0;
-							width: 170%;
+							width: 100%;
 							top: 50%;
-							margin-left: -440px;
+							margin-left: -140px;
 							z-index: -1;
 						}
 
@@ -1857,9 +1860,9 @@ border: none;
 							border: 1px solid #ccc;
 							position: absolute;
 							right: 0;
-							width: 170%;
+							width: 100%;
 							top: 50%;
-							margin-right: -440px;
+							margin-right: -140px;
 							z-index: -1;
 						}
 
@@ -1876,7 +1879,7 @@ border: none;
 							left: 0;
 							width: 100%;
 							top: 50%;
-							margin-left: -250px;
+							margin-left: -150px;
 							z-index: -1;
 						}
 
@@ -1887,7 +1890,7 @@ border: none;
 							right: 0;
 							width: 100%;
 							top: 50%;
-							margin-right: -250px;
+							margin-right: -150px;
 							z-index: -1;
 						}
 
@@ -1897,26 +1900,26 @@ border: none;
 				@media (max-width: 767px) {
 
 					&:before{
-							content: "";
-							border: 1px solid #ccc;
-							position: absolute;
-							left: 0;
-							width: 50%;
-							top: 50%;
-							z-index: -1;
-							margin-left: -50px;
-						}
+              content: "";
+              border: 1px solid #ccc;
+              position: absolute;
+              left: 0;
+              width: 100%;
+              top: 50%;
+              margin-left: -150px;
+              z-index: -1;
+            }
 
-						&:after{
-							content: "";
-							border: 1px solid #ccc;
-							position: absolute;
-							right: 0;
-							width: 50%;
-							top: 50%;
-							margin-right: -50px;
-							z-index: -1;
-						}
+            &:after{
+              content: "";
+              border: 1px solid #ccc;
+              position: absolute;
+              right: 0;
+              width: 100%;
+              top: 50%;
+              margin-right: -150px;
+              z-index: -1;
+            }
 
 				}
 
