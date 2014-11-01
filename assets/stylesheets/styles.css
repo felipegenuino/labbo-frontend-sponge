@@ -369,8 +369,8 @@ th {
 }
 @font-face {
   font-family: 'Glyphicons Halflings';
-  src: url(../fonts/bootstrap/glyphicons-halflings-regular.eot?1413482893);
-  src: url(../fonts/bootstrap/glyphicons-halflings-regular.eot?&1413482893#iefix) format("embedded-opentype"), url(../fonts/bootstrap/glyphicons-halflings-regular.woff?1413482893) format("woff"), url(../fonts/bootstrap/glyphicons-halflings-regular.ttf?1413482893) format("truetype"), url(../fonts/bootstrap/glyphicons-halflings-regular.svg?1413482893#glyphicons_halflingsregular) format("svg");
+  src: url(../fonts/bootstrap/glyphicons-halflings-regular.eot?1414817162);
+  src: url(../fonts/bootstrap/glyphicons-halflings-regular.eot?&1414817162#iefix) format("embedded-opentype"), url(../fonts/bootstrap/glyphicons-halflings-regular.woff?1414817162) format("woff"), url(../fonts/bootstrap/glyphicons-halflings-regular.ttf?1414817162) format("truetype"), url(../fonts/bootstrap/glyphicons-halflings-regular.svg?1414817162#glyphicons_halflingsregular) format("svg");
 }
 /* line 25, ../../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon {
@@ -11140,14 +11140,15 @@ s
   font-size: 27px;
   width: 40px;
   display: inline-block;
+  border: 1px solid transparent;
 }
-/* line 2122, ../sass/_sponger.scss */
+/* line 2123, ../sass/_sponger.scss */
 .menu-campanhas .box-menu-campanha .open .dropdown-toggle {
   color: #080d06;
   border: 1px solid #aaa;
   background: #ecf0e1;
 }
-/* line 2129, ../sass/_sponger.scss */
+/* line 2130, ../sass/_sponger.scss */
 .menu-campanhas .box-menu-campanha:before {
   background-image: url("../images/background/bg-nav-menu-campanhas-left.jpg");
   content: "";
@@ -11157,7 +11158,7 @@ s
   bottom: 0px;
   left: -32px;
 }
-/* line 2139, ../sass/_sponger.scss */
+/* line 2140, ../sass/_sponger.scss */
 .menu-campanhas .box-menu-campanha:after {
   background-image: url("../images/background/bg-nav-menu-campanhas-right.jpg");
   content: "";
@@ -11167,17 +11168,17 @@ s
   bottom: 0px;
   right: -32px;
 }
-/* line 2149, ../sass/_sponger.scss */
+/* line 2150, ../sass/_sponger.scss */
 .menu-campanhas .box-menu-campanha .nav-menu-campanhas {
   list-style: none;
   display: inline-block;
 }
-/* line 2153, ../sass/_sponger.scss */
+/* line 2154, ../sass/_sponger.scss */
 .menu-campanhas .box-menu-campanha .nav-menu-campanhas li {
   display: inline-block;
   margin-right: 10px;
 }
-/* line 2156, ../sass/_sponger.scss */
+/* line 2157, ../sass/_sponger.scss */
 .menu-campanhas .box-menu-campanha .nav-menu-campanhas li .btn-primary {
   padding: 3px 15px 2px 7px;
   text-transform: uppercase;
@@ -11187,33 +11188,33 @@ s
   border: none;
   position: relative;
 }
-/* line 2164, ../sass/_sponger.scss */
+/* line 2165, ../sass/_sponger.scss */
 .menu-campanhas .box-menu-campanha .nav-menu-campanhas li .btn-primary .fa-stack {
   font-size: 14px;
   color: #AEB786;
 }
-/* line 2165, ../sass/_sponger.scss */
+/* line 2166, ../sass/_sponger.scss */
 .menu-campanhas .box-menu-campanha .nav-menu-campanhas li .btn-primary .fa-inverse {
   color: #AEB786;
 }
-/* line 2167, ../sass/_sponger.scss */
+/* line 2168, ../sass/_sponger.scss */
 .menu-campanhas .box-menu-campanha .nav-menu-campanhas li .btn-primary .fa-circle {
   color: #507f3b;
 }
-/* line 2169, ../sass/_sponger.scss */
+/* line 2170, ../sass/_sponger.scss */
 .menu-campanhas .box-menu-campanha .nav-menu-campanhas li .btn-primary .badge {
   position: absolute;
   top: 20px;
 }
-/* line 2175, ../sass/_sponger.scss */
+/* line 2176, ../sass/_sponger.scss */
 .menu-campanhas .box-menu-campanha .nav-menu-campanhas li .btn-primary:hover {
   background: #9da86c;
 }
-/* line 2176, ../sass/_sponger.scss */
+/* line 2177, ../sass/_sponger.scss */
 .menu-campanhas .box-menu-campanha .nav-menu-campanhas li .btn-primary:active {
   background: #94a060;
 }
-/* line 2189, ../sass/_sponger.scss */
+/* line 2190, ../sass/_sponger.scss */
 .menu-campanhas .pontos-disponiveis {
   display: inline-block;
   font-size: 16px;
@@ -11227,14 +11228,14 @@ s
   width: 80%;
 }
 
-/* line 2206, ../sass/_sponger.scss */
+/* line 2207, ../sass/_sponger.scss */
 .dropdown-main {
   padding: 10px 20px;
   width: 200px;
   border-radius: 0;
   margin-left: -30px;
 }
-/* line 2213, ../sass/_sponger.scss */
+/* line 2214, ../sass/_sponger.scss */
 .dropdown-main:before {
   content: "";
   position: absolute;
@@ -11245,7 +11246,7 @@ s
   margin-left: -12px;
   left: 47px;
 }
-/* line 2223, ../sass/_sponger.scss */
+/* line 2224, ../sass/_sponger.scss */
 .dropdown-main:after {
   content: "";
   position: absolute;
@@ -11256,23 +11257,23 @@ s
   margin-left: -12px;
   left: 47px;
 }
-/* line 2234, ../sass/_sponger.scss */
+/* line 2235, ../sass/_sponger.scss */
 .dropdown-main h5 {
   color: #345326;
   text-transform: uppercase;
   font-size: 15px;
   font-weight: 500;
 }
-/* line 2235, ../sass/_sponger.scss */
+/* line 2236, ../sass/_sponger.scss */
 .dropdown-main ul {
   padding-left: 20px;
 }
-/* line 2237, ../sass/_sponger.scss */
+/* line 2238, ../sass/_sponger.scss */
 .dropdown-main ul li a {
   color: #777;
 }
 
-/* line 2252, ../sass/_sponger.scss */
+/* line 2253, ../sass/_sponger.scss */
 .form-contato {
   font-weight: 100;
   padding: 50px;
@@ -11280,7 +11281,7 @@ s
   width: 100%;
 }
 
-/* line 2262, ../sass/_sponger.scss */
+/* line 2263, ../sass/_sponger.scss */
 form legend {
   margin-top: 0px;
   float: left;
@@ -11289,35 +11290,35 @@ form legend {
   font-size: 16px;
   border-color: #ccc;
 }
-/* line 2271, ../sass/_sponger.scss */
+/* line 2272, ../sass/_sponger.scss */
 form label {
   font-weight: 100;
 }
 
-/* line 2274, ../sass/_sponger.scss */
+/* line 2275, ../sass/_sponger.scss */
 fieldset {
   margin-bottom: 30px;
 }
 
-/* line 2277, ../sass/_sponger.scss */
+/* line 2278, ../sass/_sponger.scss */
 .input-total {
   border-top: 1px solid #ccc;
   margin: 0 15px;
   text-align: right;
 }
-/* line 2282, ../sass/_sponger.scss */
+/* line 2283, ../sass/_sponger.scss */
 .input-total .input-total-inner {
   float: right;
   width: 250px;
 }
-/* line 2283, ../sass/_sponger.scss */
+/* line 2284, ../sass/_sponger.scss */
 .input-total .total-text {
   text-transform: uppercase;
   font-size: 16px;
   font-weight: 500;
   margin-right: 5px;
 }
-/* line 2289, ../sass/_sponger.scss */
+/* line 2290, ../sass/_sponger.scss */
 .input-total .total-number {
   font-size: 18px;
   padding: 5px 15px;
@@ -11325,7 +11326,7 @@ fieldset {
   background: #d5d5bf;
   font-weight: 100;
 }
-/* line 2290, ../sass/_sponger.scss */
+/* line 2291, ../sass/_sponger.scss */
 .input-total .total-alert {
   display: inline-block;
   font-style: italic;
@@ -11339,7 +11340,7 @@ fieldset {
   opacity: 0.7;
   filter: alpha(opacity=70);
 }
-/* line 2300, ../sass/_sponger.scss */
+/* line 2301, ../sass/_sponger.scss */
 .input-total .total-alert:hover {
   text-decoration: none;
   background: red;
@@ -11347,13 +11348,13 @@ fieldset {
   opacity: 1;
   filter: alpha(opacity=100);
 }
-/* line 2306, ../sass/_sponger.scss */
+/* line 2307, ../sass/_sponger.scss */
 .input-total .total-alert:active {
   box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
   -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
   -moz-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
 }
-/* line 2312, ../sass/_sponger.scss */
+/* line 2313, ../sass/_sponger.scss */
 .input-total .total-alert:before {
   position: absolute;
   border-left: 5px solid transparent;
@@ -11364,12 +11365,12 @@ fieldset {
   right: 50%;
 }
 
-/* line 2325, ../sass/_sponger.scss */
+/* line 2326, ../sass/_sponger.scss */
 .submit-form {
   padding: 5px 40px;
 }
 
-/* line 2326, ../sass/_sponger.scss */
+/* line 2327, ../sass/_sponger.scss */
 .mask-form-button {
   display: inline-block;
   background: #DFDFD0;
