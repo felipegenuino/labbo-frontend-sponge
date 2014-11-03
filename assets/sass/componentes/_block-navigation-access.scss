@@ -1,0 +1,59 @@
+
+ 
+
+/* ------- BLOCO NAVIGATION ACCESS ------- */
+	.block-navigation-access{
+		border-top: 10px solid $brand-light;
+		z-index: 1000;
+		position: relative;
+
+
+		.navigation-access-list{ 
+			list-style: none; 
+			margin: 0;
+			padding: 0;
+			
+			background-image: url("../images/background/background-navigation-access-list.png");
+			background-position: top center;
+			background-repeat: no-repeat;
+
+			width: 220px;
+			text-align: center;
+			padding-top: 5px;
+
+			float: right;
+	 	}
+		.navigation-access-list-item{
+			display: inline-block;
+		 	font-size: 14px;
+		 	margin-right: 10px;
+		 	height: 40px;
+
+
+		 	a{  
+		 		@include opacity(0.7);
+
+		 		&:hover{
+		 			@include opacity(1);
+		 			text-decoration: none}
+
+		 		.fa{margin-right: 5px;}	
+		 	}
+ 
+		 	a:focus{outline: none; }
+
+			.icon{
+				float: left;
+				margin-top: 1px;
+				margin-right: 2px;
+
+				//tamanho por contexto
+			 	width: 16px;
+			 	height: 16px;
+			}
+
+		}
+
+	}
+
+/* ------- END BLOCO NAVIGATION ACCESS ------- */

@@ -1,0 +1,69 @@
+
+/*'ICONS
+=============================================== */
+		//esses tamanhos são somente para o styleguide, 
+		// colocar as larguras somente no codigo
+
+		.icon-large{ width: 132px; height: 132px; }
+		.icon-medium{ width: 60px; height: 60px; }
+		.icon-xsmall{ width: 16px; height: 16px; }
+
+		.icon{
+			display: inline-block;
+ 			background-position: center center;
+			vertical-align: middle;
+
+			&.icon-login{ background-image: url("../images/icons/icon-login.png");}
+			&.icon-register{background-image: url("../images/icons/icon-register.png");}
+		} 
+
+
+		.icon{ display: inline-block; background-size: cover; background-repeat: no-repeat; margin-right: 10px; }
+
+		.icon-cidadao{background-image: url("../images/icons/icon-cidadao.png");}
+		.icon-ponto-de-coleta{background-image: url("../images/icons/icon-ponto-de-coleta.png");}
+		.icon-incentivador{background-image: url("../images/icons/icon-incentivador.png");}
+		.icon-payment{background-image: url("../images/icons/icon-payment.png");}
+
+
+
+   
+
+		.icon-cardboard-box{ background-image: url("../images/icons/icon-cardboard-box.png");}
+		.icon-paper{ background-image: url("../images/icons/icon-paper.png");}
+ 		.icon-book{ background-image: url("../images/icons/icon-book.png");}
+		.icon-package{ background-image: url("../images/icons/icon-package.png");}
+		.icon-other{ background-image: url("../images/icons/icon-other.png");}
+
+		.icon-avatar-ana{ background-image: url("../images/icons/icon-avatar-ana.png");}
+
+
+		.social-media-campaign{
+					margin: 0; 
+					padding: 0;
+					float: left;
+
+					li{display: inline-block;margin-top: 5px;}
+					.icon-social-campaign{
+
+						padding:0;
+						width: 25px; 
+						height: 25px; 
+		 				float: left; 
+						border: 1px solid #ccc;
+				 		background-repeat: no-repeat;
+						background-position:center center;
+						margin-right: 5px;
+						@extend .hide-text;
+						@include border-radius(50%); 
+						@include opacity(0.7);
+						@include transition(all .5s ease);
+						&:hover{@include opacity(1);}
+					}
+						.icon-social-twitter{background-image: url("../images/icons/icon-social-twitter.png");}
+						.icon-social-linkedin{background-image: url("../images/icons/icon-social-linkedin.png");}
+						.icon-social-youtube{background-image: url("../images/icons/icon-social-youtube.png");}
+						.icon-social-instagram{background-image: url("../images/icons/icon-social-instagram.png");}
+						.icon-social-facebook{background-image: url("../images/icons/icon-social-facebook.png");}
+				}
+

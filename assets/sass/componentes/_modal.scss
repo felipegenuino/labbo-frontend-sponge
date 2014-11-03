@@ -1,0 +1,37 @@
+
+
+/* ------- MODAL LOGIN ------- */
+
+.modal-default{
+	.modal-dialog{
+		.modal-title{}
+		.modal-content{
+			.modal-header{
+
+			}
+				.modal-body{padding: 15px 40px;
+					.icon{
+						width: 130px;
+						height: 130px;
+						margin: 0 auto;
+						display: block;
+					}
+
+				 }	
+		}
+	}
+
+	.inverse{color: #fff;
+		a{ color: #fff}
+	}
+
+
+	.brand-modal-box{padding: 40px 0 0}
+	.brand-modal{ margin: 0 auto}
+}
+
+
+
+.modal-login{
+	.modal-dialog { width: 480px;}
+}
