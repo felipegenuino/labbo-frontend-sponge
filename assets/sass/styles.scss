@@ -8,11 +8,17 @@
 
 
 //componentes
+@import "componentes/block-campaign"; 
+@import "componentes/menu-campaign"; 
+@import "componentes/menu-minhas-campanhas"; 
+@import "componentes/block-search"; 
+
 @import "componentes/datapicker";
 @import "componentes/block-navigation-access";
 @import "componentes/offcanvas-menu";
 @import "componentes/icones";
 @import "componentes/modal"; 
+
 
 //layout
 @import "componentes/footer"; 

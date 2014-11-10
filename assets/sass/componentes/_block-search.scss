@@ -1,0 +1,64 @@
+/* ---- FORM PESQUISA----- */
+		.block-search-component{
+			width: 100%;
+			display: inline-block;
+
+			
+
+ 			.form-search{
+
+ 				position: relative;
+ 				z-index: 1000; 
+ 				&:before{}
+			    &:after{}
+
+ 				.fa{
+	 				position: absolute;
+					left: 11px;
+					font-size: 18px;
+					color: #ccc;
+					top: 4px;
+					z-index: 1000;
+				}
+
+ 				.input-search{ 
+	 				font-size: 14px;
+					background: #fff;
+					height: 26px;
+					border-radius: 25px;
+					padding-left: 40px;
+					font-style: italic;
+					font-weight: 400;
+					}
+ 					//estilização do placeholder
+					::-webkit-input-placeholder {font-weight: 100;}
+					:-moz-placeholder  {font-weight: 100;}
+					::-moz-placeholder {font-weight: 100;}
+					:-ms-input-placeholder  {font-weight: 100;}
+
+ 			}
+
+ 			.form-search-large{
+ 				 z-index: 1000;
+
+ 				 .fa {
+					position: absolute;
+					right: 23px !important;
+					font-size: 26px;
+					color: #ccc;
+					top: 8px;
+					left: inherit;
+					}
+
+				.input-search{ 
+	 				font-size: 18px;
+ 					height: 44px;
+ 					padding-left: 20px;
+  					
+  					}
+
+				}
+
+
+			.form-group{}
+		}

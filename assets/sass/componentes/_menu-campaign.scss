@@ -1,0 +1,183 @@
+
+
+
+ /*!
+ * Yamm!
+ * Yet another megamenu for Bootstrap
+ * http://geedmo.github.com/yamm
+ *
+ * https://github.com/geedmo
+ */
+.yamm .nav,
+.yamm .dropup,
+.yamm .dropdown,
+.yamm .collapse {
+  position: static;
+}
+.yamm .navbar-inner,
+.yamm .container {
+  position: relative;
+}
+.yamm .dropdown-menu {
+left: 0;
+margin: 0px;
+/* margin-top: -4px; */
+background: transparent;
+padding: 0;
+border-radius: 0;
+border: none;
+}
+.yamm .dropdown-menu > li {   display: block; }
+.yamm .dropdown-submenu .dropdown-menu {left: 100%; }
+.yamm .nav.pull-right .dropdown-menu {right: 0; }
+.yamm .yamm-content { padding: 20px 30px;  *zoom: 1; }
+.yamm .yamm-content:before,
+.yamm .yamm-content:after {   display: table;  content: "";  line-height: 0; }
+.yamm .yamm-content:after {   clear: both; }
+.yamm.navbar .nav > li > .dropdown-menu:after,
+.yamm.navbar .nav > li > .dropdown-menu:before {
+  display: none;
+}
+.yamm .dropdown.yamm-fullwidth .dropdown-menu {
+  width: 100%;
+  left: 0;
+  right: 0;
+}
+// @media (max-width: 969px) {
+//   .yamm .dropdown.yamm-fullwidth .dropdown-menu {
+//     width: auto;
+//   }
+//   .yamm .yamm-content {
+//     padding-left: 0;
+//     padding-right: 0;
+//   }
+//   .yamm .dropdown-menu > li > ul {
+//     display: block;
+//   }
+// }
+
+
+
+
+
+.menu-filter-campaign{
+ 	background-color: #D6DAC5;
+	display: inline-block;
+	width: 100%;
+	position: relative;
+  @extend .pattern-tertiary;
+
+	.container-filter-campaign-list{
+		margin: 0;
+		padding: 10px 15px 0;
+		list-style: none;
+
+		.filter-campaign-item{
+				display: inline-block;
+				width: 14%;
+				text-align: center;
+				border: 1px solid #ccc;
+				border-radius: 10px 10px 0 0;
+				background: #999;
+				font-size: 18px;
+				cursor: pointer;
+
+        .dropdown-menu{
+          width: 100%;
+          z-index: 2000;
+        }
+ 
+
+				.fluid-grid{padding: 0}
+
+				&.open:before{ 
+				content: "";
+				position: absolute;
+				bottom: 0px;
+				border-left: 12px solid transparent;
+				border-right: 12px solid transparent;
+				border-bottom: 12px solid #fff;
+				margin-left: -12px;
+ 				}
+
+
+				&.papeis{background: $color-papel; }
+				&.plastico{ background: $color-plastico;}
+				&.vidro{ background: $color-vidro;}
+				&.metais{ background: $color-metais;}
+				&.eletronicos{ background: $color-eletronicos;}
+				&.perigosos{ background: $color-perigosos;}
+				&.outros{ background: $color-outros;}
+				
+
+
+				a{
+					display: block;
+					color: #fff;
+					padding: 10px;
+					
+
+					&:hover, .open{
+						text-decoration: none;
+						opacity: 1;
+					}
+				}
+			}
+
+		
+	}
+
+  
+
+
+		.filter-campaign-content-item {
+			background: #fff;
+			text-align: center;
+			padding: 0;
+			z-index: 2000;
+			position: relative;
+			margin-top: -2px;
+			width: 100%;
+			border-radius: 10px 10px 0 0;
+  
+			&.active{display: inline-block;}
+
+
+			&>div{padding: 0}
+
+			.box-item{
+				padding: 10px 0;
+				border: 1px solid transparent;
+				&.active,&:hover{ 
+					border-color: #ccc;
+					background: #eee;
+					cursor: pointer;
+				}
+			}
+
+			h4{ 
+				color: $brand-default;
+				font-size: 16px;
+			}
+
+			p{
+				font-size: 13px;
+				font-style: italic;
+				line-height: 1;
+				color: #888;
+			}
+
+		}
+
+
+
+
+
+
+
+
+
+		
+	}
+
+ 

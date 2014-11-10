@@ -26,17 +26,17 @@ $('.input-search').focus();
 
 //mansory
 
-$(document).ready(function(){
-  var $container = $('.container-blocks-campaign');
+// $(document).ready(function(){
+//   var $container = $('.container-blocks-campaign');
 
-  $container.imagesLoaded( function() {
-    $container.masonry({
-      itemSelector        : '.block-campaign',
-      columnWidth         : '.block-campaign',
-      transitionDuration  : 0,
-    });
-  });
-});
+//   $container.imagesLoaded( function() {
+//     $container.masonry({
+//       itemSelector        : '.block-campaign',
+//       columnWidth         : '.block-campaign',
+//       transitionDuration  : 0,
+//     });
+//   });
+// });
 
 
 

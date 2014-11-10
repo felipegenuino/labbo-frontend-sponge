@@ -1,0 +1,292 @@
+
+
+
+	.container-blocks-campaign{ padding: 20px 0}
+
+	.block-campaign-component{
+
+		.block-campaign-heading,
+		.block-campaign-body,
+		.block-campaign-footer{display: inline-block; width: 100%;}
+ 
+	
+		display: inline-block;
+		background: #fff;
+		padding: 20px;
+		border: 1px solid #ccc;
+		margin-bottom: 30px; 
+
+		.block-campaign-heading{
+			position: relative;
+ 			.brand-sponsor{
+				width: 55px;
+				display: inline-block;
+				height: 55px;
+				overflow: hidden;
+				float: left;
+				@include border-radius(50%); 
+				img{ width: 100%}
+			}
+			.name-campaign{ 
+				font-size: 14px;
+				text-transform: uppercase;
+				font-weight: 900;
+				float: left;
+				margin-left: 10px;
+				width: 78%;
+			}
+			.name-campaign-two-lines{ 
+				margin-top: 12px;
+			}
+		}
+
+		
+ 		.resume-campaign{
+	 		font-size: 13px;
+	 		line-height: 20px;
+	 		padding: 20px 0;
+	 		height: 90px;
+	 		overflow-y: auto;
+	 		position: relative;
+		 		&:after{
+		 			position: absolute;
+		 			content: "";
+		 				
+		 		}
+	 		}
+
+		.block-resume-product{
+			background: $brand-light;
+			display: inline-block;
+			width: 100%;
+			margin-bottom: 20px;
+			padding-right: 20px;
+			.icon-product{  }
+			.name-product{  font-size: 13px; text-transform: uppercase; font-weight: 900; margin: 20px 0 0 0; padding: 0;   }
+			.resume-product{  line-height: 1; color: #888 ; font-size: 13px;}
+			.box-icon-campaign{ 
+				display: inline-block;
+				float: left;
+				padding: 20px 10px;
+			}
+		}
+
+		
+		.campaign-status-button{
+			position: relative;
+			float: right;
+ 			font-size: 16px;
+			font-style:italic;
+			text-transform: uppercase;
+			padding: 5px 0;
+			z-index: 1000;
+			text-decoration: none;
+			&:before{z-index: -1000; content: ""; width: 30px; height: 100%; position: absolute; left: -20px; top: 0; border-radius: 50% 0 0 50%;}
+			&:after{ z-index: -1000; content: ""; width: 30px; height: 100%; position: absolute; right: -30px; top: 0; }
+			.arrow{  z-index: -1000; content: ""; width: 15px; height: 15px; position: absolute; right: -35px; top: 20px;  border-top: 10px solid transparent; border-bottom: 10px solid transparent; border-left: 10px solid #444}
+		}
+
+		.campaign-status-button-engage{
+			background: $brand-primary; 
+			color: #fff; 
+			&:before{ background: $brand-primary;}
+			&:after{background: $brand-primary;}
+
+			&:hover{
+				background: darken($brand-primary, 5%);
+				&:before{ background: darken($brand-primary, 5%);}
+				&:after{  background:  darken($brand-primary, 5%);}
+			}
+
+			&:active{
+				background: darken($brand-primary, 30%);
+				&:before{ background: darken($brand-primary, 30%);}
+				&:after{  background:  darken($brand-primary, 30%);}
+			}
+		}
+		.campaign-status-button-engaged{
+			background: $gray-light; 
+			color: #fff; 
+			&:before{ background: $gray-light}
+			&:after{background: $gray-light}
+		}
+ 
+		.button-more-campaign{}
+
+
+			
+	}
+
+
+
+
+.button-center-line{
+			text-align: center;
+			font-size: 20px;
+			padding: 10px 0px;
+			display: block;
+			width: 250px;
+			border: 1px solid #ccc;
+			border-radius: 25px;
+			background: #fff;
+			margin: 20px auto 40px auto;
+			text-transform: uppercase;
+			font-weight: 600;
+			position: relative;
+
+			&:hover{ 
+				text-decoration: none;
+				background: #eee;
+			}
+
+			&:active{ 
+				background: #ddd;
+
+			}
+
+      .icon { vertical-align: baseline;   }
+      .icon-disable{ display: none;}
+      .icon-enable{ display: inline-block;}
+
+			
+
+				/* Large desktops and laptops */
+				@media (min-width: 1200px) {
+
+							&:before{
+								content: "";
+								border: 1px solid #ccc;
+								position: absolute;
+								left: 0;
+								width: 170%;
+								top: 50%;
+								margin-left: -440px;
+								z-index: -1;
+							}
+
+							&:after{
+								content: "";
+								border: 1px solid #ccc;
+								position: absolute;
+								right: 0;
+								width: 170%;
+								top: 50%;
+								margin-right: -440px;
+								z-index: -1;
+							}
+
+				}
+
+				/* Portrait tablets and medium desktops */
+				@media (min-width: 992px) and (max-width: 1199px) {
+					&:before{
+							content: "";
+							border: 1px solid #ccc;
+							position: absolute;
+							left: 0;
+							width: 100%;
+							top: 50%;
+							margin-left: -140px;
+							z-index: -1;
+						}
+
+						&:after{
+							content: "";
+							border: 1px solid #ccc;
+							position: absolute;
+							right: 0;
+							width: 100%;
+							top: 50%;
+							margin-right: -140px;
+							z-index: -1;
+						}
+
+
+				}
+
+				/* Portrait tablets and small desktops */
+				@media (min-width: 768px) and (max-width: 991px) {
+
+					&:before{
+							content: "";
+							border: 1px solid #ccc;
+							position: absolute;
+							left: 0;
+							width: 100%;
+							top: 50%;
+							margin-left: -150px;
+							z-index: -1;
+						}
+
+						&:after{
+							content: "";
+							border: 1px solid #ccc;
+							position: absolute;
+							right: 0;
+							width: 100%;
+							top: 50%;
+							margin-right: -150px;
+							z-index: -1;
+						}
+
+				}
+
+				/* Landscape phones and portrait tablets */
+				@media (max-width: 767px) {
+
+					&:before{
+              content: "";
+              border: 1px solid #ccc;
+              position: absolute;
+              left: 0;
+              width: 100%;
+              top: 50%;
+              margin-left: -150px;
+              z-index: -1;
+            }
+
+            &:after{
+              content: "";
+              border: 1px solid #ccc;
+              position: absolute;
+              right: 0;
+              width: 100%;
+              top: 50%;
+              margin-right: -150px;
+              z-index: -1;
+            }
+
+				}
+
+				/* Landscape phones and smaller */
+				@media (max-width: 480px) {
+
+						&:before{
+							content: "";
+							border: 1px solid #ccc;
+							position: absolute;
+							left: 0;
+							width: 100%;
+							top: 50%;
+							margin-left: -50px;
+							z-index: -1;
+						}
+
+						&:after{
+							content: "";
+							border: 1px solid #ccc;
+							position: absolute;
+							right: 0;
+							width: 100%;
+							top: 50%;
+							margin-right: -50px;
+							z-index: -1;
+						}
+
+				}
+
+
+		}
+	
+
+

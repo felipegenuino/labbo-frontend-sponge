@@ -1,0 +1,156 @@
+
+
+////menu-minhas-campanhas /////////////
+.menu-campanhas{
+	padding: 16px 0;
+ 	margin-bottom: 20px;
+  position: relative;
+  @extend .pattern-secondary;
+
+
+  &:before{ 
+    content:"";
+    position: absolute;
+    top: 0;
+    height: 25px;
+    width: 100%;
+    @extend .pattern-tertiary;
+    display: block;
+  }
+
+  .box-menu-campanha{
+    @extend .pattern-tertiary;
+    text-align: center;
+
+    .dropdown-toggle{ 
+      font-size: 27px;
+      width: 40px;
+      display: inline-block;
+      border: 1px solid transparent;
+     }
+
+     .open{
+        .dropdown-toggle{
+         color: darken($brand-dark, 20%);
+         border: 1px solid #aaa;
+         background: $brand-light;
+       }
+     }
+
+    &:before{
+          background-image: url("../images/background/bg-nav-menu-campanhas-left.jpg");
+          content: "";
+          width: 47px;
+          height: 39px;
+          position: absolute;
+          bottom: 0px;
+          left: -32px;
+        }
+
+    &:after{
+          background-image: url("../images/background/bg-nav-menu-campanhas-right.jpg");
+          content: "";
+          width: 47px;
+          height: 39px;
+          position: absolute;
+          bottom: 0px;
+          right: -32px;
+        }    
+
+                .nav-menu-campanhas{ 
+                  list-style: none;
+                  display: inline-block;
+
+                    li{display: inline-block;
+                      margin-right: 10px;
+
+                      .btn-primary{ 
+                        padding: 3px 15px 2px 7px;
+                        text-transform: uppercase;
+                        font-weight: 100;
+                        background: #AEB786;
+                         color: $brand-dark;
+                        border: none;
+                        position: relative;
+                        .fa-stack{font-size: 14px; color: #AEB786;}
+                        .fa-inverse{ color: #AEB786;}
+
+                        .fa-circle{ color: $brand-medium;}
+
+                        .badge{
+                          position: absolute;
+                          top: 20px;
+                        }
+
+
+                        &:hover{  background: darken(#AEB786, 8%)  }
+                        &:active{ background: darken(#aeb786, 12%)}
+
+                      }
+                    }
+                  }
+
+
+  }
+
+	.badge{}
+	
+
+
+		.pontos-disponiveis{
+		 display: inline-block;
+			font-size: 16px;
+			text-transform: uppercase;
+			font-weight: 100;
+			font-style: italic;
+			color: $brand-medium;
+
+      margin-top: 20px;
+      margin-left: 30px;
+      text-align: center;
+      width: 80%;
+		}
+
+}
+
+
+.dropdown-main{
+		padding: 10px 20px;
+		width: 200px;
+		border-radius: 0;
+		margin-left: -30px;
+
+
+		&:before{ 
+		 	content: "";
+			position: absolute;
+			top: -12px;
+			border-left: 12px solid transparent;
+			border-right: 12px solid transparent;
+			border-bottom: 12px solid #ccc;
+			margin-left: -12px;
+			left: 47px;
+			}
+			&:after{ 
+		 	content: "";
+			position: absolute;
+			top: -10px;
+			border-left: 12px solid transparent;
+			border-right: 12px solid transparent;
+			border-bottom: 12px solid #fff;
+			margin-left: -12px;
+			left: 47px;
+			}
+
+	h5{ color: $brand-dark; text-transform: uppercase; font-size: 15px; font-weight: 500}
+	ul{ padding-left: 20px ;
+		li{
+			a{
+				color: #777;
+			}
+		}
+	}
+}
+
+
+
