@@ -10666,23 +10666,53 @@ fieldset[disabled] .datepicker table tr td span.active.disabled:hover.active {
   background-image: url("../images/icons/icon-livros-e-revistas.png");
 }
 
+/* line 41, ../sass/componentes/_icones.scss */
+.icon-cartolina {
+  background-image: url("../images/icons/icon-cartolina.png");
+}
+
+/* line 42, ../sass/componentes/_icones.scss */
+.icon-embalagens-de-papel {
+  background-image: url("../images/icons/icon-embalagens-de-papel.png");
+}
+
 /* line 43, ../sass/componentes/_icones.scss */
+.icon-papel-de-embalagem {
+  background-image: url("../images/icons/icon-papel-de-embalagem.png");
+}
+
+/* line 44, ../sass/componentes/_icones.scss */
+.icon-papel-de-escritorio {
+  background-image: url("../images/icons/icon-papel-de-escritorio.png");
+}
+
+/* line 45, ../sass/componentes/_icones.scss */
+.icon-papelao {
+  background-image: url("../images/icons/icon-papelao.png");
+}
+
+/* line 46, ../sass/componentes/_icones.scss */
+.icon-jornal {
+  background-image: url("../images/icons/icon-jornal.png");
+}
+
+/* line 51, ../sass/componentes/_icones.scss */
 .icon-avatar-ana {
   background-image: url("../images/icons/icon-avatar-ana.png");
 }
 
-/* line 46, ../sass/componentes/_icones.scss */
+/* line 54, ../sass/componentes/_icones.scss */
 .social-media-campaign {
   margin: 0;
   padding: 0;
   float: left;
 }
-/* line 51, ../sass/componentes/_icones.scss */
+/* line 59, ../sass/componentes/_icones.scss */
 .social-media-campaign li {
   display: inline-block;
   margin-top: 5px;
 }
-/* line 52, ../sass/componentes/_icones.scss */
+/* line 60, ../sass/componentes/_icones.scss */
 .social-media-campaign .icon-social-campaign {
   padding: 0;
   width: 25px;
@@ -10701,28 +10731,28 @@ fieldset[disabled] .datepicker table tr td span.active.disabled:hover.active {
   -o-transition: all 0.5s ease;
   transition: all 0.5s ease;
 }
-/* line 66, ../sass/componentes/_icones.scss */
+/* line 74, ../sass/componentes/_icones.scss */
 .social-media-campaign .icon-social-campaign:hover {
   opacity: 1;
   filter: alpha(opacity=100);
 }
-/* line 68, ../sass/componentes/_icones.scss */
+/* line 76, ../sass/componentes/_icones.scss */
 .social-media-campaign .icon-social-twitter {
   background-image: url("../images/icons/icon-social-twitter.png");
 }
-/* line 69, ../sass/componentes/_icones.scss */
+/* line 77, ../sass/componentes/_icones.scss */
 .social-media-campaign .icon-social-linkedin {
   background-image: url("../images/icons/icon-social-linkedin.png");
 }
-/* line 70, ../sass/componentes/_icones.scss */
+/* line 78, ../sass/componentes/_icones.scss */
 .social-media-campaign .icon-social-youtube {
   background-image: url("../images/icons/icon-social-youtube.png");
 }
-/* line 71, ../sass/componentes/_icones.scss */
+/* line 79, ../sass/componentes/_icones.scss */
 .social-media-campaign .icon-social-instagram {
   background-image: url("../images/icons/icon-social-instagram.png");
 }
-/* line 72, ../sass/componentes/_icones.scss */
+/* line 80, ../sass/componentes/_icones.scss */
 .social-media-campaign .icon-social-facebook {
   background-image: url("../images/icons/icon-social-facebook.png");
 }
