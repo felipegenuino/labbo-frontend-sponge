@@ -49,7 +49,32 @@ $(document).on('click', '.yamm .dropdown-menu', function(e) {
 
 
 
- 
+
+
+
+
+ //abrir modal com Hash
+ $(function() {
+    if (window.location.hash.indexOf("ModalSelectProduct") !== -1) {
+        $("#ModalSelectProduct").modal();
+    }
+
+    if (window.location.hash.indexOf("login") !== -1) {
+            $("#login").modal();
+    }
+});
+
+
+//se clicar em .close, limpa a hash
+$( ".close" ).click(function() {
+   window.location.hash="";
+});
+
+
+
+
+
+
 
 
 /**

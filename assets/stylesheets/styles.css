@@ -11087,13 +11087,6 @@ fieldset[disabled] .datepicker table tr td span.active.disabled:hover.active {
 .modal-default .modal-dialog .modal-content .modal-body {
   padding: 15px 40px;
 }
-/* line 13, ../sass/componentes/_modal.scss */
-.modal-default .modal-dialog .modal-content .modal-body .icon {
-  width: 130px;
-  height: 130px;
-  margin: 0 auto;
-  display: block;
-}
 /* line 24, ../sass/componentes/_modal.scss */
 .modal-default .inverse {
   color: #fff;
@@ -11392,9 +11385,65 @@ section.simple-group {
   display: none;
 }
 
+/* line 226, ../sass/_sponger.scss */
+.lista-produto-component {
+  background: #fff;
+  display: inline-block;
+  width: 100%;
+  border: 1px solid #ccc;
+}
+/* line 232, ../sass/_sponger.scss */
+.lista-produto-component.lista-produto-component-overflow {
+  height: 400px;
+  overflow-y: scroll;
+}
+/* line 237, ../sass/_sponger.scss */
+.lista-produto-component .title-lista-produtos {
+  background: #ecf0e1;
+  margin: 0;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+/* line 243, ../sass/_sponger.scss */
+.lista-produto-component .lista-produtos {
+  display: inline-block;
+  padding: 0;
+  width: 100%;
+  list-style: none;
+}
+/* line 249, ../sass/_sponger.scss */
+.lista-produto-component .lista-produtos .item-lista-produtos {
+  display: inline-block;
+  margin-left: 5%;
+  width: 90%;
+  border-bottom: 1px solid #ccc;
+}
+/* line 255, ../sass/_sponger.scss */
+.lista-produto-component .lista-produtos .item-lista-produtos:last-child {
+  border-bottom: none;
+}
+/* line 259, ../sass/_sponger.scss */
+.lista-produto-component .lista-produtos .item-lista-produtos a {
+  display: block;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: 700;
+}
+/* line 265, ../sass/_sponger.scss */
+.lista-produto-component .lista-produtos .item-lista-produtos a:hover {
+  background: #dfdfd0;
+  text-decoration: none;
+}
+/* line 272, ../sass/_sponger.scss */
+.lista-produto-component .lista-produtos .icon {
+  width: 50px;
+  height: 50px;
+  margin-right: 20px;
+}
+
 /*'BRAND
 =============================================== */
-/* line 228, ../sass/_sponger.scss */
+/* line 288, ../sass/_sponger.scss */
 .brand-primary {
   background-image: url("../images/brand/brand-primary.svg");
   background-size: cover;
@@ -11402,7 +11451,7 @@ section.simple-group {
   display: block;
 }
 
-/* line 229, ../sass/_sponger.scss */
+/* line 289, ../sass/_sponger.scss */
 .brand-secundary {
   background-image: url("../images/brand/brand-secundary.svg");
   background-size: cover;
@@ -11410,28 +11459,28 @@ section.simple-group {
   display: block;
 }
 
-/* line 231, ../sass/_sponger.scss */
+/* line 291, ../sass/_sponger.scss */
 .brand-large {
   width: 280px;
   height: 110px;
   display: block;
 }
 
-/* line 232, ../sass/_sponger.scss */
+/* line 292, ../sass/_sponger.scss */
 .brand-medium {
   width: 179px;
   height: 69px;
   display: block;
 }
 
-/* line 233, ../sass/_sponger.scss */
+/* line 293, ../sass/_sponger.scss */
 .brand-small {
   width: 88px;
   height: 33px;
   display: block;
 }
 
-/* line 235, ../sass/_sponger.scss */
+/* line 295, ../sass/_sponger.scss */
 .brand-labbo {
   width: 40px;
   height: 14px;
@@ -11443,7 +11492,7 @@ section.simple-group {
 
 /*'BACKGROUND
 =============================================== */
-/* line 240, ../sass/_sponger.scss */
+/* line 300, ../sass/_sponger.scss */
 .background-primary {
   background-image: url("../images/background/background-primary.jpg");
   background-size: cover;
@@ -11451,24 +11500,24 @@ section.simple-group {
   background-position: top center;
 }
 
-/* line 249, ../sass/_sponger.scss */
+/* line 309, ../sass/_sponger.scss */
 .pattern-primary, body {
   background-image: url("../images/background/pattern-primary.jpg");
 }
 
-/* line 250, ../sass/_sponger.scss */
+/* line 310, ../sass/_sponger.scss */
 .pattern-secondary, .menu-campanhas {
   background-image: url("../images/background/pattern-secondary.jpg");
 }
 
-/* line 251, ../sass/_sponger.scss */
+/* line 311, ../sass/_sponger.scss */
 .pattern-tertiary, .menu-filter-campaign, .menu-campanhas:before, .menu-campanhas .box-menu-campanha {
   background-image: url("../images/background/pattern-tertiary.jpg");
 }
 
 /*'Tipografy
 ======================================= */
-/* line 261, ../sass/_sponger.scss */
+/* line 321, ../sass/_sponger.scss */
 .title-section {
   font-size: 28px;
   text-align: center;
@@ -11477,12 +11526,12 @@ section.simple-group {
   color: #345326;
   padding: 10px 0;
 }
-/* line 271, ../sass/_sponger.scss */
+/* line 331, ../sass/_sponger.scss */
 .title-section strong {
   font-weight: 700;
 }
 
-/* line 274, ../sass/_sponger.scss */
+/* line 334, ../sass/_sponger.scss */
 .title-section-secundary {
   background: #507f3b;
   width: 100%;
@@ -11496,34 +11545,34 @@ section.simple-group {
   font-style: italic;
 }
 
-/* line 289, ../sass/_sponger.scss */
+/* line 349, ../sass/_sponger.scss */
 .title-section-secundary-child {
   font-size: 14px;
   display: inline-block;
   margin-right: 20px;
   margin-bottom: 20px;
 }
-/* line 295, ../sass/_sponger.scss */
+/* line 355, ../sass/_sponger.scss */
 .title-section-secundary-child .text {
   margin-right: 10px;
 }
-/* line 298, ../sass/_sponger.scss */
+/* line 358, ../sass/_sponger.scss */
 .title-section-secundary-child .number {
   font-size: 20px;
 }
-/* line 302, ../sass/_sponger.scss */
+/* line 362, ../sass/_sponger.scss */
 .title-section-secundary-child .titulo {
   font-size: 18px;
   margin: 0;
   padding: 0;
 }
-/* line 308, ../sass/_sponger.scss */
+/* line 368, ../sass/_sponger.scss */
 .title-section-secundary-child .block-search-component {
   width: 300px;
   float: right;
 }
 
-/* line 318, ../sass/_sponger.scss */
+/* line 378, ../sass/_sponger.scss */
 .box-message {
   color: #345326;
   background: #DFDFD0;
@@ -11534,14 +11583,14 @@ section.simple-group {
   border-radius: 15px 0 0 0;
 }
 
-/* line 326, ../sass/_sponger.scss */
+/* line 386, ../sass/_sponger.scss */
 .section-space {
   margin: 20px 0;
 }
 
 /*'NAVBAR
 =============================================== */
-/* line 334, ../sass/_sponger.scss */
+/* line 394, ../sass/_sponger.scss */
 .navbar-brand .brand-primary,
 .navbar-brand .brand-secundary {
   margin-top: -7px;
@@ -11549,18 +11598,18 @@ section.simple-group {
 
 /*'ALERT
 =============================================== */
-/* line 344, ../sass/_sponger.scss */
+/* line 404, ../sass/_sponger.scss */
 .alert .icon-avatar-ana {
   width: 38px;
   height: 38px;
 }
 
-/* line 345, ../sass/_sponger.scss */
+/* line 405, ../sass/_sponger.scss */
 .alert-default {
   background: #eee;
 }
 
-/* line 348, ../sass/_sponger.scss */
+/* line 408, ../sass/_sponger.scss */
 .alert {
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
@@ -11570,63 +11619,63 @@ section.simple-group {
 
 /*'TABLE
 =============================================== */
-/* line 357, ../sass/_sponger.scss */
+/* line 417, ../sass/_sponger.scss */
 .table-sponge {
   margin-bottom: 20px;
 }
-/* line 360, ../sass/_sponger.scss */
+/* line 420, ../sass/_sponger.scss */
 .table-sponge tr > td:first-child,
 .table-sponge tr > th:first-child {
   width: 70px;
   text-align: left;
 }
-/* line 368, ../sass/_sponger.scss */
+/* line 428, ../sass/_sponger.scss */
 .table-sponge > thead > tr > th, .table-sponge > thead > tr > td, .table-sponge > tbody > tr > th, .table-sponge > tbody > tr > td, .table-sponge > tfoot > tr > th, .table-sponge > tfoot > tr > td {
   border-top: none;
   padding: 15px;
   vertical-align: middle;
   text-align: center;
 }
-/* line 380, ../sass/_sponger.scss */
+/* line 440, ../sass/_sponger.scss */
 .table-sponge > thead > tr > th, .table-sponge > thead > tr > td {
   text-transform: uppercase;
   font-size: 12px;
   padding-bottom: 10px;
   color: #345326;
 }
-/* line 389, ../sass/_sponger.scss */
+/* line 449, ../sass/_sponger.scss */
 .table-sponge tbody tr:nth-child(even) {
   background-color: #d5d5c1;
 }
 
-/* line 400, ../sass/_sponger.scss */
+/* line 460, ../sass/_sponger.scss */
 .table-sponge.table-sponge-with-icon tr > td:first-child {
   width: 70px;
 }
-/* line 403, ../sass/_sponger.scss */
+/* line 463, ../sass/_sponger.scss */
 .table-sponge.table-sponge-with-icon tr > td:nth-child(2) {
   text-align: left;
 }
 
 /*'HEADER
 =============================================== */
-/* line 417, ../sass/_sponger.scss */
+/* line 477, ../sass/_sponger.scss */
 .block-header-primary {
   height-min: 280px;
   background-attachment: fixed;
   position: relative;
 }
-/* line 425, ../sass/_sponger.scss */
+/* line 485, ../sass/_sponger.scss */
 .block-header-primary .block-search-component .form-search {
   margin-bottom: 20px;
 }
-/* line 427, ../sass/_sponger.scss */
+/* line 487, ../sass/_sponger.scss */
 .block-header-primary .block-search-component .form-search .fa {
   right: 20px;
   left: inherit;
   top: 10px;
 }
-/* line 430, ../sass/_sponger.scss */
+/* line 490, ../sass/_sponger.scss */
 .block-header-primary .block-search-component .form-search .input-search {
   padding: 20px;
 }
@@ -11634,7 +11683,7 @@ section.simple-group {
 /* ---- FORM PESQUISA----- */
 /*'header-main
 ========================================== */
-/* line 495, ../sass/_sponger.scss */
+/* line 555, ../sass/_sponger.scss */
 .header-main {
   position: relative;
   background: #fff;
@@ -11647,7 +11696,7 @@ section.simple-group {
   -ms-border-radius: 0 0 15px 15px;
   border-radius: 0 0 15px 15px;
 }
-/* line 503, ../sass/_sponger.scss */
+/* line 563, ../sass/_sponger.scss */
 .header-main .container-brand {
   background: #fff;
   display: inline-block;
@@ -11655,23 +11704,23 @@ section.simple-group {
   width: 100%;
   text-align: center;
 }
-/* line 510, ../sass/_sponger.scss */
+/* line 570, ../sass/_sponger.scss */
 .header-main .brand {
   margin: 0 auto;
   padding: 30px 0;
   display: inline-block;
 }
-/* line 515, ../sass/_sponger.scss */
+/* line 575, ../sass/_sponger.scss */
 .header-main .brand span {
   width: 190px;
   height: 73px;
 }
 
-/* line 521, ../sass/_sponger.scss */
+/* line 581, ../sass/_sponger.scss */
 .container-main-menu {
   position: relative;
 }
-/* line 523, ../sass/_sponger.scss */
+/* line 583, ../sass/_sponger.scss */
 .container-main-menu .button-campanhas-sponge {
   position: relative;
   float: right;
@@ -11684,7 +11733,7 @@ section.simple-group {
   margin-top: -5px;
   font-weight: 100;
 }
-/* line 534, ../sass/_sponger.scss */
+/* line 594, ../sass/_sponger.scss */
 .container-main-menu .button-campanhas-sponge:before {
   z-index: -1000;
   content: "";
@@ -11695,7 +11744,7 @@ section.simple-group {
   top: 0;
   border-radius: 50% 0 0 50%;
 }
-/* line 535, ../sass/_sponger.scss */
+/* line 595, ../sass/_sponger.scss */
 .container-main-menu .button-campanhas-sponge:after {
   z-index: -1000;
   content: "";
@@ -11705,7 +11754,7 @@ section.simple-group {
   right: -10px;
   top: 0;
 }
-/* line 536, ../sass/_sponger.scss */
+/* line 596, ../sass/_sponger.scss */
 .container-main-menu .button-campanhas-sponge .arrow {
   z-index: -1000;
   content: "";
@@ -11718,49 +11767,49 @@ section.simple-group {
   border-bottom: 10px solid transparent;
   border-left: 10px solid #444;
 }
-/* line 539, ../sass/_sponger.scss */
+/* line 599, ../sass/_sponger.scss */
 .container-main-menu .button-campanhas-sponge-default {
   background: #6db152;
   color: #fff;
 }
-/* line 542, ../sass/_sponger.scss */
+/* line 602, ../sass/_sponger.scss */
 .container-main-menu .button-campanhas-sponge-default:before {
   background: #6db152;
 }
-/* line 543, ../sass/_sponger.scss */
+/* line 603, ../sass/_sponger.scss */
 .container-main-menu .button-campanhas-sponge-default:after {
   background: #6db152;
 }
-/* line 545, ../sass/_sponger.scss */
+/* line 605, ../sass/_sponger.scss */
 .container-main-menu .button-campanhas-sponge-default:hover {
   background: #62a149;
 }
-/* line 547, ../sass/_sponger.scss */
+/* line 607, ../sass/_sponger.scss */
 .container-main-menu .button-campanhas-sponge-default:hover:before {
   background: #62a149;
 }
-/* line 548, ../sass/_sponger.scss */
+/* line 608, ../sass/_sponger.scss */
 .container-main-menu .button-campanhas-sponge-default:hover:after {
   background: #62a149;
 }
-/* line 551, ../sass/_sponger.scss */
+/* line 611, ../sass/_sponger.scss */
 .container-main-menu .button-campanhas-sponge-default:active {
   background: #2c4921;
 }
-/* line 553, ../sass/_sponger.scss */
+/* line 613, ../sass/_sponger.scss */
 .container-main-menu .button-campanhas-sponge-default:active:before {
   background: #2c4921;
 }
-/* line 554, ../sass/_sponger.scss */
+/* line 614, ../sass/_sponger.scss */
 .container-main-menu .button-campanhas-sponge-default:active:after {
   background: #2c4921;
 }
-/* line 561, ../sass/_sponger.scss */
+/* line 621, ../sass/_sponger.scss */
 .container-main-menu .main-menu {
   display: inline-block;
   list-style: none;
 }
-/* line 564, ../sass/_sponger.scss */
+/* line 624, ../sass/_sponger.scss */
 .container-main-menu .main-menu li {
   display: inline-block;
   font-size: 14px;
@@ -11768,31 +11817,31 @@ section.simple-group {
   font-weight: 500;
   border-right: 1px solid #345326;
 }
-/* line 571, ../sass/_sponger.scss */
+/* line 631, ../sass/_sponger.scss */
 .container-main-menu .main-menu li:last-child {
   border-right: 0;
 }
-/* line 573, ../sass/_sponger.scss */
+/* line 633, ../sass/_sponger.scss */
 .container-main-menu .main-menu li a {
   display: block;
   padding: 5px 20px;
 }
-/* line 577, ../sass/_sponger.scss */
+/* line 637, ../sass/_sponger.scss */
 .container-main-menu .main-menu li a:hover {
   text-decoration: none;
   background: #ecf0e1;
 }
-/* line 584, ../sass/_sponger.scss */
+/* line 644, ../sass/_sponger.scss */
 .container-main-menu .main-menu.main-menu-one-item {
   float: left;
 }
 
-/* line 606, ../sass/_sponger.scss */
+/* line 666, ../sass/_sponger.scss */
 .sidebar-interno {
   margin-top: 40px;
 }
 
-/* line 620, ../sass/_sponger.scss */
+/* line 680, ../sass/_sponger.scss */
 .form-contato {
   font-weight: 100;
   padding: 50px;
@@ -11800,7 +11849,7 @@ section.simple-group {
   width: 100%;
 }
 
-/* line 630, ../sass/_sponger.scss */
+/* line 690, ../sass/_sponger.scss */
 form legend {
   margin-top: 0px;
   float: left;
@@ -11809,35 +11858,35 @@ form legend {
   font-size: 16px;
   border-color: #ccc;
 }
-/* line 639, ../sass/_sponger.scss */
+/* line 699, ../sass/_sponger.scss */
 form label {
   font-weight: 100;
 }
 
-/* line 642, ../sass/_sponger.scss */
+/* line 702, ../sass/_sponger.scss */
 fieldset {
   margin-bottom: 30px;
 }
 
-/* line 645, ../sass/_sponger.scss */
+/* line 705, ../sass/_sponger.scss */
 .input-total {
   border-top: 1px solid #ccc;
   margin: 0 15px;
   text-align: right;
 }
-/* line 650, ../sass/_sponger.scss */
+/* line 710, ../sass/_sponger.scss */
 .input-total .input-total-inner {
   float: right;
   width: 250px;
 }
-/* line 651, ../sass/_sponger.scss */
+/* line 711, ../sass/_sponger.scss */
 .input-total .total-text {
   text-transform: uppercase;
   font-size: 16px;
   font-weight: 500;
   margin-right: 5px;
 }
-/* line 657, ../sass/_sponger.scss */
+/* line 717, ../sass/_sponger.scss */
 .input-total .total-number {
   font-size: 18px;
   padding: 5px 15px;
@@ -11845,7 +11894,7 @@ fieldset {
   background: #d5d5bf;
   font-weight: 100;
 }
-/* line 658, ../sass/_sponger.scss */
+/* line 718, ../sass/_sponger.scss */
 .input-total .total-alert {
   display: inline-block;
   font-style: italic;
@@ -11859,7 +11908,7 @@ fieldset {
   opacity: 0.7;
   filter: alpha(opacity=70);
 }
-/* line 668, ../sass/_sponger.scss */
+/* line 728, ../sass/_sponger.scss */
 .input-total .total-alert:hover {
   text-decoration: none;
   background: red;
@@ -11867,13 +11916,13 @@ fieldset {
   opacity: 1;
   filter: alpha(opacity=100);
 }
-/* line 674, ../sass/_sponger.scss */
+/* line 734, ../sass/_sponger.scss */
 .input-total .total-alert:active {
   box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
   -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
   -moz-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
 }
-/* line 680, ../sass/_sponger.scss */
+/* line 740, ../sass/_sponger.scss */
 .input-total .total-alert:before {
   position: absolute;
   border-left: 5px solid transparent;
@@ -11884,12 +11933,12 @@ fieldset {
   right: 50%;
 }
 
-/* line 693, ../sass/_sponger.scss */
+/* line 753, ../sass/_sponger.scss */
 .submit-form {
   padding: 5px 40px;
 }
 
-/* line 694, ../sass/_sponger.scss */
+/* line 754, ../sass/_sponger.scss */
 .mask-form-button {
   display: inline-block;
   background: #DFDFD0;

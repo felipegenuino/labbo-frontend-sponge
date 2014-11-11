@@ -223,6 +223,66 @@ section.simple-group{ padding: 120px 0}
 
 
 
+.lista-produto-component{ 
+	background: #fff;
+	display: inline-block;
+	width: 100%;
+	border: 1px solid #ccc;
+	
+	&.lista-produto-component-overflow{
+		height: 400px;
+		overflow-y: scroll;
+	}
+
+	.title-lista-produtos{ 
+		background: $brand-light;
+		margin: 0;
+		padding: 15px;
+		margin-bottom: 20px;
+	}
+	.lista-produtos{
+		display: inline-block;
+		padding: 0;
+		width: 100%;
+		list-style: none;
+
+		.item-lista-produtos{
+			display: inline-block;
+ 			margin-left: 5%;
+ 			width: 90%;
+ 			border-bottom: 1px solid #ccc;
+
+			&:last-child{
+				border-bottom:none;
+			}
+
+			a{
+				display: block;
+				padding: 10px;
+				font-size: 16px;
+				font-weight: 700;
+				
+				&:hover{ 
+					background: $table-bg-hover;
+					text-decoration: none;
+				}
+			}
+		}
+
+		.icon{ 
+			width: 50px; 
+			height: 50px;
+			margin-right: 20px;
+		}
+
+	}
+
+
+}
+
+
+
+
 /*'BRAND
 =============================================== */
 	.brand-primary{ background-image: url("../images/brand/brand-primary.svg"); background-size: cover; background-repeat: no-repeat; display: block;}
@@ -699,6 +759,12 @@ fieldset{ margin-bottom: 30px;}
   @include border-radius(0 20px 20px 10px);
   text-align: right;
  }
+
+
+
+
+
+
 
 
 
