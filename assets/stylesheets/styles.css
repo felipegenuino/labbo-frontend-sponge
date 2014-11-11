@@ -8245,20 +8245,20 @@ button.close {
 .button-center-line:active {
   background: #ddd;
 }
-/* line 147, ../sass/componentes/_block-campaign.scss */
+/* line 151, ../sass/componentes/_block-campaign.scss */
 .button-center-line .icon {
   vertical-align: baseline;
 }
-/* line 148, ../sass/componentes/_block-campaign.scss */
+/* line 152, ../sass/componentes/_block-campaign.scss */
 .button-center-line .icon-disable {
   display: none;
 }
-/* line 149, ../sass/componentes/_block-campaign.scss */
+/* line 153, ../sass/componentes/_block-campaign.scss */
 .button-center-line .icon-enable {
   display: inline-block;
 }
 @media (min-width: 1200px) {
-  /* line 156, ../sass/componentes/_block-campaign.scss */
+  /* line 160, ../sass/componentes/_block-campaign.scss */
   .button-center-line:before {
     content: "";
     border: 1px solid #ccc;
@@ -8269,7 +8269,7 @@ button.close {
     margin-left: -440px;
     z-index: -1;
   }
-  /* line 167, ../sass/componentes/_block-campaign.scss */
+  /* line 171, ../sass/componentes/_block-campaign.scss */
   .button-center-line:after {
     content: "";
     border: 1px solid #ccc;
@@ -8282,7 +8282,7 @@ button.close {
   }
 }
 @media (min-width: 992px) and (max-width: 1199px) {
-  /* line 182, ../sass/componentes/_block-campaign.scss */
+  /* line 186, ../sass/componentes/_block-campaign.scss */
   .button-center-line:before {
     content: "";
     border: 1px solid #ccc;
@@ -8293,7 +8293,7 @@ button.close {
     margin-left: -140px;
     z-index: -1;
   }
-  /* line 193, ../sass/componentes/_block-campaign.scss */
+  /* line 197, ../sass/componentes/_block-campaign.scss */
   .button-center-line:after {
     content: "";
     border: 1px solid #ccc;
@@ -8306,7 +8306,7 @@ button.close {
   }
 }
 @media (min-width: 768px) and (max-width: 991px) {
-  /* line 210, ../sass/componentes/_block-campaign.scss */
+  /* line 214, ../sass/componentes/_block-campaign.scss */
   .button-center-line:before {
     content: "";
     border: 1px solid #ccc;
@@ -8317,7 +8317,7 @@ button.close {
     margin-left: -150px;
     z-index: -1;
   }
-  /* line 221, ../sass/componentes/_block-campaign.scss */
+  /* line 225, ../sass/componentes/_block-campaign.scss */
   .button-center-line:after {
     content: "";
     border: 1px solid #ccc;
@@ -8330,7 +8330,7 @@ button.close {
   }
 }
 @media (max-width: 767px) {
-  /* line 237, ../sass/componentes/_block-campaign.scss */
+  /* line 241, ../sass/componentes/_block-campaign.scss */
   .button-center-line:before {
     content: "";
     border: 1px solid #ccc;
@@ -8341,7 +8341,7 @@ button.close {
     margin-left: -150px;
     z-index: -1;
   }
-  /* line 248, ../sass/componentes/_block-campaign.scss */
+  /* line 252, ../sass/componentes/_block-campaign.scss */
   .button-center-line:after {
     content: "";
     border: 1px solid #ccc;
@@ -8354,7 +8354,7 @@ button.close {
   }
 }
 @media (max-width: 480px) {
-  /* line 264, ../sass/componentes/_block-campaign.scss */
+  /* line 268, ../sass/componentes/_block-campaign.scss */
   .button-center-line:before {
     content: "";
     border: 1px solid #ccc;
@@ -8365,7 +8365,7 @@ button.close {
     margin-left: -50px;
     z-index: -1;
   }
-  /* line 275, ../sass/componentes/_block-campaign.scss */
+  /* line 279, ../sass/componentes/_block-campaign.scss */
   .button-center-line:after {
     content: "";
     border: 1px solid #ccc;
@@ -8562,19 +8562,21 @@ button.close {
 .menu-filter-campaign .filter-campaign-content-item .box-item {
   padding: 10px 0;
   border: 1px solid transparent;
+  height: 140px;
 }
-/* line 151, ../sass/componentes/_menu-campaign.scss */
+/* line 152, ../sass/componentes/_menu-campaign.scss */
 .menu-filter-campaign .filter-campaign-content-item .box-item.active, .menu-filter-campaign .filter-campaign-content-item .box-item:hover {
   border-color: #ccc;
   background: #eee;
   cursor: pointer;
 }
-/* line 158, ../sass/componentes/_menu-campaign.scss */
+/* line 159, ../sass/componentes/_menu-campaign.scss */
 .menu-filter-campaign .filter-campaign-content-item h4 {
   color: #6db152;
-  font-size: 16px;
+  font-size: 14px;
+  font-weight: 100;
 }
-/* line 163, ../sass/componentes/_menu-campaign.scss */
+/* line 166, ../sass/componentes/_menu-campaign.scss */
 .menu-filter-campaign .filter-campaign-content-item p {
   font-size: 13px;
   font-style: italic;
@@ -10696,23 +10698,143 @@ fieldset[disabled] .datepicker table tr td span.active.disabled:hover.active {
   background-image: url("../images/icons/icon-jornal.png");
 }
 
+/* line 50, ../sass/componentes/_icones.scss */
+.icon-garrafas-pet {
+  background-image: url("../images/icons/icon-garrafas-pet.png");
+}
+
 /* line 51, ../sass/componentes/_icones.scss */
+.icon-garrafas-de-detergente-pead {
+  background-image: url("../images/icons/icon-garrafas-de-detergente-pead.png");
+}
+
+/* line 52, ../sass/componentes/_icones.scss */
+.icon-sacolas-de-supermercado-pead {
+  background-image: url("../images/icons/icon-sacolas-de-supermercado-pead.png");
+}
+
+/* line 53, ../sass/componentes/_icones.scss */
+.icon-potes-pead {
+  background-image: url("../images/icons/icon-potes-pead.png");
+}
+
+/* line 54, ../sass/componentes/_icones.scss */
+.icon-utilidades-domesticas-pp {
+  background-image: url("../images/icons/icon-utilidades-domesticas-pp.png");
+}
+
+/* line 55, ../sass/componentes/_icones.scss */
+.icon-bombonas-pead {
+  background-image: url("../images/icons/icon-bombonas-pead.png");
+}
+
+/* line 56, ../sass/componentes/_icones.scss */
+.icon-pecas-termicas-pead {
+  background-image: url("../images/icons/icon-pecas-termicas-pead.png");
+}
+
+/* line 57, ../sass/componentes/_icones.scss */
+.icon-embalagem-de-agua-mineral-pvc {
+  background-image: url("../images/icons/icon-embalagem-de-agua-mineral-pvc.png");
+}
+
+/* line 58, ../sass/componentes/_icones.scss */
+.icon-embalagem-de-oleos-comestiveis-pvc {
+  background-image: url("../images/icons/icon-embalagem-de-oleos-comestiveis-pvc.png");
+}
+
+/* line 59, ../sass/componentes/_icones.scss */
+.icon-tubos-pvc {
+  background-image: url("../images/icons/icon-tubos-pvc.png");
+}
+
+/* line 60, ../sass/componentes/_icones.scss */
+.icon-esquadrias-pvc {
+  background-image: url("../images/icons/icon-esquadrias-pvc.png");
+}
+
+/* line 61, ../sass/componentes/_icones.scss */
+.icon-saco-de-leite-pebd {
+  background-image: url("../images/icons/icon-saco-de-leite-pebd.png");
+}
+
+/* line 62, ../sass/componentes/_icones.scss */
+.icon-saco-de-iogurte-pebd {
+  background-image: url("../images/icons/icon-saco-de-iogurte-pebd.png");
+}
+
+/* line 63, ../sass/componentes/_icones.scss */
+.icon-saco-de-lixo-pebd {
+  background-image: url("../images/icons/icon-saco-de-lixo-pebd.png");
+}
+
+/* line 64, ../sass/componentes/_icones.scss */
+.icon-saco-de-muda-de-plantas-pebd {
+  background-image: url("../images/icons/icon-saco-de-muda-de-plantas-pebd.png");
+}
+
+/* line 65, ../sass/componentes/_icones.scss */
+.icon-pecas-termicas-pp {
+  background-image: url("../images/icons/icon-pecas-termicas-pp.png");
+}
+
+/* line 66, ../sass/componentes/_icones.scss */
+.icon-utilidades-domesticas-pp {
+  background-image: url("../images/icons/icon-utilidades-domesticas-pp.png");
+}
+
+/* line 67, ../sass/componentes/_icones.scss */
+.icon-fios-e-cabos-pp {
+  background-image: url("../images/icons/icon-fios-e-cabos-pp.png");
+}
+
+/* line 68, ../sass/componentes/_icones.scss */
+.icon-potes-pp {
+  background-image: url("../images/icons/icon-potes-pp.png");
+}
+
+/* line 69, ../sass/componentes/_icones.scss */
+.icon-potes-ps {
+  background-image: url("../images/icons/icon-potes-ps.png");
+}
+
+/* line 70, ../sass/componentes/_icones.scss */
+.icon-aparelhos-de-barbear-descartaveis-ps {
+  background-image: url("../images/icons/icon-aparelhos-de-barbear-descartaveis-ps.png");
+}
+
+/* line 71, ../sass/componentes/_icones.scss */
+.icon-cartuchos-de-impressoras-ps {
+  background-image: url("../images/icons/icon-cartuchos-de-impressoras-ps.png");
+}
+
+/* line 72, ../sass/componentes/_icones.scss */
+.icon-calcados {
+  background-image: url("../images/icons/icon-calcados.png");
+}
+
+/* line 73, ../sass/componentes/_icones.scss */
+.icon-cds {
+  background-image: url("../images/icons/icon-cds.png");
+}
+
+/* line 83, ../sass/componentes/_icones.scss */
 .icon-avatar-ana {
   background-image: url("../images/icons/icon-avatar-ana.png");
 }
 
-/* line 54, ../sass/componentes/_icones.scss */
+/* line 86, ../sass/componentes/_icones.scss */
 .social-media-campaign {
   margin: 0;
   padding: 0;
   float: left;
 }
-/* line 59, ../sass/componentes/_icones.scss */
+/* line 91, ../sass/componentes/_icones.scss */
 .social-media-campaign li {
   display: inline-block;
   margin-top: 5px;
 }
-/* line 60, ../sass/componentes/_icones.scss */
+/* line 92, ../sass/componentes/_icones.scss */
 .social-media-campaign .icon-social-campaign {
   padding: 0;
   width: 25px;
@@ -10731,28 +10853,28 @@ fieldset[disabled] .datepicker table tr td span.active.disabled:hover.active {
   -o-transition: all 0.5s ease;
   transition: all 0.5s ease;
 }
-/* line 74, ../sass/componentes/_icones.scss */
+/* line 106, ../sass/componentes/_icones.scss */
 .social-media-campaign .icon-social-campaign:hover {
   opacity: 1;
   filter: alpha(opacity=100);
 }
-/* line 76, ../sass/componentes/_icones.scss */
+/* line 108, ../sass/componentes/_icones.scss */
 .social-media-campaign .icon-social-twitter {
   background-image: url("../images/icons/icon-social-twitter.png");
 }
-/* line 77, ../sass/componentes/_icones.scss */
+/* line 109, ../sass/componentes/_icones.scss */
 .social-media-campaign .icon-social-linkedin {
   background-image: url("../images/icons/icon-social-linkedin.png");
 }
-/* line 78, ../sass/componentes/_icones.scss */
+/* line 110, ../sass/componentes/_icones.scss */
 .social-media-campaign .icon-social-youtube {
   background-image: url("../images/icons/icon-social-youtube.png");
 }
-/* line 79, ../sass/componentes/_icones.scss */
+/* line 111, ../sass/componentes/_icones.scss */
 .social-media-campaign .icon-social-instagram {
   background-image: url("../images/icons/icon-social-instagram.png");
 }
-/* line 80, ../sass/componentes/_icones.scss */
+/* line 112, ../sass/componentes/_icones.scss */
 .social-media-campaign .icon-social-facebook {
   background-image: url("../images/icons/icon-social-facebook.png");
 }
