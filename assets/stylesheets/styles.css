@@ -8486,11 +8486,7 @@ button.close {
   width: 100%;
   z-index: 2000;
 }
-/* line 92, ../sass/componentes/_menu-campaign.scss */
-.menu-filter-campaign .container-filter-campaign-list .filter-campaign-item .fluid-grid {
-  padding: 0;
-}
-/* line 94, ../sass/componentes/_menu-campaign.scss */
+/* line 93, ../sass/componentes/_menu-campaign.scss */
 .menu-filter-campaign .container-filter-campaign-list .filter-campaign-item.open:before {
   content: "";
   position: absolute;
@@ -8500,46 +8496,46 @@ button.close {
   border-bottom: 12px solid #fff;
   margin-left: -12px;
 }
-/* line 105, ../sass/componentes/_menu-campaign.scss */
+/* line 104, ../sass/componentes/_menu-campaign.scss */
 .menu-filter-campaign .container-filter-campaign-list .filter-campaign-item.papeis {
   background: #28b9d3;
 }
-/* line 106, ../sass/componentes/_menu-campaign.scss */
+/* line 105, ../sass/componentes/_menu-campaign.scss */
 .menu-filter-campaign .container-filter-campaign-list .filter-campaign-item.plastico {
   background: #e8474b;
 }
-/* line 107, ../sass/componentes/_menu-campaign.scss */
+/* line 106, ../sass/componentes/_menu-campaign.scss */
 .menu-filter-campaign .container-filter-campaign-list .filter-campaign-item.vidro {
   background: #3aa935;
 }
-/* line 108, ../sass/componentes/_menu-campaign.scss */
+/* line 107, ../sass/componentes/_menu-campaign.scss */
 .menu-filter-campaign .container-filter-campaign-list .filter-campaign-item.metais {
   background: #ffcc00;
 }
-/* line 109, ../sass/componentes/_menu-campaign.scss */
+/* line 108, ../sass/componentes/_menu-campaign.scss */
 .menu-filter-campaign .container-filter-campaign-list .filter-campaign-item.eletronicos {
   background: #9d9c9c;
 }
-/* line 110, ../sass/componentes/_menu-campaign.scss */
+/* line 109, ../sass/componentes/_menu-campaign.scss */
 .menu-filter-campaign .container-filter-campaign-list .filter-campaign-item.perigosos {
   background: #ee7a00;
 }
-/* line 111, ../sass/componentes/_menu-campaign.scss */
+/* line 110, ../sass/componentes/_menu-campaign.scss */
 .menu-filter-campaign .container-filter-campaign-list .filter-campaign-item.outros {
   background: #c1bb75;
 }
-/* line 115, ../sass/componentes/_menu-campaign.scss */
+/* line 114, ../sass/componentes/_menu-campaign.scss */
 .menu-filter-campaign .container-filter-campaign-list .filter-campaign-item a {
   display: block;
   color: #fff;
   padding: 10px;
 }
-/* line 121, ../sass/componentes/_menu-campaign.scss */
+/* line 120, ../sass/componentes/_menu-campaign.scss */
 .menu-filter-campaign .container-filter-campaign-list .filter-campaign-item a:hover, .menu-filter-campaign .container-filter-campaign-list .filter-campaign-item a .open {
   text-decoration: none;
   opacity: 1;
 }
-/* line 134, ../sass/componentes/_menu-campaign.scss */
+/* line 133, ../sass/componentes/_menu-campaign.scss */
 .menu-filter-campaign .filter-campaign-content-item {
   background: #fff;
   text-align: center;
@@ -8550,15 +8546,15 @@ button.close {
   width: 100%;
   border-radius: 10px 10px 0 0;
 }
-/* line 144, ../sass/componentes/_menu-campaign.scss */
+/* line 143, ../sass/componentes/_menu-campaign.scss */
 .menu-filter-campaign .filter-campaign-content-item.active {
   display: inline-block;
 }
-/* line 147, ../sass/componentes/_menu-campaign.scss */
+/* line 146, ../sass/componentes/_menu-campaign.scss */
 .menu-filter-campaign .filter-campaign-content-item > div {
   padding: 0;
 }
-/* line 149, ../sass/componentes/_menu-campaign.scss */
+/* line 148, ../sass/componentes/_menu-campaign.scss */
 .menu-filter-campaign .filter-campaign-content-item .box-item {
   padding: 10px 0;
   border: 1px solid transparent;
@@ -8567,22 +8563,28 @@ button.close {
   display: inline-block;
   float: left;
 }
-/* line 159, ../sass/componentes/_menu-campaign.scss */
-.menu-filter-campaign .filter-campaign-content-item .box-item.active, .menu-filter-campaign .filter-campaign-content-item .box-item:hover {
+/* line 158, ../sass/componentes/_menu-campaign.scss */
+.menu-filter-campaign .filter-campaign-content-item .box-item:hover {
   border-color: #ccc;
   background: #eee;
   cursor: pointer;
 }
-/* line 165, ../sass/componentes/_menu-campaign.scss */
+/* line 164, ../sass/componentes/_menu-campaign.scss */
+.menu-filter-campaign .filter-campaign-content-item .box-item.active, .menu-filter-campaign .filter-campaign-content-item .box-item:active {
+  border-color: #ccc;
+  background: #ddd;
+  cursor: pointer;
+}
+/* line 172, ../sass/componentes/_menu-campaign.scss */
 .menu-filter-campaign .filter-campaign-content-item .box-item .icon {
   margin-right: 0px;
 }
-/* line 170, ../sass/componentes/_menu-campaign.scss */
+/* line 177, ../sass/componentes/_menu-campaign.scss */
 .menu-filter-campaign .filter-campaign-content-item h4 {
   color: #6db152;
   font-size: 14px;
 }
-/* line 176, ../sass/componentes/_menu-campaign.scss */
+/* line 183, ../sass/componentes/_menu-campaign.scss */
 .menu-filter-campaign .filter-campaign-content-item p {
   font-size: 13px;
   font-style: italic;

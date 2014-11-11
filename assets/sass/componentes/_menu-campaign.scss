@@ -89,8 +89,7 @@ border: none;
         }
  
 
-				.fluid-grid{padding: 0}
-
+ 
 				&.open:before{ 
 				content: "";
 				position: absolute;
@@ -156,11 +155,19 @@ border: none;
 					//col6 width: 16.6666666667%;
 					@extend .transition;
 
-				&.active,&:hover{ 
+				&:hover{ 
 					border-color: #ccc;
 					background: #eee;
 					cursor: pointer;
 				}
+
+				&.active, &:active{
+					border-color: #ccc;
+					background: #ddd;
+					cursor: pointer;
+				}
+
+
 
 				.icon{
 					 margin-right: 0px; 
