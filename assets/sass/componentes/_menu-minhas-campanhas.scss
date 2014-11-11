@@ -119,6 +119,7 @@
 		width: 200px;
 		border-radius: 0;
 		margin-left: -30px;
+    font-weight: 100;
 
 
 		&:before{ 
@@ -143,13 +144,26 @@
 			}
 
 	h5{ color: $brand-dark; text-transform: uppercase; font-size: 15px; font-weight: 500}
-	ul{ padding-left: 20px ;
+	ul{ 
+      padding-left: 20px;
+      border-bottom: 1px solid #ccc;
+      padding-bottom: 20px;
+      margin-bottom: 20px;
+
 		li{
 			a{
 				color: #777;
+        display: block;
+       &:hover{ background: #eee; text-decoration: none}
+
 			}
 		}
 	}
+
+  ul:last-child{ 
+    border-bottom: none;
+    margin-bottom: 0px;
+  }
 }
 
 

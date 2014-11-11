@@ -273,16 +273,14 @@
                         <li><a href="#">Atrasadas</a></li>
                        </ul>
 
-                       <hr> 
-
+ 
                     <h5> Minhas coletas</h5>
                       <ul>
                         <li><a href="#">Pontos</a></li>
                         <li><a href="#">Resgate</a></li>
                         </ul>
 
-                        <hr>
-
+ 
                     <h5> Meus dados</h5>
                       <ul>
                         <li><a href="#">Dados Cadastrais</a></li>
@@ -1155,6 +1153,20 @@
 
 
 
+
+
+
+
+<hr class="hr-space-front-line">
+
+
+
+
+
+
+
+
+
 <article class="page-frontend page-contato">
    <div class="row">
                         <div class="col-sm-12">
@@ -1230,6 +1242,7 @@
 
 
 
+<hr class="hr-space-front-line">
 
 
 
@@ -1447,6 +1460,21 @@
 
 
 
+
+
+
+
+
+<hr class="hr-space-front-line">
+
+
+
+
+
+
+
+
+
 <article class="page-frontend page-compra-cartao">
                 <div class="row">
                                     <div class="col-sm-12">
@@ -1515,7 +1543,7 @@
                                                  <label for="inputQuantidadePontos" class="col-sm-0 control-label"> </label>
                                               <div class="col-sm-12">
                                                    <div class="input-group">
-                                                      <a  href="#" class="btn btn-primary  submit-form">Escolha o produto</a>
+                                                      <a  href="#" class="btn btn-primary  submit-form"  data-toggle="modal" data-target=".ModalSelectProduct">Escolha o produto</a>
                                                   </div> <!-- //input-group -->
                                               </div>
                                             </div> 
@@ -1644,7 +1672,7 @@
 
 
                                                 <div class="form-group">
-                                                  <div class="col-sm-offset-2 col-sm-10">
+                                                  <div class="col-xs-12">
                                                       <span class="mask-form-button">
                                                         <button type="reset" class="btn btn-link submit-form">Cancelar</button>
                                                         <button type="submit" class="btn btn-primary  submit-form">Enviar</button>
@@ -1659,7 +1687,221 @@
                                     </div><!--//col-sm-12 -->
                               </div><!--//row-->
 
-</article>
+</article> <!-- //page-frontend page-compra-cartao -->
+
+
+
+
+
+<hr class="hr-space-front-line">
+
+
+
+
+<article class="page-frontend page-minhas-campanhas">
+                <div class="row">
+                                    <div class="col-sm-12">
+
+                                      <div class="alert alert-danger" role="alert">
+                                                  <button type="button" class="close" data-dismiss="alert">
+                                                    <span aria-hidden="true">&times;</span>
+                                                    <span class="sr-only">Close</span></button>
+                                                    <span class="icon-avatar-ana icon"></span>
+                                                   <strong>Mensagem da Ana:</strong> Seu saldo está acabando.
+                                      </div> <!-- // alerta -->
+
+
+
+                             
+                                    <div class=" title-section-secundary title-section-secundary-child">
+                                      <div class="row">
+                                          <div class="col-sm-12">
+                                               <span class="titulo">Minhas Campanhas</span> 
+                                          
+                                             
+
+                                              <ul class="lista-periodo">
+                                                 <li class="lista-periodo-item"> <span class="label-buttons">Período</span> </li>
+                                                 <li class="lista-periodo-item"> <a href="#" class="btn btn-primary">7 dias</a> </li>
+                                                 <li class="lista-periodo-item"><a href="#" class="btn btn-primary"> 15 dias</a></li>
+
+                                                 <li class="lista-periodo-item">
+                                                    <div class="periodo-calendar-button">
+                                                            <button class="btn btn-primary dropdown-toggle" type="button">
+                                                             <i class="fa fa-calendar"></i>
+                                                              <span class="caret"></span>
+                                                            </button>
+                                                   
+                                                            <div class="periodo-calendar-container" >
+                                                                     <div class="row">
+                                                                    <div class="col-md-4">
+                                                                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                                                                    </div> <!-- //col-md-4 -->
+
+                                                                    <div class="col-md-4">
+                                                                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                                                                    </div> <!-- //col-md-4 -->
+
+                                                                    <div class="col-md-4">
+                                                                      ontem, hoje, 7 dias, 30 dias, Este mês, Ultimo Mês, outro periodo,
+                                                                      de input, até input, btn-primary{Aplicar}, btn-defautl{Cancelar} 
+
+                                                                    </div> <!-- //col-md-2 -->
+
+
+                                                                  </div>
+                                                             </div>
+                                                    </div> <!-- //periodo-calendar-button -->
+                                                 </li>
+                                               </ul>
+
+
+                                             <div class="block-search-component">
+                                                              <form class="form-search">
+                                                                  <i class="fa-search fa"></i>
+                                                                  <input type="search" class="input-search  form-control" placeholder="Pesquisar">
+                                                             </form>
+                                              </div> <!--//block-search-component -->
+                   
+                                          </div> <!-- //col-sm-12 -->
+
+                                      </div> <!-- // row -->
+                                    </div> <!-- //title-section-secundary title-section-secundary-child -->
+
+ 
+                                    </div><!--//col-sm-12 -->
+
+
+
+                                           <div class="col-sm-12">
+                                      <div class="table table-minhas-campanhas">
+                                          <table class="table table-sponge table-hover table-sponge-with-icon">
+                                                <thead>
+                                                  <tr>
+                                                      <th colspan="2">Campanha/Produto</th>
+                                                      <th>Data de início</th>
+                                                      <th>Pontos iniciais</th>
+                                                      <th>Saldo</th> 
+                                                   </tr>
+                                                </thead>
+                                                <tbody>
+                                                  <tr>
+                                                      <td>
+                                                        <span class="icon-medium icon icon-cardboard-box"> </span>
+                                                      </td>
+                                                      <td>
+                                                          <strong > Campanha Lorem Ipsun</strong> </br>
+                                                          <p> Papel de Escritório </p>
+                                                      </td>
+                                                      <td>Pneu</td>
+                                                      <td>32043</td>
+                                                      <td>5000</td>   
+                                                   </tr>
+
+                                                    <tr>
+                                                        <td>
+                                                          <span class="icon-medium icon icon-cardboard-box"> </span>
+                                                        </td>
+                                                        <td>
+                                                            <strong > Campanha Lorem Ipsun</strong> </br>
+                                                            <p> Papel de Escritório </p>
+                                                        </td>
+                                                        <td>Pneu</td>
+                                                        <td>32043</td>
+                                                        <td>5000</td>
+                                                   </tr>
+
+                                                    <tr>
+                                                        <td>
+                                                          <span class="icon-medium icon icon-cardboard-box"> </span>
+                                                        </td>
+                                                        <td>
+                                                            <strong > Campanha Lorem Ipsun</strong> </br>
+                                                            <p> Papel de Escritório </p>
+                                                        </td>
+                                                        <td>Pneu</td>
+                                                        <td>32043</td>
+                                                        <td>5000</td>
+                                                   </tr>
+
+                                                    <tr>
+                                                        <td>
+                                                          <span class="icon-medium icon icon-cardboard-box"> </span>
+                                                        </td>
+                                                        <td>
+                                                            <strong > Campanha Lorem Ipsun</strong> </br>
+                                                            <p> Papel de Escritório </p>
+                                                        </td>
+                                                        <td>Pneu</td>
+                                                        <td>32043</td>
+                                                        <td>5000</td>
+                                                   </tr>
+
+                                                    <tr>
+                                                        <td>
+                                                          <span class="icon-medium icon icon-cardboard-box"> </span>
+                                                        </td>
+                                                        <td>
+                                                            <strong > Campanha Lorem Ipsun</strong> </br>
+                                                            <p> Papel de Escritório </p>
+                                                        </td>
+                                                        <td>Pneu</td>
+                                                        <td>32043</td>
+                                                        <td>5000</td>
+                                                   </tr>
+
+                                                    <tr>
+                                                        <td>
+                                                          <span class="icon-medium icon icon-cardboard-box"> </span>
+                                                        </td>
+                                                        <td>
+                                                            <strong > Campanha Lorem Ipsun</strong> </br>
+                                                            <p> Papel de Escritório </p>
+                                                        </td>
+                                                        <td>Pneu</td>
+                                                        <td>32043</td>
+                                                        <td>5000</td>
+                                                   </tr>
+
+                                                    <tr>
+                                                        <td>
+                                                          <span class="icon-medium icon icon-cardboard-box"> </span>
+                                                        </td>
+                                                        <td>
+                                                            <strong > Campanha Lorem Ipsun</strong> </br>
+                                                            <p> Papel de Escritório </p>
+                                                        </td>
+                                                        <td>Pneu</td>
+                                                        <td>32043</td>
+                                                        <td>5000</td>
+                                                   </tr>
+
+
+                                                </tbody>
+                                              </table>
+                                            </div>
+                                    <!-- //table table-minhas-campanhas -->
+              
+
+                                    </div><!--//col-sm-12 -->
+                                      
+
+
+
+
+
+
+
+                              </div><!--//row-->
+
+</article> <!-- //page-frontend page-minhas-campanhas -->
+
+
+
+
+<hr class="hr-space-front-line">
+
+
 
 
   
@@ -1768,6 +2010,43 @@
 
 
 
+
+
+
+ <!-- Modal Escolha o produto -->
+    <div class="modal modal-default fade ModalSelectProduct" data-focus-on="input:first"  id="ModalSelectProduct" data-backdrop="static" data-keyboard="false"  tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true"><span class="glyphicon glyphicon-remove"></span></span><span class="sr-only">Close</span></button>
+           
+              <div class="row">
+                
+              </div><!--//row -->
+
+           </div> <!-- // modal-header-->
+         
+          <div class="modal-body">
+              <div class="row">
+                  Modal seleção de produto
+              </div><!--//row -->
+        </div> <!--//modal-body -->
+
+         <div class="modal-footer">
+          <div class="form-group">
+                  <button type="button" class="btn btn-lg btn-primary btn-block ">Cadastrar</button>
+           </div>
+        </div> <!-- //modal-footer -->
+
+      </div> <!-- //modal-content-->
+    </div><!-- //modal-dialog-->
+</div><!-- //Modal Escolha o produto-->
+
+
+
+
+
  
 
 
@@ -1779,12 +2058,7 @@
 
     <script src="assets/javascripts/components/bootstrap-datepicker.js"></script>
 
-    <!-- Masonry plugin | usado no container-blocks-campaign -->
-   <!-- //
-    <script src="assets/javascripts/masonry/imagesloaded.pkgd.min.js"></script>
-    <script src="assets/javascripts/masonry/masonry.pkgd.min.js"></script>
-  -->
-
+ 
 
      <script src="assets/javascripts/sponge.js"></script>
 

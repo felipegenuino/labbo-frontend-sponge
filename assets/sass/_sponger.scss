@@ -18,11 +18,17 @@ s
 
 .hr-line {
    margin: 30px 0;
-  display: block;
+  display: inline-block;
   width: 100%;
-}
+ }
  
 
+.hr-space-front-line {
+   margin: 200px 0;
+  display: inline-block;
+  width: 100%;
+  border-top: 1px solid #ccc;
+}
  
 
 
@@ -185,15 +191,36 @@ s
 }
 		 
 .periodo-calendar-button{
-  &.open{
     position: relative;
-    .periodo-calendar-container{
-      display: inline-block;
-      position: absolute;
-      float: left;
-      background: #fff;
-    }
-  }
+
+	&:hover .periodo-calendar-container{ display: inline-block;  }
+
+	    .periodo-calendar-container{
+	      display: none;
+	      position: absolute;
+	      background: #fff;
+	      right: 0;
+	      width: 750px;
+	      top: 40px;
+	      z-index: 2000;
+	      text-shadow:none;
+	      color: #222;
+	      padding: 20px;
+
+	      &:before{
+	      	content: "";
+			width: 15px;
+			height: 15px;
+			position: absolute;
+			top: -14px;
+			border-left: 15px solid transparent;
+			border-right: 15px solid transparent;
+			border-bottom: 15px solid #fff;
+			right: 10px;
+	      }
+	  }
+	
+ 
 }
 
 .periodo-calendar-container{ display: none;}
@@ -268,6 +295,7 @@ body{
     font-size: 14px;
     display: inline-block;
     margin-right: 20px;
+    margin-bottom: 20px;
 
   .text{
     margin-right: 10px;
@@ -280,6 +308,11 @@ body{
     font-size: 18px;
     margin: 0;
     padding: 0;
+  }
+
+  .block-search-component{
+  	width: 300px;
+  	float: right;
   }
 
 
@@ -328,6 +361,14 @@ background: #eee;
 =============================================== */
 .table-sponge{
   margin-bottom: 20px;
+
+  tr > td:first-child,
+  tr > th:first-child{
+	    width: 70px;
+	    text-align: left;
+	 }
+
+
   
   & > thead > tr > th, 
   & > thead > tr > td, 
@@ -336,7 +377,9 @@ background: #eee;
   & > tfoot > tr > th, 
   & > tfoot > tr > td {
     border-top: none;
-    padding: 30px;
+    padding: 15px;
+    vertical-align: middle;
+     text-align: center;
   }
 
   & > thead > tr > th, 
@@ -346,9 +389,27 @@ background: #eee;
     padding-bottom: 10px;
     color: $brand-dark;
   }
+
+
+  tbody tr:nth-child(even) {
+   background-color: darken($table-bg-hover, 5%);
+}
+
+ 
+
+
 }
 
 
+.table-sponge.table-sponge-with-icon{
+	tr > td:first-child{ 
+	    width: 70px;
+ 	 }
+ 	 tr > td:nth-child(2){ 
+	    text-align: left;
+ 	 }
+}
+ 
 
 
 
@@ -363,14 +424,18 @@ background: #eee;
 		background-attachment: fixed; 
 		position: relative; 
 
+ 
+	    .block-search-component{
 
-    .block-search-component{
+	      .form-search{
+	          margin-bottom: 20px;
+	          .fa{ right: 20px;
+					left: inherit;
+					top: 10px;}
+	          .input-search { padding: 20px}
+	        }
 
-      .form-search{
-          margin-bottom: 20px;
-        }
-
-    }
+	    }
 
 
 	}
