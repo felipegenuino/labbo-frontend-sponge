@@ -8502,31 +8502,31 @@ button.close {
 }
 /* line 104, ../sass/componentes/_menu-campaign.scss */
 .menu-filter-campaign .container-filter-campaign-list .filter-campaign-item.papeis {
-  background: #929497;
+  background: #28b9d3;
 }
 /* line 105, ../sass/componentes/_menu-campaign.scss */
 .menu-filter-campaign .container-filter-campaign-list .filter-campaign-item.plastico {
-  background: #0DBED3;
+  background: #e8474b;
 }
 /* line 106, ../sass/componentes/_menu-campaign.scss */
 .menu-filter-campaign .container-filter-campaign-list .filter-campaign-item.vidro {
-  background: #00A69C;
+  background: #3aa935;
 }
 /* line 107, ../sass/componentes/_menu-campaign.scss */
 .menu-filter-campaign .container-filter-campaign-list .filter-campaign-item.metais {
-  background: #1C7D6A;
+  background: #ffcc00;
 }
 /* line 108, ../sass/componentes/_menu-campaign.scss */
 .menu-filter-campaign .container-filter-campaign-list .filter-campaign-item.eletronicos {
-  background: #36B349;
+  background: #9d9c9c;
 }
 /* line 109, ../sass/componentes/_menu-campaign.scss */
 .menu-filter-campaign .container-filter-campaign-list .filter-campaign-item.perigosos {
-  background: #B4BB1E;
+  background: #ee7a00;
 }
 /* line 110, ../sass/componentes/_menu-campaign.scss */
 .menu-filter-campaign .container-filter-campaign-list .filter-campaign-item.outros {
-  background: #EABB00;
+  background: #c1bb75;
 }
 /* line 114, ../sass/componentes/_menu-campaign.scss */
 .menu-filter-campaign .container-filter-campaign-list .filter-campaign-item a {
@@ -10661,23 +10661,28 @@ fieldset[disabled] .datepicker table tr td span.active.disabled:hover.active {
   background-image: url("../images/icons/icon-other.png");
 }
 
-/* line 38, ../sass/componentes/_icones.scss */
+/* line 40, ../sass/componentes/_icones.scss */
+.icon-livros-e-revistas {
+  background-image: url("../images/icons/icon-livros-e-revistas.png");
+}
+
+/* line 43, ../sass/componentes/_icones.scss */
 .icon-avatar-ana {
   background-image: url("../images/icons/icon-avatar-ana.png");
 }
 
-/* line 41, ../sass/componentes/_icones.scss */
+/* line 46, ../sass/componentes/_icones.scss */
 .social-media-campaign {
   margin: 0;
   padding: 0;
   float: left;
 }
-/* line 46, ../sass/componentes/_icones.scss */
+/* line 51, ../sass/componentes/_icones.scss */
 .social-media-campaign li {
   display: inline-block;
   margin-top: 5px;
 }
-/* line 47, ../sass/componentes/_icones.scss */
+/* line 52, ../sass/componentes/_icones.scss */
 .social-media-campaign .icon-social-campaign {
   padding: 0;
   width: 25px;
@@ -10696,28 +10701,28 @@ fieldset[disabled] .datepicker table tr td span.active.disabled:hover.active {
   -o-transition: all 0.5s ease;
   transition: all 0.5s ease;
 }
-/* line 61, ../sass/componentes/_icones.scss */
+/* line 66, ../sass/componentes/_icones.scss */
 .social-media-campaign .icon-social-campaign:hover {
   opacity: 1;
   filter: alpha(opacity=100);
 }
-/* line 63, ../sass/componentes/_icones.scss */
+/* line 68, ../sass/componentes/_icones.scss */
 .social-media-campaign .icon-social-twitter {
   background-image: url("../images/icons/icon-social-twitter.png");
 }
-/* line 64, ../sass/componentes/_icones.scss */
+/* line 69, ../sass/componentes/_icones.scss */
 .social-media-campaign .icon-social-linkedin {
   background-image: url("../images/icons/icon-social-linkedin.png");
 }
-/* line 65, ../sass/componentes/_icones.scss */
+/* line 70, ../sass/componentes/_icones.scss */
 .social-media-campaign .icon-social-youtube {
   background-image: url("../images/icons/icon-social-youtube.png");
 }
-/* line 66, ../sass/componentes/_icones.scss */
+/* line 71, ../sass/componentes/_icones.scss */
 .social-media-campaign .icon-social-instagram {
   background-image: url("../images/icons/icon-social-instagram.png");
 }
-/* line 67, ../sass/componentes/_icones.scss */
+/* line 72, ../sass/componentes/_icones.scss */
 .social-media-campaign .icon-social-facebook {
   background-image: url("../images/icons/icon-social-facebook.png");
 }
