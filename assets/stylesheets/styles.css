@@ -8556,35 +8556,35 @@ button.close {
 }
 /* line 148, ../sass/componentes/_menu-campaign.scss */
 .menu-filter-campaign .filter-campaign-content-item .box-item {
-  padding: 10px 0;
+  padding: 20px 0 10px;
   border: 1px solid transparent;
   height: 140px;
   width: 14.286%;
   display: inline-block;
   float: left;
 }
-/* line 158, ../sass/componentes/_menu-campaign.scss */
+/* line 157, ../sass/componentes/_menu-campaign.scss */
 .menu-filter-campaign .filter-campaign-content-item .box-item:hover {
   border-color: #ccc;
   background: #eee;
   cursor: pointer;
 }
-/* line 164, ../sass/componentes/_menu-campaign.scss */
+/* line 163, ../sass/componentes/_menu-campaign.scss */
 .menu-filter-campaign .filter-campaign-content-item .box-item.active, .menu-filter-campaign .filter-campaign-content-item .box-item:active {
   border-color: #ccc;
   background: #ddd;
   cursor: pointer;
 }
-/* line 172, ../sass/componentes/_menu-campaign.scss */
+/* line 171, ../sass/componentes/_menu-campaign.scss */
 .menu-filter-campaign .filter-campaign-content-item .box-item .icon {
   margin-right: 0px;
 }
-/* line 177, ../sass/componentes/_menu-campaign.scss */
+/* line 176, ../sass/componentes/_menu-campaign.scss */
 .menu-filter-campaign .filter-campaign-content-item h4 {
   color: #6db152;
   font-size: 14px;
 }
-/* line 183, ../sass/componentes/_menu-campaign.scss */
+/* line 182, ../sass/componentes/_menu-campaign.scss */
 .menu-filter-campaign .filter-campaign-content-item p {
   font-size: 13px;
   font-style: italic;

@@ -146,13 +146,12 @@ border: none;
 			&>div{padding: 0}
 
 			.box-item{
-					padding: 10px 0;
+					padding: 20px 0 10px;
 					border: 1px solid transparent;
 					height: 140px;
 					width: 14.286%;
 					display: inline-block;
 					float: left;
-					//col6 width: 16.6666666667%;
 					@extend .transition;
 
 				&:hover{ 
