@@ -43,55 +43,108 @@
 
 
 		//Papeis
-		.icon-livros-e-revistas{ background-image: url("../images/icons/icon-livros-e-revistas.png");}
-		.icon-cartolina{ background-image: url("../images/icons/icon-cartolina.png");}
-		.icon-embalagens-de-papel{background-image: url("../images/icons/icon-embalagens-de-papel.png");}
-		.icon-papel-de-embalagem{background-image: url("../images/icons/icon-papel-de-embalagem.png");}
-		.icon-papel-de-escritorio{background-image: url("../images/icons/icon-papel-de-escritorio.png");}
-		.icon-papelao{background-image: url("../images/icons/icon-papelao.png");}
-		.icon-jornal{background-image: url("../images/icons/icon-jornal.png");}
+				.icon-livros-e-revistas{ background-image: url("../images/icons/icon-livros-e-revistas.png");}
+				.icon-cartolina{ background-image: url("../images/icons/icon-cartolina.png");}
+				.icon-embalagens-de-papel{background-image: url("../images/icons/icon-embalagens-de-papel.png");}
+				.icon-papel-de-embalagem{background-image: url("../images/icons/icon-papel-de-embalagem.png");}
+				.icon-papel-de-escritorio{background-image: url("../images/icons/icon-papel-de-escritorio.png");}
+				.icon-papelao{background-image: url("../images/icons/icon-papelao.png");}
+				.icon-jornal{background-image: url("../images/icons/icon-jornal.png");}
 
 		
 		//plasticos
-		.icon-garrafas-pet{background-image: url("../images/icons/icon-garrafas-pet.png");}
-		.icon-garrafas-de-detergente-pead{background-image: url("../images/icons/icon-garrafas-de-detergente-pead.png");}
-		.icon-sacolas-de-supermercado-pead{background-image: url("../images/icons/icon-sacolas-de-supermercado-pead.png");}
-		.icon-potes-pead{background-image: url("../images/icons/icon-potes-pead.png");}
-		.icon-utilidades-domesticas-pp{background-image: url("../images/icons/icon-utilidades-domesticas-pp.png");}
-		.icon-bombonas-pead{background-image: url("../images/icons/icon-bombonas-pead.png");}
-		.icon-pecas-termicas-pead{background-image: url("../images/icons/icon-pecas-termicas-pead.png");}
-		.icon-embalagem-de-agua-mineral-pvc{background-image: url("../images/icons/icon-embalagem-de-agua-mineral-pvc.png");}
-		.icon-embalagem-de-oleos-comestiveis-pvc{background-image: url("../images/icons/icon-embalagem-de-oleos-comestiveis-pvc.png");}
-		.icon-tubos-pvc{background-image: url("../images/icons/icon-tubos-pvc.png");}
-		.icon-esquadrias-pvc{background-image: url("../images/icons/icon-esquadrias-pvc.png");}
-		.icon-saco-de-leite-pebd{background-image: url("../images/icons/icon-saco-de-leite-pebd.png");}
-		.icon-saco-de-iogurte-pebd{background-image: url("../images/icons/icon-saco-de-iogurte-pebd.png");}
-		.icon-saco-de-lixo-pebd{background-image: url("../images/icons/icon-saco-de-lixo-pebd.png");}
-		.icon-saco-de-muda-de-plantas-pebd{background-image: url("../images/icons/icon-saco-de-muda-de-plantas-pebd.png");}
-		.icon-pecas-termicas-pp{background-image: url("../images/icons/icon-pecas-termicas-pp.png");}
-		.icon-utilidades-domesticas-pp{background-image: url("../images/icons/icon-utilidades-domesticas-pp.png");}
-		.icon-fios-e-cabos-pp{background-image: url("../images/icons/icon-fios-e-cabos-pp.png");}
-		.icon-potes-pp{background-image: url("../images/icons/icon-potes-pp.png");}
-		.icon-potes-ps{background-image: url("../images/icons/icon-potes-ps.png");}
-		.icon-aparelhos-de-barbear-descartaveis-ps{background-image: url("../images/icons/icon-aparelhos-de-barbear-descartaveis-ps.png");}
-		.icon-cartuchos-de-impressoras-ps{background-image: url("../images/icons/icon-cartuchos-de-impressoras-ps.png");}
-		.icon-calcados{background-image: url("../images/icons/icon-calcados.png");}
-		.icon-cds{background-image: url("../images/icons/icon-cds.png");}
+				.icon-garrafas-pet{background-image: url("../images/icons/icon-garrafas-pet.png");}
+				.icon-garrafas-de-detergente-pead{background-image: url("../images/icons/icon-garrafas-de-detergente-pead.png");}
+				.icon-sacolas-de-supermercado-pead{background-image: url("../images/icons/icon-sacolas-de-supermercado-pead.png");}
+				.icon-potes-pead{background-image: url("../images/icons/icon-potes-pead.png");}
+				.icon-utilidades-domesticas-pp{background-image: url("../images/icons/icon-utilidades-domesticas-pp.png");}
+				.icon-bombonas-pead{background-image: url("../images/icons/icon-bombonas-pead.png");}
+				.icon-pecas-termicas-pead{background-image: url("../images/icons/icon-pecas-termicas-pead.png");}
+				.icon-embalagem-de-agua-mineral-pvc{background-image: url("../images/icons/icon-embalagem-de-agua-mineral-pvc.png");}
+				.icon-embalagem-de-oleos-comestiveis-pvc{background-image: url("../images/icons/icon-embalagem-de-oleos-comestiveis-pvc.png");}
+				.icon-tubos-pvc{background-image: url("../images/icons/icon-tubos-pvc.png");}
+				.icon-esquadrias-pvc{background-image: url("../images/icons/icon-esquadrias-pvc.png");}
+				.icon-saco-de-leite-pebd{background-image: url("../images/icons/icon-saco-de-leite-pebd.png");}
+				.icon-saco-de-iogurte-pebd{background-image: url("../images/icons/icon-saco-de-iogurte-pebd.png");}
+				.icon-saco-de-lixo-pebd{background-image: url("../images/icons/icon-saco-de-lixo-pebd.png");}
+				.icon-saco-de-muda-de-plantas-pebd{background-image: url("../images/icons/icon-saco-de-muda-de-plantas-pebd.png");}
+				.icon-pecas-termicas-pp{background-image: url("../images/icons/icon-pecas-termicas-pp.png");}
+				.icon-utilidades-domesticas-pp{background-image: url("../images/icons/icon-utilidades-domesticas-pp.png");}
+				.icon-fios-e-cabos-pp{background-image: url("../images/icons/icon-fios-e-cabos-pp.png");}
+				.icon-potes-pp{background-image: url("../images/icons/icon-potes-pp.png");}
+				.icon-potes-ps{background-image: url("../images/icons/icon-potes-ps.png");}
+				.icon-aparelhos-de-barbear-descartaveis-ps{background-image: url("../images/icons/icon-aparelhos-de-barbear-descartaveis-ps.png");}
+				.icon-cartuchos-de-impressoras-ps{background-image: url("../images/icons/icon-cartuchos-de-impressoras-ps.png");}
+				.icon-calcados{background-image: url("../images/icons/icon-calcados.png");}
+				.icon-cds{background-image: url("../images/icons/icon-cds.png");}
 
 		 
  		 //Vidros
-		.icon-garafas{background-image: url("../images/icons/icon-garafas.png");}
-		.icon-paineis-de-vidro{background-image: url("../images/icons/icon-paineis-de-vidro.png");}
-		.icon-lampadas{background-image: url("../images/icons/icon-lampadas.png");}
-		.icon-espelhos{background-image: url("../images/icons/icon-espelhos.png");}
- 
-		.icon-embalagem-longa-vida{background-image: url("../images/icons/icon-embalagem-longa-vida.png");}
-		.icon-maquinas{background-image: url("../images/icons/icon-maquinas.png");}
-		.icon-latas{background-image: url("../images/icons/icon-latas.png");}
-		.icon-ferramentas{background-image: url("../images/icons/icon-ferramentas.png");}
-		.icon-panelas{background-image: url("../images/icons/icon-panelas.png");}
-		.icon-caldeiras{background-image: url("../images/icons/icon-caldeiras.png");}
+				.icon-garafas{background-image: url("../images/icons/icon-garafas.png");}
+				.icon-paineis-de-vidro{background-image: url("../images/icons/icon-paineis-de-vidro.png");}
+				.icon-lampadas{background-image: url("../images/icons/icon-lampadas.png");}
+				.icon-espelhos{background-image: url("../images/icons/icon-espelhos.png");}
+ 		 
+ 		 
+ 		 //Metais
+				.icon-embalagem-longa-vida{background-image: url("../images/icons/icon-embalagem-longa-vida.png");}
+				.icon-maquinas{background-image: url("../images/icons/icon-maquinas.png");}
+				.icon-latas{background-image: url("../images/icons/icon-latas.png");}
+				.icon-ferramentas{background-image: url("../images/icons/icon-ferramentas.png");}
+				.icon-panelas{background-image: url("../images/icons/icon-panelas.png");}
+				.icon-caldeiras{background-image: url("../images/icons/icon-caldeiras.png");}
 
+
+		//Eletronicos
+				.icon-televisao{background-image: url("../images/icons/icon-televisao.png");}
+				.icon-celulares{background-image: url("../images/icons/icon-celulares.png");}
+				.icon-computadores{background-image: url("../images/icons/icon-computadores.png");}
+				.icon-tablets{background-image: url("../images/icons/icon-tablets.png");}
+				.icon-reprodutores-de-video{background-image: url("../images/icons/icon-reprodutores-de-video.png");}
+				.icon-equipamentos-de-acesso-web{background-image: url("../images/icons/icon-equipamentos-de-acesso-web.png");}
+				.icon-fogao{background-image: url("../images/icons/icon-fogao.png");}
+				.icon-exaustores{background-image: url("../images/icons/icon-exaustores.png");}
+				.icon-geladeiras{background-image: url("../images/icons/icon-geladeiras.png");}
+				.icon-freezer{background-image: url("../images/icons/icon-freezer.png");}
+				.icon-ar-condicionado{background-image: url("../images/icons/icon-ar-condicionado.png");}
+				.icon-telefones{background-image: url("../images/icons/icon-telefones.png");}
+	
+
+		//perigosos
+				.icon-residuo-hospitalar{background-image: url("../images/icons/icon-residuo-hospitalar.png");}
+				.icon-baterias{background-image: url("../images/icons/icon-baterias.png");}
+				.icon-pilhas{background-image: url("../images/icons/icon-pilhas.png");}
+				.icon-residuos-radioativos{background-image: url("../images/icons/icon-residuos-radioativos.png");}
+				.icon-materiais-toxicos{background-image: url("../images/icons/icon-materiais-toxicos.png");}
+				.icon-bolsa-de-soro-pvc{background-image: url("../images/icons/icon-bolsa-de-soro-pvc.png");}
+				.icon-bolsa-de-sangue-pvc{background-image: url("../images/icons/icon-bolsa-de-sangue-pvc.png");}
+
+		 
+
+		//outros
+				.icon-legumes{background-image: url("../images/icons/icon-legumes.png");}
+				.icon-verduras{background-image: url("../images/icons/icon-verduras.png");}
+				.icon-frutas{background-image: url("../images/icons/icon-frutas.png");}
+				.icon-embutidos{background-image: url("../images/icons/icon-embutidos.png");}
+				.icon-leites-e-derivados{background-image: url("../images/icons/icon-leites-e-derivados.png");}
+				.icon-pneus{background-image: url("../images/icons/icon-pneus.png");}
+				.icon-carnes{background-image: url("../images/icons/icon-carnes.png");}
+				.icon-oleos{background-image: url("../images/icons/icon-oleos.png");}
+				.icon-madeira{background-image: url("../images/icons/icon-madeira.png");}
+				.icon-construcao-demolicao{background-image: url("../images/icons/icon-construcao-demolicao.png");}
+				
+
+
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 
 
 		   
