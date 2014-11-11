@@ -81,6 +81,7 @@ border: none;
 				background: #999;
 				font-size: 18px;
 				cursor: pointer;
+				 @extend .transition;
 
         .dropdown-menu{
           width: 100%;
@@ -146,21 +147,30 @@ border: none;
 			&>div{padding: 0}
 
 			.box-item{
-				padding: 10px 0;
-				border: 1px solid transparent;
-				height: 140px;
+					padding: 10px 0;
+					border: 1px solid transparent;
+					height: 140px;
+					width: 14.286%;
+					display: inline-block;
+					float: left;
+					//col6 width: 16.6666666667%;
+					@extend .transition;
+
 				&.active,&:hover{ 
 					border-color: #ccc;
 					background: #eee;
 					cursor: pointer;
+				}
+
+				.icon{
+					 margin-right: 0px; 
 				}
 			}
 
 			h4{ 
 				color: $brand-default;
 				font-size: 14px;
-				font-weight: 100;
-
+ 
 			}
 
 			p{

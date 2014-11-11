@@ -9,11 +9,7 @@
 section.simple-group{ padding: 120px 0}
 
 
-//Somente por causa do  nav fixed
-body{
-	//padding-top: 50px;
-}
-s
+ 
 
 
 .hr-line {
@@ -257,8 +253,7 @@ s
  
 body{
   @extend .pattern-primary; 
-  @include single-text-shadow;
-}
+ }
 
  
 /*'Tipografy
