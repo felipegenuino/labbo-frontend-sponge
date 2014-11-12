@@ -11118,29 +11118,34 @@ fieldset[disabled] .datepicker table tr td span.active.disabled:hover.active {
   width: 370px;
 }
 
+/* line 37, ../sass/componentes/_modal.scss */
+.ModalSelectProduct .modal-content {
+  background-color: #fff;
+}
+
 /* ------- MODAL LOGIN ------- */
-/* line 39, ../sass/componentes/_modal.scss */
+/* line 52, ../sass/componentes/_modal.scss */
 .modal-default .modal-dialog .modal-content .modal-body {
   padding: 15px 40px;
 }
-/* line 51, ../sass/componentes/_modal.scss */
+/* line 64, ../sass/componentes/_modal.scss */
 .modal-default .inverse {
   color: #fff;
 }
-/* line 52, ../sass/componentes/_modal.scss */
+/* line 65, ../sass/componentes/_modal.scss */
 .modal-default .inverse a {
   color: #fff;
 }
-/* line 56, ../sass/componentes/_modal.scss */
+/* line 69, ../sass/componentes/_modal.scss */
 .modal-default .brand-modal-box {
   padding: 40px 0 0;
 }
-/* line 57, ../sass/componentes/_modal.scss */
+/* line 70, ../sass/componentes/_modal.scss */
 .modal-default .brand-modal {
   margin: 0 auto;
 }
 
-/* line 65, ../sass/componentes/_modal.scss */
+/* line 78, ../sass/componentes/_modal.scss */
 .modal-login .modal-dialog {
   width: 480px;
 }
