@@ -12122,3 +12122,9 @@ button.close:hover, button.close:focus {
   opacity: 0.5;
   filter: alpha(opacity=50);
 }
+
+/* line 888, ../sass/_sponger.scss */
+.grupo-formas-de-pagamento,
+.grupo-quero-comprar-pontos {
+  padding: 10px 0;
+}
