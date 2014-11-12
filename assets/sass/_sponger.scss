@@ -408,7 +408,7 @@ background: #eee;
  }
  .alert{
  	@include border-radius(0); 
- 	padding: 5px !important;
+ 	 
 
  	.close{
  		margin-right: 10px;
@@ -422,8 +422,8 @@ background: #eee;
  	background: $brand-dark;
 	border-color: darken($brand-dark, 5%);
 	color: #eee;
-	padding: 0 !important;
-
+	text-align: center;
+ 
 .protocol-title{ 
  	display: block;
 
