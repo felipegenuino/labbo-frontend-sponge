@@ -1941,7 +1941,22 @@ teste
 
 
 
-<article class="page-frontend page-minhas-campanhas">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<article class="page-frontend page-comprar-cartao">
       <div class="row">
             <div class="col-sm-12">
 
@@ -1961,107 +1976,190 @@ teste
                   <span class="number"> 0,10</span>  
                 </span>  
               </h1>
+
         </div><!--//col-sm-12 -->
 
 
 
-<form class="form-horizontal form-contato" role="form">
+        <div class="col-sm-12">
+<form class="form-horizontal" role="form">
 
 
-<legend>Dados do cartão</legend>
-<div class="form-group">
-  <label for="inputNumberCard" class="col-sm-2 control-label">*Nº do Cartão: </label>
-  <div class="col-sm-10">
-    <input type="number" class="form-control" id="inputNumberCard" placeholder="Insira o número do seu cartão" required>
-  </div>
-</div>
 
-<div class="form-group">
-  <label for="inputNumberSteps" class="col-sm-2 control-label">*Nº de Parcelas:</label>
-  <div class="col-sm-10">
-    <select class="form-control">
-                  <option>Nº de Parcelas</option>
-                  <option value="01">01</option>
-                  <option value="02">02</option>
-                  <option value="03">03</option>
-                  <option value="04">04</option>
-                  <option value="05">05</option>
-                  <option value="06">06</option>
-                  <option value="07">07</option>
-                  <option value="08">08</option>
-                  <option value="09">09</option>
-                  <option value="10">10</option>
-                  <option value="11">11</option>
-                  <option value="12">12</option>
-                </select>
-  </div>
-</div>
+<fieldset>
+    <legend>Quero comprar</legend>
+    <div class="row">
+              <div class="col-lg-1 col-sm-2"> 
+                            <span class="icon-medium icon icon-number-1"> </span> 
+              </div> <!--//col-lg-1 col-md-2 -->
 
-<div class="form-group">
-  <label for="inputTelefone" class="col-sm-2 control-label">*Seu Nome:</label>
-  <div class="col-sm-10">
-    <input type="text" class="form-control" id="inputName" placeholder="Insira seu nome" required>
-  </div>
-</div>
+              <div class="col-lg-11 col-sm-10">
+                          <div class="btn-group" data-toggle="buttons">
+                              <button type="button" class="btn btn-default disabled">Quero comprar</button>
+                                    <label class="btn btn-primary active">  <input type="radio" name="options" id="option1" autocomplete="off" checked> 5.000 </label>
+                                    <label class="btn btn-primary">         <input type="radio" name="options" id="option2" autocomplete="off"> 10.000  </label>
+                                    <label class="btn btn-primary">         <input type="radio" name="options" id="option3" autocomplete="off"> 15.000  </label>
+                               <button type="button" class="btn btn-default disabled">Pontos</button>
+                          </div> <!-- //btn-group-->
+                          
+                           <span class="btn disabled">ou</span>
 
+                          <div class="btn-group">
+                              <div class="input-group" style="width:150px;">
+                                 <input type="number" class="form-control" id="inputQuantidadePontos" placeholder="000" >  
+                                 <span class="input-group-addon">Pontos</span>
+                              </div>
+                          </div> <!-- //btn-group -->
 
-<div class="row">
-        <div class="col-sm-6">
-            <div class="form-group">
-              <label for="inputVencimentoCard" class="col-sm-4 control-label">*Vencimento:</label>
-              <div class="col-sm-8">
-                 <select class="form-control">
-                  <option>Mês</option>
-                  <option value="01">Janeiro</option>
-                  <option value="02">Fevereiro</option>
-                  <option value="03">Março</option>
-                  <option value="04">Abril</option>
-                  <option value="05">Maio</option>
-                  <option value="06">Junho</option>
-                  <option value="07">Julho</option>
-                  <option value="08">Agosto</option>
-                  <option value="09">Setembro</option>
-                  <option value="10">Outubro</option>
-                  <option value="11">Novembro</option>
-                  <option value="12">Dezembro</option>
-                </select>
-              </div>
-            </div>
-      </div> <!-- //col-xs-6 -->
-
-      <div class="col-sm-6">
-            <div class="form-group">
-              <div class="col-sm-8">
-                 <select class="form-control">
-                  <option>Ano</option>
-                  <option value="01">2015</option>
-                  <option value="02">2014</option>
-                  <option value="03">2013</option>
-                  <option value="04">2012</option>
-                  <option value="05">2011</option>
-                  <option value="06">2010</option>
-
-                </select>
-              </div>
-            </div>
-      </div> <!-- //col-xs-6 -->
-</div> <!-- //row -->
+                            <div class="valor-total-component">
+                                <span class="title">Valor a pagar:</span>
+                                <span class="valor-group"> 
+                                    <span class="moeda">R$</span>
+                                    <span class="valor">500,00</span>
+                                </span> <!--//value-group -->
+                            </div> <!-- //valor-total-component-->
+              </div> <!--//col-lg-11 col-md-10 -->
+    </div> <!-- //row -->
+</fieldset>
 
 
 
 
-   
+
+<fieldset>
+    <legend>Forma de pagamento</legend>
+       <div class="row">
+            <div class="col-lg-1 col-sm-2">
+                    <span class="icon-medium icon icon-number-2"> </span>
+            </div> <!--//col-sm-2 -->
+
+            <div class="col-lg-11 col-sm-10">
+                    <label class="radio-inline"> <input type="radio" name="paymentOptions" id="paymentRadio1" value="paymentOption1"> <span class="icon-cartao icon-payment-visa active"> </span> </label>
+                    <label class="radio-inline"> <input type="radio" name="paymentOptions" id="paymentRadio2" value="paymentOption2"> <span class="icon-cartao icon-payment-mastercard"> </span>  </label>
+                    <label class="radio-inline"> <input type="radio" name="paymentOptions" id="paymentRadio3" value="paymentOption3"> <span class="icon-cartao icon-payment-paypal"> </span>  </label>
+                    <label class="radio-inline"> <input type="radio" name="paymentOptions" id="paymentRadio4" value="paymentOption4"> <span class="icon-cartao icon-payment-boleto"> </span>  </label>
+           </div> <!--//col-sm-10 -->
+      </div> <!-- //row -->
+</fieldset>
 
 
 
-          <div class="form-group">
-              <div class="col-sm-12">
-                  <span class="mask-form-button">
-                    <button type="submit" class="btn btn-primary pull-right submit-form">Finalizar</button>
-                  </span>
-              </div>
-            </div> <!-- //form-group-->
-</form>
+
+
+<fieldset>
+  <legend>Dados do cartão</legend>
+    <div class="row"> 
+       <div class="col-lg-1 col-sm-2">
+               <span class="icon-medium icon icon-number-3"> </span>
+        </div> <!--//col-lg-1 col-md-2 -->
+
+
+                   
+      <div class="col-lg-11 col-sm-10">
+            <div class="row"> 
+                  <div class="col-md-8">
+
+                        <div class="form-group">
+                              <label for="inputPaymentNumberCard" class="col-sm-2 control-label">*Nº do Cartão: </label>
+                              <div class="col-sm-10">
+                                <input type="text" class="form-control" id="inputPaymentNumberCard" placeholder="Insira o número do seu cartão" required>
+                              </div><!-- // col-sm-10 -->
+                        </div><!-- // form-group -->
+
+                        <div class="form-group">
+                              <label for="inputPaymentNumberSteps" class="col-sm-2 control-label">*Nº de Parcelas:</label>
+                              <div class="col-sm-10">
+                                <select class="form-control">
+                                              <option>Nº de Parcelas</option>
+                                              <option value="01">01</option>
+                                              <option value="02">02</option>
+                                              <option value="03">03</option>
+                                              <option value="04">04</option>
+                                              <option value="05">05</option>
+                                              <option value="06">06</option>
+                                              <option value="07">07</option>
+                                              <option value="08">08</option>
+                                              <option value="09">09</option>
+                                              <option value="10">10</option>
+                                              <option value="11">11</option>
+                                              <option value="12">12</option>
+                                </select>
+                              </div><!-- // col-sm-10 -->
+                        </div> <!-- // form-group -->
+
+                        <div class="form-group">
+                            <label for="inputPaymentName" class="col-sm-2 control-label">*Seu Nome:</label>
+                            <div class="col-sm-10">
+                              <input type="text" class="form-control" id="inputPaymentName" placeholder="Insira seu nome" required>
+                            </div>
+                        </div> <!-- // form-group -->
+
+                        <div class="row">
+                                      <div class="col-sm-6">
+                                          <div class="form-group">
+                                            <label for="inputPaymentPayCard" class="col-sm-4 control-label">*Vencimento:</label>
+                                            <div class="col-sm-8">
+                                               <select class="form-control">
+                                                <option>Mês</option>
+                                                <option value="01">Janeiro</option>
+                                                <option value="02">Fevereiro</option>
+                                                <option value="03">Março</option>
+                                                <option value="04">Abril</option>
+                                                <option value="05">Maio</option>
+                                                <option value="06">Junho</option>
+                                                <option value="07">Julho</option>
+                                                <option value="08">Agosto</option>
+                                                <option value="09">Setembro</option>
+                                                <option value="10">Outubro</option>
+                                                <option value="11">Novembro</option>
+                                                <option value="12">Dezembro</option>
+                                              </select>
+                                            </div>
+                                          </div>
+                                    </div> <!-- //col-xs-6 -->
+
+                                    <div class="col-sm-6">
+                                          <div class="form-group">
+                                            <div class="col-sm-8">
+                                               <select class="form-control">
+                                                <option>Ano</option>
+                                                <option value="01">2015</option>
+                                                <option value="02">2014</option>
+                                                <option value="03">2013</option>
+                                                <option value="04">2012</option>
+                                                <option value="05">2011</option>
+                                                <option value="06">2010</option>
+
+                                              </select>
+                                            </div>
+                                          </div>
+                                    </div> <!-- //col-xs-6 -->
+                        </div> <!-- //row --> 
+
+                     </div> <!--//col-md-8 -->
+              </div> <!--//row -->
+
+
+           </div> <!--//col-sm-10 -->
+      </div><!--//row-->
+ 
+</fieldset>
+
+
+  <div class="form-group">
+                  <div class="col-sm-12">
+                      <span class="mask-form-button">
+                        <button type="submit" class="btn btn-primary pull-right submit-form">Finalizar</button>
+                      </span>
+                  </div>
+                </div> <!-- //form-group-->
+
+
+
+ </form>
+
+        </div><!--//col-sm-12 -->
+
 
 
       </div><!--//row-->

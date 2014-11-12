@@ -11036,65 +11036,54 @@ fieldset[disabled] .datepicker table tr td span.active.disabled:hover.active {
   background-image: url("../images/icons/icon-construcao-demolicao.png");
 }
 
-/* line 157, ../sass/componentes/_icones.scss */
+/* line 141, ../sass/componentes/_icones.scss */
 .icon-avatar-ana {
   background-image: url("../images/icons/icon-avatar-ana.png");
 }
 
-/* line 160, ../sass/componentes/_icones.scss */
-.social-media-campaign {
-  margin: 0;
-  padding: 0;
-  float: left;
-}
-/* line 165, ../sass/componentes/_icones.scss */
-.social-media-campaign li {
-  display: inline-block;
-  margin-top: 5px;
-}
-/* line 166, ../sass/componentes/_icones.scss */
-.social-media-campaign .icon-social-campaign {
-  padding: 0;
-  width: 25px;
-  height: 25px;
-  float: left;
-  border: 1px solid #ccc;
-  background-repeat: no-repeat;
-  background-position: center center;
-  margin-right: 5px;
-  -moz-border-radius: 50%;
-  -webkit-border-radius: 50%;
-  border-radius: 50%;
-  opacity: 0.7;
-  filter: alpha(opacity=70);
-  -webkit-transition: all 0.5s ease;
-  -o-transition: all 0.5s ease;
-  transition: all 0.5s ease;
-}
-/* line 180, ../sass/componentes/_icones.scss */
-.social-media-campaign .icon-social-campaign:hover {
-  opacity: 1;
-  filter: alpha(opacity=100);
-}
-/* line 182, ../sass/componentes/_icones.scss */
-.social-media-campaign .icon-social-twitter {
+/* line 145, ../sass/componentes/_icones.scss */
+.icon-social-twitter {
   background-image: url("../images/icons/icon-social-twitter.png");
 }
-/* line 183, ../sass/componentes/_icones.scss */
-.social-media-campaign .icon-social-linkedin {
+
+/* line 146, ../sass/componentes/_icones.scss */
+.icon-social-linkedin {
   background-image: url("../images/icons/icon-social-linkedin.png");
 }
-/* line 184, ../sass/componentes/_icones.scss */
-.social-media-campaign .icon-social-youtube {
+
+/* line 147, ../sass/componentes/_icones.scss */
+.icon-social-youtube {
   background-image: url("../images/icons/icon-social-youtube.png");
 }
-/* line 185, ../sass/componentes/_icones.scss */
-.social-media-campaign .icon-social-instagram {
+
+/* line 148, ../sass/componentes/_icones.scss */
+.icon-social-instagram {
   background-image: url("../images/icons/icon-social-instagram.png");
 }
-/* line 186, ../sass/componentes/_icones.scss */
-.social-media-campaign .icon-social-facebook {
+
+/* line 149, ../sass/componentes/_icones.scss */
+.icon-social-facebook {
   background-image: url("../images/icons/icon-social-facebook.png");
+}
+
+/* line 159, ../sass/componentes/_icones.scss */
+.icon-payment-visa {
+  background-image: url("../images/icons/icon-payment-visa.jpg");
+}
+
+/* line 160, ../sass/componentes/_icones.scss */
+.icon-payment-mastercard {
+  background-image: url("../images/icons/icon-payment-mastercard.jpg");
+}
+
+/* line 161, ../sass/componentes/_icones.scss */
+.icon-payment-paypal {
+  background-image: url("../images/icons/icon-payment-paypal.jpg");
+}
+
+/* line 162, ../sass/componentes/_icones.scss */
+.icon-payment-boleto {
+  background-image: url("../images/icons/icon-payment-boleto.jpg");
 }
 
 /* ------- MODAL LOGIN ------- */
@@ -11202,19 +11191,19 @@ fieldset[disabled] .datepicker table tr td span.active.disabled:hover.active {
   filter: alpha(opacity=100);
 }
 
-/* line 9, ../sass/_sponger.scss */
+/* line 10, ../sass/_sponger.scss */
 section.simple-group {
   padding: 120px 0;
 }
 
-/* line 15, ../sass/_sponger.scss */
+/* line 16, ../sass/_sponger.scss */
 .hr-line {
   margin: 30px 0;
   display: inline-block;
   width: 100%;
 }
 
-/* line 22, ../sass/_sponger.scss */
+/* line 23, ../sass/_sponger.scss */
 .hr-space-front-line {
   margin: 200px 0;
   display: inline-block;
@@ -11222,7 +11211,7 @@ section.simple-group {
   border-top: 1px solid #ccc;
 }
 
-/* line 33, ../sass/_sponger.scss */
+/* line 34, ../sass/_sponger.scss */
 .hide-text, .social-media-campaign .icon-social-campaign {
   text-indent: 100%;
   white-space: nowrap;
@@ -11231,7 +11220,7 @@ section.simple-group {
 
 /*'Mixins
 ======================================= */
-/* line 69, ../sass/_sponger.scss */
+/* line 70, ../sass/_sponger.scss */
 .block-campaign,
 .main-menu a,
 .icon,
@@ -11245,7 +11234,7 @@ section.simple-group {
   -o-transition: all 0.5s ease 0s;
 }
 
-/* line 73, ../sass/_sponger.scss */
+/* line 74, ../sass/_sponger.scss */
 .no-transition {
   transition: none 0s ease 0s;
   -ms-transition: none 0s ease 0s;
@@ -11256,12 +11245,12 @@ section.simple-group {
 
 /*'LISTAS
 =============================================== */
-/* line 81, ../sass/_sponger.scss */
+/* line 82, ../sass/_sponger.scss */
 .lista-ponto-de-coleta {
   list-style: none;
   padding: 0;
 }
-/* line 85, ../sass/_sponger.scss */
+/* line 86, ../sass/_sponger.scss */
 .lista-ponto-de-coleta .item-ponto-de-coleta {
   display: inline-block;
   font: normal normal normal 14px/1 FontAwesome;
@@ -11272,7 +11261,7 @@ section.simple-group {
   width: 100%;
   margin-bottom: 20px;
 }
-/* line 95, ../sass/_sponger.scss */
+/* line 96, ../sass/_sponger.scss */
 .lista-ponto-de-coleta .item-ponto-de-coleta:before {
   content: "\f041";
   float: left;
@@ -11281,27 +11270,27 @@ section.simple-group {
   font-size: 21px;
   color: #345326;
 }
-/* line 104, ../sass/_sponger.scss */
+/* line 105, ../sass/_sponger.scss */
 .lista-ponto-de-coleta .item-ponto-de-coleta:last-child {
   margin-bottom: 0px;
 }
-/* line 108, ../sass/_sponger.scss */
+/* line 109, ../sass/_sponger.scss */
 .lista-ponto-de-coleta .item-ponto-de-coleta strong {
   display: block;
   font-weight: 700;
   font-style: normal;
 }
-/* line 113, ../sass/_sponger.scss */
+/* line 114, ../sass/_sponger.scss */
 .lista-ponto-de-coleta .item-ponto-de-coleta span {
   font-size: 12px;
 }
 
-/* line 121, ../sass/_sponger.scss */
+/* line 122, ../sass/_sponger.scss */
 .list-angle-right {
   list-style: none;
   padding: 0;
 }
-/* line 125, ../sass/_sponger.scss */
+/* line 126, ../sass/_sponger.scss */
 .list-angle-right .item-angle-right {
   display: inline-block;
   font: normal normal normal 14px/1 FontAwesome;
@@ -11313,7 +11302,7 @@ section.simple-group {
   font-size: 14px;
   font-style: italic;
 }
-/* line 136, ../sass/_sponger.scss */
+/* line 137, ../sass/_sponger.scss */
 .list-angle-right .item-angle-right:before {
   content: "\f105";
   float: left;
@@ -11322,38 +11311,38 @@ section.simple-group {
   font-size: 16px;
   color: #345326;
 }
-/* line 145, ../sass/_sponger.scss */
+/* line 146, ../sass/_sponger.scss */
 .list-angle-right .item-angle-right:last-child {
   margin-bottom: 0px;
 }
 
-/* line 155, ../sass/_sponger.scss */
+/* line 156, ../sass/_sponger.scss */
 .element-edit {
   border-top: 1px solid #ccc;
 }
-/* line 157, ../sass/_sponger.scss */
+/* line 158, ../sass/_sponger.scss */
 .element-edit .element-edit-inner {
   text-align: right;
 }
 
-/* line 164, ../sass/_sponger.scss */
+/* line 165, ../sass/_sponger.scss */
 .lista-periodo {
   list-style: none;
   margin: 0;
   float: right;
   padding: 0;
 }
-/* line 170, ../sass/_sponger.scss */
+/* line 171, ../sass/_sponger.scss */
 .lista-periodo .lista-periodo-item {
   display: inline-block;
   margin-right: 5px;
 }
-/* line 174, ../sass/_sponger.scss */
+/* line 175, ../sass/_sponger.scss */
 .lista-periodo .lista-periodo-item .label-buttons {
   padding: 3px 12px;
   vertical-align: middle;
 }
-/* line 179, ../sass/_sponger.scss */
+/* line 180, ../sass/_sponger.scss */
 .lista-periodo .lista-periodo-item .btn {
   padding: 3px 12px;
   font-size: 13px;
@@ -11361,15 +11350,15 @@ section.simple-group {
   border-radius: 10px;
 }
 
-/* line 189, ../sass/_sponger.scss */
+/* line 190, ../sass/_sponger.scss */
 .periodo-calendar-button {
   position: relative;
 }
-/* line 192, ../sass/_sponger.scss */
+/* line 193, ../sass/_sponger.scss */
 .periodo-calendar-button:hover .periodo-calendar-container {
   display: inline-block;
 }
-/* line 194, ../sass/_sponger.scss */
+/* line 195, ../sass/_sponger.scss */
 .periodo-calendar-button .periodo-calendar-container {
   display: none;
   position: absolute;
@@ -11382,7 +11371,7 @@ section.simple-group {
   color: #222;
   padding: 20px;
 }
-/* line 206, ../sass/_sponger.scss */
+/* line 207, ../sass/_sponger.scss */
 .periodo-calendar-button .periodo-calendar-container:before {
   content: "";
   width: 15px;
@@ -11395,61 +11384,61 @@ section.simple-group {
   right: 10px;
 }
 
-/* line 222, ../sass/_sponger.scss */
+/* line 223, ../sass/_sponger.scss */
 .periodo-calendar-container {
   display: none;
 }
 
-/* line 226, ../sass/_sponger.scss */
+/* line 227, ../sass/_sponger.scss */
 .lista-produto-component {
   background: #fff;
   display: inline-block;
   width: 100%;
   border: 1px solid #ccc;
 }
-/* line 232, ../sass/_sponger.scss */
+/* line 233, ../sass/_sponger.scss */
 .lista-produto-component.lista-produto-component-overflow {
   height: 400px;
   overflow-y: scroll;
 }
-/* line 237, ../sass/_sponger.scss */
+/* line 238, ../sass/_sponger.scss */
 .lista-produto-component .title-lista-produtos {
   background: #ecf0e1;
   margin: 0;
   padding: 15px;
   margin-bottom: 20px;
 }
-/* line 243, ../sass/_sponger.scss */
+/* line 244, ../sass/_sponger.scss */
 .lista-produto-component .lista-produtos {
   display: inline-block;
   padding: 0;
   width: 100%;
   list-style: none;
 }
-/* line 249, ../sass/_sponger.scss */
+/* line 250, ../sass/_sponger.scss */
 .lista-produto-component .lista-produtos .item-lista-produtos {
   display: inline-block;
   margin-left: 5%;
   width: 90%;
   border-bottom: 1px solid #ccc;
 }
-/* line 255, ../sass/_sponger.scss */
+/* line 256, ../sass/_sponger.scss */
 .lista-produto-component .lista-produtos .item-lista-produtos:last-child {
   border-bottom: none;
 }
-/* line 259, ../sass/_sponger.scss */
+/* line 260, ../sass/_sponger.scss */
 .lista-produto-component .lista-produtos .item-lista-produtos a {
   display: block;
   padding: 10px;
   font-size: 16px;
   font-weight: 700;
 }
-/* line 265, ../sass/_sponger.scss */
+/* line 266, ../sass/_sponger.scss */
 .lista-produto-component .lista-produtos .item-lista-produtos a:hover {
   background: #dfdfd0;
   text-decoration: none;
 }
-/* line 272, ../sass/_sponger.scss */
+/* line 273, ../sass/_sponger.scss */
 .lista-produto-component .lista-produtos .icon {
   width: 50px;
   height: 50px;
@@ -11458,7 +11447,7 @@ section.simple-group {
 
 /*'BRAND
 =============================================== */
-/* line 288, ../sass/_sponger.scss */
+/* line 289, ../sass/_sponger.scss */
 .brand-primary {
   background-image: url("../images/brand/brand-primary.svg");
   background-size: cover;
@@ -11466,7 +11455,7 @@ section.simple-group {
   display: block;
 }
 
-/* line 289, ../sass/_sponger.scss */
+/* line 290, ../sass/_sponger.scss */
 .brand-secundary {
   background-image: url("../images/brand/brand-secundary.svg");
   background-size: cover;
@@ -11474,28 +11463,28 @@ section.simple-group {
   display: block;
 }
 
-/* line 291, ../sass/_sponger.scss */
+/* line 292, ../sass/_sponger.scss */
 .brand-large {
   width: 280px;
   height: 110px;
   display: block;
 }
 
-/* line 292, ../sass/_sponger.scss */
+/* line 293, ../sass/_sponger.scss */
 .brand-medium {
   width: 179px;
   height: 69px;
   display: block;
 }
 
-/* line 293, ../sass/_sponger.scss */
+/* line 294, ../sass/_sponger.scss */
 .brand-small {
   width: 88px;
   height: 33px;
   display: block;
 }
 
-/* line 295, ../sass/_sponger.scss */
+/* line 296, ../sass/_sponger.scss */
 .brand-labbo {
   width: 40px;
   height: 14px;
@@ -11507,7 +11496,7 @@ section.simple-group {
 
 /*'BACKGROUND
 =============================================== */
-/* line 300, ../sass/_sponger.scss */
+/* line 301, ../sass/_sponger.scss */
 .background-primary {
   background-image: url("../images/background/background-primary.jpg");
   background-size: cover;
@@ -11515,24 +11504,24 @@ section.simple-group {
   background-position: top center;
 }
 
-/* line 309, ../sass/_sponger.scss */
+/* line 310, ../sass/_sponger.scss */
 .pattern-primary, body {
   background-image: url("../images/background/pattern-primary.jpg");
 }
 
-/* line 310, ../sass/_sponger.scss */
+/* line 311, ../sass/_sponger.scss */
 .pattern-secondary, .menu-campanhas {
   background-image: url("../images/background/pattern-secondary.jpg");
 }
 
-/* line 311, ../sass/_sponger.scss */
+/* line 312, ../sass/_sponger.scss */
 .pattern-tertiary, .menu-filter-campaign, .menu-campanhas:before, .menu-campanhas .box-menu-campanha {
   background-image: url("../images/background/pattern-tertiary.jpg");
 }
 
 /*'Tipografy
 ======================================= */
-/* line 321, ../sass/_sponger.scss */
+/* line 322, ../sass/_sponger.scss */
 .title-section {
   font-size: 28px;
   text-align: center;
@@ -11541,12 +11530,12 @@ section.simple-group {
   color: #345326;
   padding: 10px 0;
 }
-/* line 331, ../sass/_sponger.scss */
+/* line 332, ../sass/_sponger.scss */
 .title-section strong {
   font-weight: 700;
 }
 
-/* line 334, ../sass/_sponger.scss */
+/* line 335, ../sass/_sponger.scss */
 .title-section-secundary {
   background: #507f3b;
   width: 100%;
@@ -11560,34 +11549,34 @@ section.simple-group {
   font-style: italic;
 }
 
-/* line 349, ../sass/_sponger.scss */
+/* line 350, ../sass/_sponger.scss */
 .title-section-secundary-child {
   font-size: 14px;
   display: inline-block;
   margin-right: 20px;
   margin-bottom: 20px;
 }
-/* line 355, ../sass/_sponger.scss */
+/* line 356, ../sass/_sponger.scss */
 .title-section-secundary-child .text {
   margin-right: 10px;
 }
-/* line 358, ../sass/_sponger.scss */
+/* line 359, ../sass/_sponger.scss */
 .title-section-secundary-child .number {
   font-size: 20px;
 }
-/* line 362, ../sass/_sponger.scss */
+/* line 363, ../sass/_sponger.scss */
 .title-section-secundary-child .titulo {
   font-size: 18px;
   margin: 0;
   padding: 0;
 }
-/* line 368, ../sass/_sponger.scss */
+/* line 369, ../sass/_sponger.scss */
 .title-section-secundary-child .block-search-component {
   width: 300px;
   float: right;
 }
 
-/* line 378, ../sass/_sponger.scss */
+/* line 379, ../sass/_sponger.scss */
 .box-message {
   color: #345326;
   background: #DFDFD0;
@@ -11598,14 +11587,14 @@ section.simple-group {
   border-radius: 15px 0 0 0;
 }
 
-/* line 386, ../sass/_sponger.scss */
+/* line 387, ../sass/_sponger.scss */
 .section-space {
   margin: 20px 0;
 }
 
 /*'NAVBAR
 =============================================== */
-/* line 394, ../sass/_sponger.scss */
+/* line 395, ../sass/_sponger.scss */
 .navbar-brand .brand-primary,
 .navbar-brand .brand-secundary {
   margin-top: -7px;
@@ -11613,18 +11602,18 @@ section.simple-group {
 
 /*'ALERT
 =============================================== */
-/* line 404, ../sass/_sponger.scss */
+/* line 405, ../sass/_sponger.scss */
 .alert .icon-avatar-ana {
   width: 38px;
   height: 38px;
 }
 
-/* line 405, ../sass/_sponger.scss */
+/* line 406, ../sass/_sponger.scss */
 .alert-default {
   background: #eee;
 }
 
-/* line 408, ../sass/_sponger.scss */
+/* line 409, ../sass/_sponger.scss */
 .alert {
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
@@ -11632,7 +11621,7 @@ section.simple-group {
   border-radius: 0;
   padding: 5px !important;
 }
-/* line 412, ../sass/_sponger.scss */
+/* line 413, ../sass/_sponger.scss */
 .alert .close {
   margin-right: 10px;
   margin-top: 7px;
@@ -11640,63 +11629,63 @@ section.simple-group {
 
 /*'TABLE
 =============================================== */
-/* line 423, ../sass/_sponger.scss */
+/* line 424, ../sass/_sponger.scss */
 .table-sponge {
   margin-bottom: 20px;
 }
-/* line 426, ../sass/_sponger.scss */
+/* line 427, ../sass/_sponger.scss */
 .table-sponge tr > td:first-child,
 .table-sponge tr > th:first-child {
   width: 70px;
   text-align: left;
 }
-/* line 434, ../sass/_sponger.scss */
+/* line 435, ../sass/_sponger.scss */
 .table-sponge > thead > tr > th, .table-sponge > thead > tr > td, .table-sponge > tbody > tr > th, .table-sponge > tbody > tr > td, .table-sponge > tfoot > tr > th, .table-sponge > tfoot > tr > td {
   border-top: none;
   padding: 15px;
   vertical-align: middle;
   text-align: center;
 }
-/* line 446, ../sass/_sponger.scss */
+/* line 447, ../sass/_sponger.scss */
 .table-sponge > thead > tr > th, .table-sponge > thead > tr > td {
   text-transform: uppercase;
   font-size: 12px;
   padding-bottom: 10px;
   color: #345326;
 }
-/* line 455, ../sass/_sponger.scss */
+/* line 456, ../sass/_sponger.scss */
 .table-sponge tbody tr:nth-child(even) {
   background-color: #d5d5c1;
 }
 
-/* line 466, ../sass/_sponger.scss */
+/* line 467, ../sass/_sponger.scss */
 .table-sponge.table-sponge-with-icon tr > td:first-child {
   width: 70px;
 }
-/* line 469, ../sass/_sponger.scss */
+/* line 470, ../sass/_sponger.scss */
 .table-sponge.table-sponge-with-icon tr > td:nth-child(2) {
   text-align: left;
 }
 
 /*'HEADER
 =============================================== */
-/* line 483, ../sass/_sponger.scss */
+/* line 484, ../sass/_sponger.scss */
 .block-header-primary {
   height-min: 280px;
   background-attachment: fixed;
   position: relative;
 }
-/* line 491, ../sass/_sponger.scss */
+/* line 492, ../sass/_sponger.scss */
 .block-header-primary .block-search-component .form-search {
   margin-bottom: 20px;
 }
-/* line 493, ../sass/_sponger.scss */
+/* line 494, ../sass/_sponger.scss */
 .block-header-primary .block-search-component .form-search .fa {
   right: 20px;
   left: inherit;
   top: 10px;
 }
-/* line 496, ../sass/_sponger.scss */
+/* line 497, ../sass/_sponger.scss */
 .block-header-primary .block-search-component .form-search .input-search {
   padding: 20px;
 }
@@ -11704,7 +11693,7 @@ section.simple-group {
 /* ---- FORM PESQUISA----- */
 /*'header-main
 ========================================== */
-/* line 561, ../sass/_sponger.scss */
+/* line 562, ../sass/_sponger.scss */
 .header-main {
   position: relative;
   background: #fff;
@@ -11717,7 +11706,7 @@ section.simple-group {
   -ms-border-radius: 0 0 15px 15px;
   border-radius: 0 0 15px 15px;
 }
-/* line 569, ../sass/_sponger.scss */
+/* line 570, ../sass/_sponger.scss */
 .header-main .container-brand {
   background: #fff;
   display: inline-block;
@@ -11725,23 +11714,23 @@ section.simple-group {
   width: 100%;
   text-align: center;
 }
-/* line 576, ../sass/_sponger.scss */
+/* line 577, ../sass/_sponger.scss */
 .header-main .brand {
   margin: 0 auto;
   padding: 30px 0;
   display: inline-block;
 }
-/* line 581, ../sass/_sponger.scss */
+/* line 582, ../sass/_sponger.scss */
 .header-main .brand span {
   width: 190px;
   height: 73px;
 }
 
-/* line 587, ../sass/_sponger.scss */
+/* line 588, ../sass/_sponger.scss */
 .container-main-menu {
   position: relative;
 }
-/* line 589, ../sass/_sponger.scss */
+/* line 590, ../sass/_sponger.scss */
 .container-main-menu .button-campanhas-sponge {
   position: relative;
   float: right;
@@ -11754,7 +11743,7 @@ section.simple-group {
   margin-top: -5px;
   font-weight: 100;
 }
-/* line 600, ../sass/_sponger.scss */
+/* line 601, ../sass/_sponger.scss */
 .container-main-menu .button-campanhas-sponge:before {
   z-index: -1000;
   content: "";
@@ -11765,7 +11754,7 @@ section.simple-group {
   top: 0;
   border-radius: 50% 0 0 50%;
 }
-/* line 601, ../sass/_sponger.scss */
+/* line 602, ../sass/_sponger.scss */
 .container-main-menu .button-campanhas-sponge:after {
   z-index: -1000;
   content: "";
@@ -11775,7 +11764,7 @@ section.simple-group {
   right: -10px;
   top: 0;
 }
-/* line 602, ../sass/_sponger.scss */
+/* line 603, ../sass/_sponger.scss */
 .container-main-menu .button-campanhas-sponge .arrow {
   z-index: -1000;
   content: "";
@@ -11788,49 +11777,49 @@ section.simple-group {
   border-bottom: 10px solid transparent;
   border-left: 10px solid #444;
 }
-/* line 605, ../sass/_sponger.scss */
+/* line 606, ../sass/_sponger.scss */
 .container-main-menu .button-campanhas-sponge-default {
   background: #6db152;
   color: #fff;
 }
-/* line 608, ../sass/_sponger.scss */
+/* line 609, ../sass/_sponger.scss */
 .container-main-menu .button-campanhas-sponge-default:before {
   background: #6db152;
 }
-/* line 609, ../sass/_sponger.scss */
+/* line 610, ../sass/_sponger.scss */
 .container-main-menu .button-campanhas-sponge-default:after {
   background: #6db152;
 }
-/* line 611, ../sass/_sponger.scss */
+/* line 612, ../sass/_sponger.scss */
 .container-main-menu .button-campanhas-sponge-default:hover {
   background: #62a149;
 }
-/* line 613, ../sass/_sponger.scss */
+/* line 614, ../sass/_sponger.scss */
 .container-main-menu .button-campanhas-sponge-default:hover:before {
   background: #62a149;
 }
-/* line 614, ../sass/_sponger.scss */
+/* line 615, ../sass/_sponger.scss */
 .container-main-menu .button-campanhas-sponge-default:hover:after {
   background: #62a149;
 }
-/* line 617, ../sass/_sponger.scss */
+/* line 618, ../sass/_sponger.scss */
 .container-main-menu .button-campanhas-sponge-default:active {
   background: #2c4921;
 }
-/* line 619, ../sass/_sponger.scss */
+/* line 620, ../sass/_sponger.scss */
 .container-main-menu .button-campanhas-sponge-default:active:before {
   background: #2c4921;
 }
-/* line 620, ../sass/_sponger.scss */
+/* line 621, ../sass/_sponger.scss */
 .container-main-menu .button-campanhas-sponge-default:active:after {
   background: #2c4921;
 }
-/* line 627, ../sass/_sponger.scss */
+/* line 628, ../sass/_sponger.scss */
 .container-main-menu .main-menu {
   display: inline-block;
   list-style: none;
 }
-/* line 630, ../sass/_sponger.scss */
+/* line 631, ../sass/_sponger.scss */
 .container-main-menu .main-menu li {
   display: inline-block;
   font-size: 14px;
@@ -11838,31 +11827,31 @@ section.simple-group {
   font-weight: 500;
   border-right: 1px solid #345326;
 }
-/* line 637, ../sass/_sponger.scss */
+/* line 638, ../sass/_sponger.scss */
 .container-main-menu .main-menu li:last-child {
   border-right: 0;
 }
-/* line 639, ../sass/_sponger.scss */
+/* line 640, ../sass/_sponger.scss */
 .container-main-menu .main-menu li a {
   display: block;
   padding: 5px 20px;
 }
-/* line 643, ../sass/_sponger.scss */
+/* line 644, ../sass/_sponger.scss */
 .container-main-menu .main-menu li a:hover {
   text-decoration: none;
   background: #ecf0e1;
 }
-/* line 650, ../sass/_sponger.scss */
+/* line 651, ../sass/_sponger.scss */
 .container-main-menu .main-menu.main-menu-one-item {
   float: left;
 }
 
-/* line 672, ../sass/_sponger.scss */
+/* line 673, ../sass/_sponger.scss */
 .sidebar-interno {
   margin-top: 40px;
 }
 
-/* line 686, ../sass/_sponger.scss */
+/* line 687, ../sass/_sponger.scss */
 .form-contato {
   font-weight: 100;
   padding: 50px;
@@ -11870,7 +11859,12 @@ section.simple-group {
   width: 100%;
 }
 
-/* line 696, ../sass/_sponger.scss */
+/* line 698, ../sass/_sponger.scss */
+form {
+  display: inline-block;
+  width: 100%;
+}
+/* line 702, ../sass/_sponger.scss */
 form legend {
   margin-top: 0px;
   float: left;
@@ -11879,35 +11873,35 @@ form legend {
   font-size: 16px;
   border-color: #ccc;
 }
-/* line 705, ../sass/_sponger.scss */
+/* line 711, ../sass/_sponger.scss */
 form label {
   font-weight: 100;
 }
 
-/* line 708, ../sass/_sponger.scss */
+/* line 714, ../sass/_sponger.scss */
 fieldset {
   margin-bottom: 30px;
 }
 
-/* line 711, ../sass/_sponger.scss */
+/* line 717, ../sass/_sponger.scss */
 .input-total {
   border-top: 1px solid #ccc;
   margin: 0 15px;
   text-align: right;
 }
-/* line 716, ../sass/_sponger.scss */
+/* line 722, ../sass/_sponger.scss */
 .input-total .input-total-inner {
   float: right;
   width: 250px;
 }
-/* line 717, ../sass/_sponger.scss */
+/* line 723, ../sass/_sponger.scss */
 .input-total .total-text {
   text-transform: uppercase;
   font-size: 16px;
   font-weight: 500;
   margin-right: 5px;
 }
-/* line 723, ../sass/_sponger.scss */
+/* line 729, ../sass/_sponger.scss */
 .input-total .total-number {
   font-size: 18px;
   padding: 5px 15px;
@@ -11915,7 +11909,7 @@ fieldset {
   background: #d5d5bf;
   font-weight: 100;
 }
-/* line 724, ../sass/_sponger.scss */
+/* line 730, ../sass/_sponger.scss */
 .input-total .total-alert {
   display: inline-block;
   font-style: italic;
@@ -11929,7 +11923,7 @@ fieldset {
   opacity: 0.7;
   filter: alpha(opacity=70);
 }
-/* line 734, ../sass/_sponger.scss */
+/* line 740, ../sass/_sponger.scss */
 .input-total .total-alert:hover {
   text-decoration: none;
   background: red;
@@ -11937,13 +11931,13 @@ fieldset {
   opacity: 1;
   filter: alpha(opacity=100);
 }
-/* line 740, ../sass/_sponger.scss */
+/* line 746, ../sass/_sponger.scss */
 .input-total .total-alert:active {
   box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
   -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
   -moz-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
 }
-/* line 746, ../sass/_sponger.scss */
+/* line 752, ../sass/_sponger.scss */
 .input-total .total-alert:before {
   position: absolute;
   border-left: 5px solid transparent;
@@ -11954,12 +11948,12 @@ fieldset {
   right: 50%;
 }
 
-/* line 759, ../sass/_sponger.scss */
+/* line 765, ../sass/_sponger.scss */
 .submit-form {
   padding: 5px 40px;
 }
 
-/* line 760, ../sass/_sponger.scss */
+/* line 766, ../sass/_sponger.scss */
 .mask-form-button {
   display: inline-block;
   background: #DFDFD0;
@@ -11970,4 +11964,77 @@ fieldset {
   -ms-border-radius: 0 20px 20px 10px;
   border-radius: 0 20px 20px 10px;
   text-align: right;
+}
+
+/* line 779, ../sass/_sponger.scss */
+.social-media-campaign {
+  margin: 0;
+  padding: 0;
+  float: left;
+}
+/* line 784, ../sass/_sponger.scss */
+.social-media-campaign li {
+  display: inline-block;
+  margin-top: 5px;
+}
+/* line 785, ../sass/_sponger.scss */
+.social-media-campaign .icon-social-campaign {
+  padding: 0;
+  width: 25px;
+  height: 25px;
+  float: left;
+  border: 1px solid #ccc;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-right: 5px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
+  opacity: 0.7;
+  filter: alpha(opacity=70);
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+/* line 799, ../sass/_sponger.scss */
+.social-media-campaign .icon-social-campaign:hover {
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+
+/* line 810, ../sass/_sponger.scss */
+.valor-total-component {
+  float: right;
+  text-align: right;
+  line-height: 1;
+}
+/* line 815, ../sass/_sponger.scss */
+.valor-total-component .title {
+  display: block;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+/* line 821, ../sass/_sponger.scss */
+.valor-total-component .valor-group {
+  color: #507f3b;
+  font-weight: 100;
+  font-style: italic;
+}
+/* line 825, ../sass/_sponger.scss */
+.valor-total-component .valor-group .moeda {
+  font-size: 18px;
+}
+/* line 826, ../sass/_sponger.scss */
+.valor-total-component .valor-group .valor {
+  font-size: 30px;
+}
+
+/* line 839, ../sass/_sponger.scss */
+.icon-cartao {
+  width: 39px;
+  height: 26px;
+  display: inline-block;
+  vertical-align: middle;
 }

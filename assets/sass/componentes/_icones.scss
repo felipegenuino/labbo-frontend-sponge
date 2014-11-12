@@ -136,53 +136,38 @@
 				.icon-construcao-demolicao{background-image: url("../images/icons/icon-construcao-demolicao.png");}
 				
 
-
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-
-
-		   
  
-
-
  
 		.icon-avatar-ana{ background-image: url("../images/icons/icon-avatar-ana.png");}
 
 
-		.social-media-campaign{
-					margin: 0; 
-					padding: 0;
-					float: left;
 
-					li{display: inline-block;margin-top: 5px;}
-					.icon-social-campaign{
+		.icon-social-twitter{background-image: url("../images/icons/icon-social-twitter.png");}
+		.icon-social-linkedin{background-image: url("../images/icons/icon-social-linkedin.png");}
+		.icon-social-youtube{background-image: url("../images/icons/icon-social-youtube.png");}
+		.icon-social-instagram{background-image: url("../images/icons/icon-social-instagram.png");}
+		.icon-social-facebook{background-image: url("../images/icons/icon-social-facebook.png");}
 
-						padding:0;
-						width: 25px; 
-						height: 25px; 
-		 				float: left; 
-						border: 1px solid #ccc;
-				 		background-repeat: no-repeat;
-						background-position:center center;
-						margin-right: 5px;
-						@extend .hide-text;
-						@include border-radius(50%); 
-						@include opacity(0.7);
-						@include transition(all .5s ease);
-						&:hover{@include opacity(1);}
-					}
-						.icon-social-twitter{background-image: url("../images/icons/icon-social-twitter.png");}
-						.icon-social-linkedin{background-image: url("../images/icons/icon-social-linkedin.png");}
-						.icon-social-youtube{background-image: url("../images/icons/icon-social-youtube.png");}
-						.icon-social-instagram{background-image: url("../images/icons/icon-social-instagram.png");}
-						.icon-social-facebook{background-image: url("../images/icons/icon-social-facebook.png");}
-				}
+
+
+
+
+
+
+
+	//pagamentos	
+	.icon-payment-visa{ background-image: url("../images/icons/icon-payment-visa.jpg"); }
+	.icon-payment-mastercard{background-image: url("../images/icons/icon-payment-mastercard.jpg");}
+	.icon-payment-paypal{background-image: url("../images/icons/icon-payment-paypal.jpg");}
+	.icon-payment-boleto{background-image: url("../images/icons/icon-payment-boleto.jpg");}
+		
+		
+
+
+
+
+
+
+		
+		
 
