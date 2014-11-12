@@ -595,14 +595,15 @@
 //* Background color of modal content area
  $modal-content-bg:                             $brand-medium;
 //* Modal content border color
-// $modal-content-border-color:                   rgba(0,0,0,.2)
+// $modal-content-border-color:                   rgba(0,0,0,.2);
+   $modal-content-border-color:                   transparent;
 //* Modal content border color **for IE8**
  $modal-content-fallback-border-color:         $brand-dark;
 
 //* Modal backdrop background color
 	$modal-backdrop-bg:           $brand-medium;
 //* Modal backdrop opacity
-	$modal-backdrop-opacity:      .85;
+	$modal-backdrop-opacity:      .95;
 //* Modal header border color
  $modal-header-border-color:   transparent;
 //* Modal footer border color
@@ -819,7 +820,7 @@
 //##
 
 // $close-font-weight:           bold
-// $close-color:                 #000
+// $close-color:                 #fff;
 // $close-text-shadow:           0 1px 0 #fff
 
 //== Code

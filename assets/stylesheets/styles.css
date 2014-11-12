@@ -7069,7 +7069,7 @@ button.close {
   position: relative;
   background-color: #507f3b;
   border: 1px solid #345326;
-  border: 1px solid rgba(0, 0, 0, 0.2);
+  border: 1px solid transparent;
   border-radius: 6px;
   -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
   box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
@@ -7094,8 +7094,8 @@ button.close {
 }
 /* line 74, ../../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_modals.scss */
 .modal-backdrop.in {
-  opacity: 0.85;
-  filter: alpha(opacity=85);
+  opacity: 0.95;
+  filter: alpha(opacity=95);
 }
 
 /* line 79, ../../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_modals.scss */
@@ -11118,9 +11118,12 @@ fieldset[disabled] .datepicker table tr td span.active.disabled:hover.active {
   width: 370px;
 }
 
-/* line 37, ../sass/componentes/_modal.scss */
-.ModalSelectProduct .modal-content {
-  background-color: #fff;
+/* line 34, ../sass/componentes/_modal.scss */
+.modal-content {
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  -o-box-shadow: none;
 }
 
 /* ------- MODAL LOGIN ------- */
@@ -12094,4 +12097,18 @@ fieldset {
   height: 26px;
   display: inline-block;
   vertical-align: middle;
+}
+
+/* line 872, ../sass/_sponger.scss */
+button.close {
+  opacity: 1;
+  color: #fff;
+}
+/* line 876, ../sass/_sponger.scss */
+button.close:hover, button.close:focus {
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+  opacity: 0.5;
+  filter: alpha(opacity=50);
 }

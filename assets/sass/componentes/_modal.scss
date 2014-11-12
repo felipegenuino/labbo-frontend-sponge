@@ -29,15 +29,15 @@
 
 
 
+//estilo generico do modal
 
-
-
-//especificidades
-.ModalSelectProduct{
-	.modal-content{
-		background-color: #fff;
-	}
+.modal-content{ 
+	box-shadow: none;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	-o-box-shadow: none;
 }
+
 
 
 /* ------- MODAL LOGIN ------- */

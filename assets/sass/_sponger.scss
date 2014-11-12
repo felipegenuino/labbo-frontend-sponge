@@ -869,3 +869,20 @@ fieldset{ margin-bottom: 30px;}
 
 
 
+button.close{
+	opacity: 1;
+	color: #fff;
+
+	&:hover, &:focus {
+		color: #fff;
+		text-decoration: none;
+		cursor: pointer;
+		opacity: 0.5;
+		filter: alpha(opacity=50);
+		}
+
+
+}
+
+
+
