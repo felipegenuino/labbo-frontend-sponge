@@ -20,7 +20,6 @@
 
 
 //largura dos modais
-
 .modal-dialog-small{width: 370px;}
 .modal-dialog-medium{}
 .modal-dialog-large{}
@@ -30,13 +29,16 @@
 
 
 //estilo generico do modal
-
 .modal-content{ 
 	box-shadow: none;
 	-webkit-box-shadow: none;
 	-moz-box-shadow: none;
 	-o-box-shadow: none;
 }
+
+
+.modal-title{ color: #fff;}
+.modal-body{color: #fff;  }
 
 
 
