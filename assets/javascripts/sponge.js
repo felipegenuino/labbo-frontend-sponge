@@ -53,6 +53,13 @@ $(document).on('click', '.yamm .dropdown-menu', function(e) {
 
 
 
+
+
+
+
+
+
+
  //abrir modal com Hash
  $(function() {
     if (window.location.hash.indexOf("ModalSelectProduct") !== -1) {
@@ -62,7 +69,32 @@ $(document).on('click', '.yamm .dropdown-menu', function(e) {
     if (window.location.hash.indexOf("login") !== -1) {
             $("#login").modal();
     }
+
+     if (window.location.hash.indexOf("CompraDePontosRealizadaComSucesso") !== -1) {
+            $("#ModalCompraDePontos").modal();
+    }
+
+    if (window.location.hash.indexOf("EntregaConfirmada") !== -1) {
+            $("#ModalEntregaConfirmada").modal();
+    }
+
+    if (window.location.hash.indexOf("ResgatedePontosConfirmada") !== -1) {
+            $("#ModalResgatedePontosConfirmada").modal();
+    }
+
 });
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 //se clicar em .close, limpa a hash

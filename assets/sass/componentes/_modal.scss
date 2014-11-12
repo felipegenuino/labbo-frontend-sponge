@@ -1,3 +1,30 @@
+//padrões de modal
+.modal-main-icon{ text-align: center}
+.modal-message-impact{}
+.modal-message-impact-title{ 
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+.modal-message-impact-subtitle{
+	color: #fff;
+	font-style: italic;
+	font-weight: 100;
+	font-size: 16px;
+	margin-bottom: 20px;
+
+}
+
+
+
+
+//largura dos modais
+
+.modal-dialog-small{width: 370px;}
+.modal-dialog-medium{}
+.modal-dialog-large{}
+
 
 
 /* ------- MODAL LOGIN ------- */
@@ -32,6 +59,13 @@
 
 
 
-.modal-login{
+
+
+.modal-login {
 	.modal-dialog { width: 480px;}
 }
+
+
+
+
+

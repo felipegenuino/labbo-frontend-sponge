@@ -416,6 +416,28 @@ background: #eee;
  	}
  }
 
+ 
+
+ .alert-ticket {
+ 	background: $brand-dark;
+	border-color: darken($brand-dark, 5%);
+	color: #eee;
+	padding: 0 !important;
+
+.protocol-title{ 
+ 	display: block;
+
+ }
+	.protocol-number{ 
+		font-weight: 100;
+		display: block;
+		padding: 5px 0;
+		background-color:  lighten($brand-dark, 2%);
+
+	}
+
+}
+
 
 
 
