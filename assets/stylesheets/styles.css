@@ -8476,7 +8476,7 @@ button.close {
 /* line 12, ../sass/componentes/_menu-minhas-campanhas.scss */
 .menu-campanhas .container {
   padding: 0;
-  margin: 0;
+  margin: 0 auto;
 }
 /* line 15, ../sass/componentes/_menu-minhas-campanhas.scss */
 .menu-campanhas .container .col-md-8, .menu-campanhas .container .col-md-4, .menu-campanhas .container .row {
