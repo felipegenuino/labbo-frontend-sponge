@@ -1,11 +1,3 @@
-
-
-//desabilitar responsividade
-
-
-
-
-
 //style para os exemplos
 section.simple-group{ padding: 120px 0}
 
@@ -79,6 +71,9 @@ section.simple-group{ padding: 120px 0}
 
 /*'LISTAS
 =============================================== */
+
+
+
 .lista-ponto-de-coleta{ 
 	list-style: none;
 	padding: 0;
@@ -119,9 +114,14 @@ section.simple-group{ padding: 120px 0}
 
 
 
+
+
+
+
 .list-angle-right{ 
   list-style: none;
   padding: 0;
+
 
   .item-angle-right{
     display: inline-block;
@@ -147,7 +147,12 @@ section.simple-group{ padding: 120px 0}
       margin-bottom: 0px;
     }
 
-     
+     a{ 
+      color: #5F5F50;
+      text-decoration: underline;
+      font-size: 14px;
+      display: block;
+	  }
 
   }
 }
@@ -181,7 +186,7 @@ section.simple-group{ padding: 120px 0}
 		    	padding: 3px 12px;
 		    	font-size: 13px;
 		    	font-weight: 100;
-		    	border-radius: 10px;
+		    	@include border-radius(10px); 
 		    }
 
 	  }
@@ -240,6 +245,7 @@ section.simple-group{ padding: 120px 0}
 		margin: 0;
 		padding: 15px;
 		margin-bottom: 20px;
+		color: $brand-dark;
 	}
 	.lista-produtos{
 		display: inline-block;
@@ -385,6 +391,12 @@ body{
 }
 
 .section-space{margin: 20px 0}
+
+
+h4{ 
+	font-size: 14px;
+	text-transform: uppercase;
+}
 
 
 /*'NAVBAR
@@ -622,7 +634,7 @@ background: #eee;
 			padding: 10px 20px 10px 0;
 			margin-top: -5px;
 			font-weight: 100;
-			&:before{z-index: -1000; content: ""; width: 40px; height: 100%; position: absolute; left: -20px; top: 0; border-radius: 50% 0 0 50%;}
+			&:before{z-index: -1000; content: ""; width: 40px; height: 100%; position: absolute; left: -20px; top: 0;  @include border-radius(50% 0 0 50%);}
 			&:after{ z-index: -1000; content: ""; width: 10px; height: 100%; position: absolute; right: -10px; top: 0; }
 			.arrow{  z-index: -1000; content: ""; width: 15px; height: 15px; position: absolute; right: -35px; top: 20px;  border-top: 10px solid transparent; border-bottom: 10px solid transparent; border-left: 10px solid #444}
 		}
@@ -869,7 +881,7 @@ fieldset{ margin-bottom: 30px;}
 
 
 
-button.close{
+.modal-header button.close{
 	opacity: 1;
 	color: #fff;
 
@@ -889,4 +901,72 @@ button.close{
 .grupo-quero-comprar-pontos{
 	padding: 10px 0;
 }
+
+
+
+
+.upload-image-product-component{
+	display: inline-block;
+	margin-bottom: 20px;
+
+	.block-images{
+		width: 70px;
+		text-align: center;
+		float: left;
+
+		.icon-default{ 
+			.icon{ margin: 0}
+		}
+		.uploaded-by-the-user{
+			display: block;
+			margin-top: 5px;
+			img{
+				width: 50px;
+				height: 50px;
+				@include border-radius(50%); 
+				border: 1px solid #8C8C8C;
+			}
+		}
+	}
+
+	.block-info{
+
+		display: inline-block;
+		width: 240px;
+		padding-left: 10px;
+
+		.block-info-product-name{
+			margin-bottom: 30px;
+			margin-top: 20px;
+			font-size: 16px;
+		}
+		.list-options-upload{
+			display: inline-block;
+			list-style: none;
+			padding: 0;
+			border-top: 1px solid #ccc;
+
+			.item-list-options-upload{
+				float: left;
+
+				&:first-child{margin-right: 20px;}
+				a{
+					float: left;
+					font-size: 12px;
+					.fa{margin-right: 5px;}
+				}
+
+			}
+		}
+
+		
+	}
+
+}
+
+
+
+
+
+
 

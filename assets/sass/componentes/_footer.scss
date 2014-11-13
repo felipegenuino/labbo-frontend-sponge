@@ -8,6 +8,26 @@
 		 position: relative;
 		 padding: 60px 0 130px 0;
 
+		 &:before{
+		 	content:"";
+		 	position: absolute;
+		 	top: -67px;
+		 	left: 0;
+		 	width: 86px;
+		 	height: 68px;
+		 	background-image: url(../images/background/background-footer-top-left.png);
+		 }
+
+		 &:after{
+		 	content:"";
+		 	position: absolute;
+		 	top: -67px;
+		 	right: 0;
+		 	width: 86px;
+		 	height: 68px;
+		 	background-image: url(../images/background/background-footer-top-right.png);
+		 }
+
 		.title{ 
 			font-size: 14px;
 			text-transform: uppercase;
@@ -36,13 +56,13 @@
 
 	}
 
-	 .block-footer-primary:after{ 
+	 .block-footer-secundary:before{ 
 	 	content: "";
 	 	height: 72px;
 		width: 100%;
 		display: block;
 		position: absolute;
-		bottom: 0;
+		top: -72px;
 
 		background-image: url("../images/background/background-flowes-pattern.png");
  		background-repeat: no-repeat;
@@ -51,6 +71,7 @@
 
 	.block-footer-secundary { 
 		background: $brand-dark; padding: 10px 0;
+		position: relative;
 
 		.brand-labbo{ 
 			float: right; 
