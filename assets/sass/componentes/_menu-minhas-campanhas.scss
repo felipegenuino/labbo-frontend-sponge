@@ -8,6 +8,19 @@
   @extend .pattern-secondary;
 
 
+      //resets
+        .container{
+            padding: 0;
+            margin: 0;    
+          .col-md-8, .col-md-4, .row{
+            padding: 0;
+            margin: 0;
+          }
+        }
+
+
+
+
   &:before{ 
     content:"";
     position: absolute;
@@ -37,25 +50,37 @@
        }
      }
 
-    &:before{
-          background-image: url("../images/background/bg-nav-menu-campanhas-left.jpg");
-          content: "";
-          width: 47px;
-          height: 39px;
-          position: absolute;
-          bottom: 0px;
-          left: -32px;
-        }
 
-    &:after{
-          background-image: url("../images/background/bg-nav-menu-campanhas-right.jpg");
-          content: "";
-          width: 47px;
-          height: 39px;
-          position: absolute;
-          bottom: 0px;
-          right: -32px;
-        }    
+
+//* Portrait tablets and medium desktops */
+@media (min-width: 992px) {
+   
+  &:before{
+            background-image: url("../images/background/bg-nav-menu-campanhas-left.jpg");
+            content: "";
+            width: 47px;
+            height: 39px;
+            position: absolute;
+            bottom: 0px;
+            left: -32px;
+          }
+
+      &:after{
+            background-image: url("../images/background/bg-nav-menu-campanhas-right.jpg");
+            content: "";
+            width: 47px;
+            height: 39px;
+            position: absolute;
+            bottom: 0px;
+            right: -32px;
+          }   
+
+}
+
+
+ 
+
+ 
 
                 .nav-menu-campanhas{ 
                   list-style: none;

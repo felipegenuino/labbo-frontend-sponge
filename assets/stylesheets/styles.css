@@ -2052,13 +2052,13 @@ pre code {
 @media (min-width: 768px) {
   /* line 10, ../../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_grid.scss */
   .container {
-    width: 750px;
+    width: 100%;
   }
 }
 @media (min-width: 992px) {
   /* line 10, ../../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_grid.scss */
   .container {
-    width: 970px;
+    width: 100%;
   }
 }
 @media (min-width: 1200px) {
@@ -8230,11 +8230,6 @@ button.close {
   text-transform: uppercase;
   font-weight: 600;
   position: relative;
-  /* Large desktops and laptops */
-  /* Portrait tablets and medium desktops */
-  /* Portrait tablets and small desktops */
-  /* Landscape phones and portrait tablets */
-  /* Landscape phones and smaller */
 }
 /* line 137, ../sass/componentes/_block-campaign.scss */
 .button-center-line:hover {
@@ -8256,126 +8251,6 @@ button.close {
 /* line 153, ../sass/componentes/_block-campaign.scss */
 .button-center-line .icon-enable {
   display: inline-block;
-}
-@media (min-width: 1200px) {
-  /* line 160, ../sass/componentes/_block-campaign.scss */
-  .button-center-line:before {
-    content: "";
-    border: 1px solid #ccc;
-    position: absolute;
-    left: 0;
-    width: 170%;
-    top: 50%;
-    margin-left: -440px;
-    z-index: -1;
-  }
-  /* line 171, ../sass/componentes/_block-campaign.scss */
-  .button-center-line:after {
-    content: "";
-    border: 1px solid #ccc;
-    position: absolute;
-    right: 0;
-    width: 170%;
-    top: 50%;
-    margin-right: -440px;
-    z-index: -1;
-  }
-}
-@media (min-width: 992px) and (max-width: 1199px) {
-  /* line 186, ../sass/componentes/_block-campaign.scss */
-  .button-center-line:before {
-    content: "";
-    border: 1px solid #ccc;
-    position: absolute;
-    left: 0;
-    width: 100%;
-    top: 50%;
-    margin-left: -140px;
-    z-index: -1;
-  }
-  /* line 197, ../sass/componentes/_block-campaign.scss */
-  .button-center-line:after {
-    content: "";
-    border: 1px solid #ccc;
-    position: absolute;
-    right: 0;
-    width: 100%;
-    top: 50%;
-    margin-right: -140px;
-    z-index: -1;
-  }
-}
-@media (min-width: 768px) and (max-width: 991px) {
-  /* line 214, ../sass/componentes/_block-campaign.scss */
-  .button-center-line:before {
-    content: "";
-    border: 1px solid #ccc;
-    position: absolute;
-    left: 0;
-    width: 100%;
-    top: 50%;
-    margin-left: -150px;
-    z-index: -1;
-  }
-  /* line 225, ../sass/componentes/_block-campaign.scss */
-  .button-center-line:after {
-    content: "";
-    border: 1px solid #ccc;
-    position: absolute;
-    right: 0;
-    width: 100%;
-    top: 50%;
-    margin-right: -150px;
-    z-index: -1;
-  }
-}
-@media (max-width: 767px) {
-  /* line 241, ../sass/componentes/_block-campaign.scss */
-  .button-center-line:before {
-    content: "";
-    border: 1px solid #ccc;
-    position: absolute;
-    left: 0;
-    width: 100%;
-    top: 50%;
-    margin-left: -150px;
-    z-index: -1;
-  }
-  /* line 252, ../sass/componentes/_block-campaign.scss */
-  .button-center-line:after {
-    content: "";
-    border: 1px solid #ccc;
-    position: absolute;
-    right: 0;
-    width: 100%;
-    top: 50%;
-    margin-right: -150px;
-    z-index: -1;
-  }
-}
-@media (max-width: 480px) {
-  /* line 268, ../sass/componentes/_block-campaign.scss */
-  .button-center-line:before {
-    content: "";
-    border: 1px solid #ccc;
-    position: absolute;
-    left: 0;
-    width: 100%;
-    top: 50%;
-    margin-left: -50px;
-    z-index: -1;
-  }
-  /* line 279, ../sass/componentes/_block-campaign.scss */
-  .button-center-line:after {
-    content: "";
-    border: 1px solid #ccc;
-    position: absolute;
-    right: 0;
-    width: 100%;
-    top: 50%;
-    margin-right: -50px;
-    z-index: -1;
-  }
 }
 
 /*!
@@ -8598,7 +8473,17 @@ button.close {
   margin-bottom: 20px;
   position: relative;
 }
-/* line 11, ../sass/componentes/_menu-minhas-campanhas.scss */
+/* line 12, ../sass/componentes/_menu-minhas-campanhas.scss */
+.menu-campanhas .container {
+  padding: 0;
+  margin: 0;
+}
+/* line 15, ../sass/componentes/_menu-minhas-campanhas.scss */
+.menu-campanhas .container .col-md-8, .menu-campanhas .container .col-md-4, .menu-campanhas .container .row {
+  padding: 0;
+  margin: 0;
+}
+/* line 24, ../sass/componentes/_menu-minhas-campanhas.scss */
 .menu-campanhas:before {
   content: "";
   position: absolute;
@@ -8607,54 +8492,56 @@ button.close {
   width: 100%;
   display: block;
 }
-/* line 21, ../sass/componentes/_menu-minhas-campanhas.scss */
+/* line 34, ../sass/componentes/_menu-minhas-campanhas.scss */
 .menu-campanhas .box-menu-campanha {
   text-align: center;
 }
-/* line 25, ../sass/componentes/_menu-minhas-campanhas.scss */
+/* line 38, ../sass/componentes/_menu-minhas-campanhas.scss */
 .menu-campanhas .box-menu-campanha .dropdown-toggle {
   font-size: 27px;
   width: 40px;
   display: inline-block;
   border: 1px solid transparent;
 }
-/* line 33, ../sass/componentes/_menu-minhas-campanhas.scss */
+/* line 46, ../sass/componentes/_menu-minhas-campanhas.scss */
 .menu-campanhas .box-menu-campanha .open .dropdown-toggle {
   color: #080d06;
   border: 1px solid #aaa;
   background: #ecf0e1;
 }
-/* line 40, ../sass/componentes/_menu-minhas-campanhas.scss */
-.menu-campanhas .box-menu-campanha:before {
-  background-image: url("../images/background/bg-nav-menu-campanhas-left.jpg");
-  content: "";
-  width: 47px;
-  height: 39px;
-  position: absolute;
-  bottom: 0px;
-  left: -32px;
+@media (min-width: 992px) {
+  /* line 58, ../sass/componentes/_menu-minhas-campanhas.scss */
+  .menu-campanhas .box-menu-campanha:before {
+    background-image: url("../images/background/bg-nav-menu-campanhas-left.jpg");
+    content: "";
+    width: 47px;
+    height: 39px;
+    position: absolute;
+    bottom: 0px;
+    left: -32px;
+  }
+  /* line 68, ../sass/componentes/_menu-minhas-campanhas.scss */
+  .menu-campanhas .box-menu-campanha:after {
+    background-image: url("../images/background/bg-nav-menu-campanhas-right.jpg");
+    content: "";
+    width: 47px;
+    height: 39px;
+    position: absolute;
+    bottom: 0px;
+    right: -32px;
+  }
 }
-/* line 50, ../sass/componentes/_menu-minhas-campanhas.scss */
-.menu-campanhas .box-menu-campanha:after {
-  background-image: url("../images/background/bg-nav-menu-campanhas-right.jpg");
-  content: "";
-  width: 47px;
-  height: 39px;
-  position: absolute;
-  bottom: 0px;
-  right: -32px;
-}
-/* line 60, ../sass/componentes/_menu-minhas-campanhas.scss */
+/* line 85, ../sass/componentes/_menu-minhas-campanhas.scss */
 .menu-campanhas .box-menu-campanha .nav-menu-campanhas {
   list-style: none;
   display: inline-block;
 }
-/* line 64, ../sass/componentes/_menu-minhas-campanhas.scss */
+/* line 89, ../sass/componentes/_menu-minhas-campanhas.scss */
 .menu-campanhas .box-menu-campanha .nav-menu-campanhas li {
   display: inline-block;
   margin-right: 10px;
 }
-/* line 67, ../sass/componentes/_menu-minhas-campanhas.scss */
+/* line 92, ../sass/componentes/_menu-minhas-campanhas.scss */
 .menu-campanhas .box-menu-campanha .nav-menu-campanhas li .btn-primary {
   padding: 3px 15px 2px 7px;
   text-transform: uppercase;
@@ -8664,33 +8551,33 @@ button.close {
   border: none;
   position: relative;
 }
-/* line 75, ../sass/componentes/_menu-minhas-campanhas.scss */
+/* line 100, ../sass/componentes/_menu-minhas-campanhas.scss */
 .menu-campanhas .box-menu-campanha .nav-menu-campanhas li .btn-primary .fa-stack {
   font-size: 14px;
   color: #AEB786;
 }
-/* line 76, ../sass/componentes/_menu-minhas-campanhas.scss */
+/* line 101, ../sass/componentes/_menu-minhas-campanhas.scss */
 .menu-campanhas .box-menu-campanha .nav-menu-campanhas li .btn-primary .fa-inverse {
   color: #AEB786;
 }
-/* line 78, ../sass/componentes/_menu-minhas-campanhas.scss */
+/* line 103, ../sass/componentes/_menu-minhas-campanhas.scss */
 .menu-campanhas .box-menu-campanha .nav-menu-campanhas li .btn-primary .fa-circle {
   color: #507f3b;
 }
-/* line 80, ../sass/componentes/_menu-minhas-campanhas.scss */
+/* line 105, ../sass/componentes/_menu-minhas-campanhas.scss */
 .menu-campanhas .box-menu-campanha .nav-menu-campanhas li .btn-primary .badge {
   position: absolute;
   top: 20px;
 }
-/* line 86, ../sass/componentes/_menu-minhas-campanhas.scss */
+/* line 111, ../sass/componentes/_menu-minhas-campanhas.scss */
 .menu-campanhas .box-menu-campanha .nav-menu-campanhas li .btn-primary:hover {
   background: #9da86c;
 }
-/* line 87, ../sass/componentes/_menu-minhas-campanhas.scss */
+/* line 112, ../sass/componentes/_menu-minhas-campanhas.scss */
 .menu-campanhas .box-menu-campanha .nav-menu-campanhas li .btn-primary:active {
   background: #94a060;
 }
-/* line 100, ../sass/componentes/_menu-minhas-campanhas.scss */
+/* line 125, ../sass/componentes/_menu-minhas-campanhas.scss */
 .menu-campanhas .pontos-disponiveis {
   display: inline-block;
   font-size: 16px;
@@ -8704,7 +8591,7 @@ button.close {
   width: 80%;
 }
 
-/* line 117, ../sass/componentes/_menu-minhas-campanhas.scss */
+/* line 142, ../sass/componentes/_menu-minhas-campanhas.scss */
 .dropdown-main {
   padding: 10px 20px;
   width: 200px;
@@ -8712,7 +8599,7 @@ button.close {
   margin-left: -30px;
   font-weight: 100;
 }
-/* line 125, ../sass/componentes/_menu-minhas-campanhas.scss */
+/* line 150, ../sass/componentes/_menu-minhas-campanhas.scss */
 .dropdown-main:before {
   content: "";
   position: absolute;
@@ -8723,7 +8610,7 @@ button.close {
   margin-left: -12px;
   left: 47px;
 }
-/* line 135, ../sass/componentes/_menu-minhas-campanhas.scss */
+/* line 160, ../sass/componentes/_menu-minhas-campanhas.scss */
 .dropdown-main:after {
   content: "";
   position: absolute;
@@ -8734,31 +8621,31 @@ button.close {
   margin-left: -12px;
   left: 47px;
 }
-/* line 146, ../sass/componentes/_menu-minhas-campanhas.scss */
+/* line 171, ../sass/componentes/_menu-minhas-campanhas.scss */
 .dropdown-main h5 {
   color: #345326;
   text-transform: uppercase;
   font-size: 15px;
   font-weight: 500;
 }
-/* line 147, ../sass/componentes/_menu-minhas-campanhas.scss */
+/* line 172, ../sass/componentes/_menu-minhas-campanhas.scss */
 .dropdown-main ul {
   padding-left: 20px;
   border-bottom: 1px solid #ccc;
   padding-bottom: 20px;
   margin-bottom: 20px;
 }
-/* line 154, ../sass/componentes/_menu-minhas-campanhas.scss */
+/* line 179, ../sass/componentes/_menu-minhas-campanhas.scss */
 .dropdown-main ul li a {
   color: #777;
   display: block;
 }
-/* line 157, ../sass/componentes/_menu-minhas-campanhas.scss */
+/* line 182, ../sass/componentes/_menu-minhas-campanhas.scss */
 .dropdown-main ul li a:hover {
   background: #eee;
   text-decoration: none;
 }
-/* line 163, ../sass/componentes/_menu-minhas-campanhas.scss */
+/* line 188, ../sass/componentes/_menu-minhas-campanhas.scss */
 .dropdown-main ul:last-child {
   border-bottom: none;
   margin-bottom: 0px;
@@ -11635,7 +11522,6 @@ section.simple-group {
 .title-section-secundary-child {
   font-size: 14px;
   display: inline-block;
-  margin-right: 20px;
   margin-bottom: 20px;
 }
 /* line 362, ../sass/_sponger.scss */
@@ -12170,27 +12056,27 @@ fieldset {
   padding: 10px 0;
 }
 
-/* line 908, ../sass/_sponger.scss */
+/* line 919, ../sass/_sponger.scss */
 .upload-image-product-component {
   display: inline-block;
   margin-bottom: 20px;
 }
-/* line 912, ../sass/_sponger.scss */
+/* line 923, ../sass/_sponger.scss */
 .upload-image-product-component .block-images {
   width: 70px;
   text-align: center;
   float: left;
 }
-/* line 918, ../sass/_sponger.scss */
+/* line 929, ../sass/_sponger.scss */
 .upload-image-product-component .block-images .icon-default .icon {
   margin: 0;
 }
-/* line 920, ../sass/_sponger.scss */
+/* line 931, ../sass/_sponger.scss */
 .upload-image-product-component .block-images .uploaded-by-the-user {
   display: block;
   margin-top: 5px;
 }
-/* line 923, ../sass/_sponger.scss */
+/* line 934, ../sass/_sponger.scss */
 .upload-image-product-component .block-images .uploaded-by-the-user img {
   width: 50px;
   height: 50px;
@@ -12200,39 +12086,39 @@ fieldset {
   border-radius: 50%;
   border: 1px solid #8C8C8C;
 }
-/* line 932, ../sass/_sponger.scss */
+/* line 943, ../sass/_sponger.scss */
 .upload-image-product-component .block-info {
   display: inline-block;
   width: 240px;
   padding-left: 10px;
 }
-/* line 938, ../sass/_sponger.scss */
+/* line 949, ../sass/_sponger.scss */
 .upload-image-product-component .block-info .block-info-product-name {
   margin-bottom: 30px;
   margin-top: 20px;
   font-size: 16px;
 }
-/* line 943, ../sass/_sponger.scss */
+/* line 954, ../sass/_sponger.scss */
 .upload-image-product-component .block-info .list-options-upload {
   display: inline-block;
   list-style: none;
   padding: 0;
   border-top: 1px solid #ccc;
 }
-/* line 949, ../sass/_sponger.scss */
+/* line 960, ../sass/_sponger.scss */
 .upload-image-product-component .block-info .list-options-upload .item-list-options-upload {
   float: left;
 }
-/* line 952, ../sass/_sponger.scss */
+/* line 963, ../sass/_sponger.scss */
 .upload-image-product-component .block-info .list-options-upload .item-list-options-upload:first-child {
   margin-right: 20px;
 }
-/* line 953, ../sass/_sponger.scss */
+/* line 964, ../sass/_sponger.scss */
 .upload-image-product-component .block-info .list-options-upload .item-list-options-upload a {
   float: left;
   font-size: 12px;
 }
-/* line 956, ../sass/_sponger.scss */
+/* line 967, ../sass/_sponger.scss */
 .upload-image-product-component .block-info .list-options-upload .item-list-options-upload a .fa {
   margin-right: 5px;
 }
