@@ -1,0 +1,143 @@
+
+
+.collapse-campaign-component{
+	display: inline-block; 
+	width: 100%;
+
+
+.button-collapse-arrow-component{
+
+	
+		.button-collapse-arrow{ 
+					text-align: center;
+					width: 100%;
+					display: inline-block;
+						position: relative;
+						//background: darken($brand-light, 5%);
+
+						.linha{
+								border-bottom: 1px dashed #ccc;
+								position: absolute;
+								width: 100%;
+								left: 0;
+								bottom: 10px;
+							}
+		 
+
+					.button-collapse{
+						//border: 1px solid;
+						border-radius: 50%;
+						padding: 3px;
+						background: #c9c9ab;
+						z-index: 2000;
+						position: relative;
+
+					}
+				}
+		}
+	
+
+
+
+
+
+	.collapse-campaign-header{ 
+ 			width: 100%;
+ 			font-weight: 600;
+			text-transform: uppercase;
+			border-bottom: 1px solid #999;
+			display: inline-block; float: left; 
+
+		 
+	}
+
+
+
+
+
+	.collapse-campaign-body{ 
+		display: inline-block;
+		width: 100%;
+
+
+			.collapse-campaign-item{
+				margin-bottom: 20px;
+				//border: 1px dashed #ccc;
+		 		padding:0;
+		 		display: inline-block;
+
+
+		 		&:nth-child(odd) {
+					    background: #dfdfd0;
+					}
+ 
+
+				 .collapse-campaign-content{
+				 	//background: darken($brand-light, 5%);
+				 	margin: 0;
+				 }
+
+
+					 .block-images{
+							display: inline-block;
+							float: left;
+
+							.uploaded-by-the-user{
+								img{ 
+									@include border-radius(50%); 
+									width: 60px;
+									height: 60px;
+								}
+							}
+					 }
+  
+ 
+					.block-name{
+						display: inline-block;
+						float: left;
+						margin-left: 10px;
+						padding-top: 10px;
+
+							strong{ }
+							p{ 
+								text-transform: uppercase;
+								font-weight: 300;
+								font-size: 12px;
+							}
+					}
+				
+
+
+
+		.collapse-campaign-inner{
+			display: inline-block;
+			width: 100%;
+			float: left;
+
+ 			
+ 			img.brand-sponsor{
+					width: 70px; 
+					height: 70px; 
+					@include border-radius(50%); 
+		 			border: 1px solid #ccc;
+					float: left;
+					margin-right: 20px;
+				}
+
+			 .collapse-campaign-inner-title{
+			 	font-size: 22px;
+			 	text-transform: uppercase;
+			 	font-weight: 600;
+			 }
+
+			 p{font-weight: 300s }
+		}
+
+
+
+	}
+
+		}
+
+	
+}

@@ -344,11 +344,12 @@ body{
 		color: #fff;
 		font-weight: 100;
 		text-transform: uppercase;
-		padding: 5px 10px;
+		padding: 5px 20px;
 		font-size: 20px;
 		border-radius: 20px;
 		padding-left: 20px;
 		font-style: italic;
+		margin-bottom: 20px;
 	}
 
 
@@ -357,7 +358,6 @@ body{
     font-size: 14px;
     display: inline-block;
     //margin-right: 20px;
-    margin-bottom: 20px;
 
   .text{
     margin-right: 10px;
@@ -464,6 +464,7 @@ background: #eee;
   tr > th:first-child{
 	    width: 70px;
 	    text-align: left;
+	    vertical-align: top;
 	 }
 
 
@@ -721,14 +722,14 @@ margin-top: 40px;
 
 .page-contact{}
 .form-contato { 
-	font-weight: 100;
-padding: 50px;
-display: inline-block;
-width: 100%;
-}
+	font-weight: 300;
+	padding: 50px;
+	display: inline-block;
+	width: 100%;
+	}
 
 
-
+  
 
 
 form{
@@ -744,7 +745,7 @@ form{
 		border-color: #ccc;
 	}
 
-	label{ font-weight: 100}
+	label{ font-weight: 300}
 }
 
 fieldset{ margin-bottom: 30px;}
@@ -762,7 +763,7 @@ fieldset{ margin-bottom: 30px;}
           font-weight: 500;
           margin-right: 5px;
         }
-        .total-number{ font-size: 18px; padding: 5px 15px; display: inline-block; background: #d5d5bf; font-weight: 100;}
+        .total-number{ font-size: 18px; padding: 5px 15px; display: inline-block; background: #d5d5bf; font-weight: 300;}
         .total-alert{ display: inline-block; 
               font-style: italic; 
               font-size: 14px; 
@@ -974,6 +975,20 @@ fieldset{ margin-bottom: 30px;}
 	}
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

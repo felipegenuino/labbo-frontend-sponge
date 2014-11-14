@@ -104,8 +104,11 @@ $( ".close" ).click(function() {
 
 
 
-
-
+$(document).ready(function(){
+        $(".button-collapse-arrow").click(function() {
+            $(this).children( ".fa" ).toggleClass('fa-rotate-180');
+        });
+});
 
 
 
