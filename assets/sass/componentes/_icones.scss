@@ -8,6 +8,8 @@
 		.icon-medium{ width: 60px; height: 60px; }
 		.icon-xsmall{ width: 16px; height: 16px; }
 
+		.icon-round{@include border-radius(50%); }
+
 		.icon{
 			display: inline-block;
  			background-position: center center;
