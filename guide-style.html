@@ -700,6 +700,633 @@
 
 
 
+
+
+
+
+
+
+<section class="simple-group" id="section-modals">
+
+
+  <div class="page-header">
+        <h1>Modal</h1>
+      </div>
+
+                      <!-- Tipos de modal-->
+                      <div class="btn-group btn-group-sm">
+                          <button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#ModalCompraDePontos"> ModalCompraDePontos </button>
+                          <button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#ModalResgatedePontosConfirmada"> ModalResgatedePontosConfirmada </button>
+                          <button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#ModalEntregaConfirmada">  ModalEntregaConfirmada </button>
+                      </div>
+
+                    <hr>
+
+                       <div class="btn-group btn-group-sm">
+                          <button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#ModalSelectProduct"> ModalSelectProduct</button>
+                          <button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#ModalLogin">  ModalLogin</button>
+                       </div>
+                       
+                      
+
+                    <hr>
+
+                    <div class="btn-group btn-group-sm">
+                      <!-- Button trigger modal --> <button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal"> Default Modal </button>
+                      <!-- Large modal --> <button class="btn btn-lg btn-primary" data-toggle="modal" data-target=".bs-example-modal-lg">Large modal</button>
+                      <!-- Small modal -->  <button class="btn btn-sm btn-primary " data-toggle="modal" data-target=".bs-example-modal-sm">Small modal</button>
+                      </div>
+
+
+
+
+
+
+
+
+
+                     <!-- Modal compra de pontos -->
+                        <div class="modal modal-default fade ModalCompraDePontos" id="ModalCompraDePontos" data-backdrop="static" data-keyboard="false"  tabindex="-1" role="dialog" aria-labelledby="ModalCompraDePontos" aria-hidden="true">
+                          <div class="modal-dialog text-center modal-dialog-small">
+                            <div class="modal-content">
+                             
+                                         <div class="modal-header">
+                                                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true"><span class="glyphicon glyphicon-remove"></span></span><span class="sr-only">Close</span></button>
+                                              </div>
+                             
+                                          <div class="modal-body">
+                                                <div class="row">
+                                                    <div class="col-md-12">
+                                                              <h4 class="modal-main-icon" ><span class="icon-large icon icon-sucess"> </span></h4>
+                                                          <div class="modal-message-impact">
+                                                              <h3 class="modal-message-impact-title"> Compra de pontos realizada com sucesso </h3>
+                                                               <p class="modal-message-impact-subtitle"> Seu novo saldo é de  5.000 pontos. <p>
+                                                          </div> <!--//modal-message-impact-->
+                                                          <button type="button" class="btn btn-lg btn-primary btn-block">OK</button>
+                                                    </div> <!---//col-md-12 -->
+                                                </div><!--//row -->
+                                          </div> <!--//modal-body -->
+
+                                        <div class="modal-footer"></div> <!-- //modal-footer -->
+
+                          </div> <!-- //modal-content-->
+                        </div><!-- //modal-dialog-->
+                    </div><!-- //Modal compra de pontos-->
+
+
+
+
+
+
+
+
+                     <!-- Modal entrega confirmada -->
+                        <div class="modal modal-default fade ModalEntregaConfirmada" id="ModalEntregaConfirmada" data-backdrop="static" data-keyboard="false"  tabindex="-1" role="dialog" aria-labelledby="ModalEntregaConfirmada" aria-hidden="true">
+                          <div class="modal-dialog text-center modal-dialog-small">
+                            <div class="modal-content">
+                             
+                                         <div class="modal-header">
+                                                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true"><span class="glyphicon glyphicon-remove"></span></span><span class="sr-only">Close</span></button>
+                                              </div>
+                             
+                                          <div class="modal-body">
+                                                <div class="row">
+                                                    <div class="col-md-12">
+                                                              <h4 class="modal-main-icon" ><span class="icon-large icon icon-sucess"> </span></h4>
+                                                          <div class="modal-message-impact">
+                                                              <h3 class="modal-message-impact-title"> Entrega confirmada</h3>
+                                                              <p class="modal-message-impact-subtitle"> Seus pontos serão contabilizados<br/> em até 24 horas. <p>
+                                                              <p class="modal-message-impact-subtitle"> Obrigado! <p>
+                                                          </div> <!--//modal-message-impact-->
+                                                          <button type="button" class="btn btn-lg btn-primary btn-block">OK</button>
+                                                    </div> <!---//col-md-12 -->
+                                                </div><!--//row -->
+                                          </div> <!--//modal-body -->
+
+                                        <div class="modal-footer"></div> <!-- //modal-footer -->
+
+                          </div> <!-- //modal-content-->
+                        </div><!-- //modal-dialog-->
+                    </div><!-- //Modal entrega confirmada-->
+
+
+
+
+
+
+
+
+                     <!-- Modal Resgate de pontos confirmada -->
+                        <div class="modal modal-default fade ModalResgatedePontosConfirmada" id="ModalResgatedePontosConfirmada" data-backdrop="static" data-keyboard="false"  tabindex="-1" role="dialog" aria-labelledby="ModalResgatedePontosConfirmada" aria-hidden="true">
+                          <div class="modal-dialog text-center modal-dialog-small">
+                            <div class="modal-content">
+                             
+                                         <div class="modal-header">
+                                                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true"><span class="glyphicon glyphicon-remove"></span></span><span class="sr-only">Close</span></button>
+                                              </div>
+                             
+                                          <div class="modal-body">
+                                                <div class="row">
+                                                    <div class="col-md-12">
+                                                              <h4 class="modal-main-icon" ><span class="icon-large icon icon-rescue"> </span></h4>
+                                                          <div class="modal-message-impact">
+                                                              <h3 class="modal-message-impact-title"> <strong>Parabéns!</strong> Resgate realizado com sucesso</h3>
+                                                              <p class="modal-message-impact-subtitle"> Valor resgatado: <strong>R$ 75,00</strong> <p>
+                                                                <div class="alert  alert-ticket ">
+                                                                      <span class="protocol-title">Anote o número de protocolo</span>
+                                                                      <span class="protocol-number">JJGX12589647854DPOF12</span>
+                                                                </div> <!-- //alert -->
+                                                                    
+                                                           </div> <!--//modal-message-impact-->
+                                                     </div> <!---//col-md-12 -->
+                                                </div><!--//row -->
+                                          </div> <!--//modal-body -->
+
+                                        <div class="modal-footer"></div> <!-- //modal-footer -->
+
+                          </div> <!-- //modal-content-->
+                        </div><!-- //modal-dialog-->
+                    </div><!-- //Modal Resgate de pontos confirmada-->
+
+
+
+
+
+
+
+
+
+                <!-- Modal Login -->
+                    <div class="modal modal-default  fade ModalLogin" data-focus-on="input:first"  id="ModalLogin" data-backdrop="static" data-keyboard="false"  tabindex="-1" role="dialog" aria-labelledby="ModalLogin" aria-hidden="true">
+                       <div class="modal-dialog">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true"><span class="glyphicon glyphicon-remove"></span></span><span class="sr-only">Close</span></button>
+                            <h4 class="modal-title brand-modal-box" id="myModalLabel"><span class="brand-modal brand-secundary brand-medium"> </span></h4>
+                          </div>
+                          <div class="modal-body">
+
+
+
+                                                <div id="carousel-access-component" class="carousel slide" data-ride="carousel" data-interval="false">
+                                                   
+
+                                                  <!-- Wrapper for slides -->
+                                                  <div class="carousel-inner">
+                                                    
+                                                    <div class="item active">
+                                                        <form class="form-horizontal" role="form">
+                                                              <div class="form-group">
+                                                                <div class="col-sm-12">
+                                                                   <input type="email" class="form-control input-lg" id="inputEmailModalLogin" placeholder="Email">
+                                                                </div>
+                                                              </div>
+                                                              <div class="form-group">
+                                                                <div class="col-sm-12">
+                                                                   <input type="password" class="form-control input-lg" id="inputSenhaModalLogin" placeholder="Senha">
+                                                                </div>
+                                                              </div>
+
+                                                              <div class="form-group">
+                                                                 <div class="col-sm-12">
+                                                                     <button type="button" class="btn btn-lg btn-default btn-block">Participar</button>
+                                                                  </div>
+                                                              </div>
+
+                                                                  <div class="form-group inverse">
+                                                                          <div class="col-md-6 text-center">
+                                                                             <div class="checkbox">
+                                                                                <label for="checkbox-lembrar-senha">
+                                                                                  <input type="checkbox" id="checkbox-lembrar-senha">  Lembrar senha
+                                                                                </label>
+                                                                              </div>
+                                                                          </div>
+
+                                                                          <div class="form-group">
+                                                                            <div class="col-md-6 text-center">
+                                                                              <a class="btn btn-link" href="#" data-target="#carousel-access-component" data-slide-to="1" >Esqueci minha senha</a>
+                                                                            </div>
+                                                                          </div>
+                                                                
+                                                                   </div> <!-- //form-group inverse -->
+
+                                                             
+
+                                                              <div class="modal-footer">
+                                                                  <div class="form-group">
+                                                                          <button type="button" class="btn btn-lg btn-primary btn-block"  data-toggle="modal" data-target=".modal-register">Não tenho conta ainda. Quero me cadastrar.</button>
+                                                                   </div>
+                                                                </div> <!-- //modal-footer -->
+                                                            </form>
+                                                    </div><!-- //item 1 -->
+
+                                                 
+
+
+                                                    <div class="item">
+                                                 <div  class=" well well-lg alert-info" role="alert">
+                                                         <strong> Bold </strong> Criar um texto que avisa o usuário sobre a recuperação de email.
+                                                      </div> <!-- //alert -->
+
+                                                      <div class="alert alert-warning fade in" role="alert">
+                                                        <button type="button" class="close" data-dismiss="alert"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>
+                                                        <strong>Olá! </strong> Criar um texto que avisa o usuário sobre a recuperação de email.
+                                                      </div> <!-- //alert -->
+
+                                                               <form class="form-horizontal" role="form">
+                                                  
+                                                                      <div class="form-group">
+                                                                        <div class="col-sm-12">
+                                                                           <input type="email" class="form-control input-lg" id="inputEmailModalLogin" placeholder="Email">
+                                                                        </div>
+                                                                      </div>
+                                                                       
+                                                                      <div class="form-group">
+                                                                         <div class="col-sm-12">
+                                                                             <button type="button" class="btn btn-lg btn-default btn-block">Recuperar senha</button>
+                                                                          </div>
+                                                                      </div>
+
+
+                                                                      <div class="modal-footer">
+                                                                          <div class="form-group">
+                                                                                 <button type="button" class="btn btn-lg btn-primary btn-block" data-target="#carousel-access-component" data-slide-to="0" >Voltar</button>
+                                                                           </div>
+                                                                        </div> <!-- //modal-footer -->
+                                                              </form>
+
+
+
+                                                      </div><!-- //item 2 -->
+
+                                                   </div> <!-- //carousel-inner -->
+                                                </div> <!-- //carousel-form-access -->
+ 
+
+                        </div> <!--//modal-body -->
+                      </div> <!-- //modal-content-->
+                    </div><!-- //modal-dialog-->
+
+                </div><!-- //modal-login-->
+
+
+
+
+
+                  <!-- Modal register -->
+                    <div class="modal modal-default fade ModalRegister" data-focus-on="input:first"  id="ModalRegister" data-backdrop="static" data-keyboard="false"  tabindex="-1" role="dialog" aria-labelledby="ModalRegister" aria-hidden="true">
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                          
+                          <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true"><span class="glyphicon glyphicon-remove"></span></span><span class="sr-only">Close</span></button>
+                            <h4 class="modal-title brand-modal-box"><span class="brand-modal brand-secundary brand-medium"> </span></h4>
+                          </div> <!-- // modal-header-->
+                         
+                          <div class="modal-body">
+                              <div class="row">
+                                  <div class="col-sm-4"> <span class="icon icon-cidadao"> </span>          <p>Quero Entregar Resíduos</p> </div>
+                                  <div class="col-sm-4"> <span class="icon icon-ponto-de-coleta"> </span>  <p>Quero Receber Resíduos</p></div>
+                                  <div class="col-sm-4"> <span class="icon icon-incentivador"> </span>     <p>Quero criar campanha de recolhimento</p></div>
+                                      
+                                      <div class="col-sm-12  text-center"><p>Você pode escolher mais de uma opção</p></div>
+                              </div><!--//row -->
+                        </div> <!--//modal-body -->
+
+                         <div class="modal-footer">
+                          <div class="form-group">
+                                  <button type="button" class="btn btn-lg btn-primary btn-block ">Cadastrar</button>
+                           </div>
+                        </div> <!-- //modal-footer -->
+
+                      </div> <!-- //modal-content-->
+                    </div><!-- //modal-dialog-->
+                </div><!-- //modal-register-->
+
+
+
+
+
+
+
+ <!-- Modal Escolha o produto -->
+    <div class="modal modal-default fade ModalSelectProduct" data-focus-on="input:first"  id="ModalSelectProduct" data-backdrop="static" data-keyboard="false"  tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true"><span class="glyphicon glyphicon-remove"></span></span><span class="sr-only">Close</span></button>
+            </div> <!-- // modal-header-->
+         
+          <div class="modal-body">
+              <div class="row">
+                  
+                  <div class="col-md-12">
+
+                    <div class="lista-produto-component lista-produto-component-overflow">
+                        <h4 class="title-lista-produtos"> Recentes </h4>
+                        <ul class="lista-produtos">
+                          <li class="item-lista-produtos"><a href="#"><span class="icon icon-livros-e-revistas"></span>Papel de Escritório</a></li>
+                          <li class="item-lista-produtos"><a href="#"><span class="icon icon-livros-e-revistas"></span>Papel de Escritório</a></li>
+                          <li class="item-lista-produtos"><a href="#"><span class="icon icon-livros-e-revistas"></span>Papel de Escritório</a></li>
+                        </ul>
+
+                        <h4 class="title-lista-produtos"> Papéis </h4>
+                        <ul class="lista-produtos">
+                          <li class="item-lista-produtos"><a href="#"><span class="icon icon-livros-e-revistas"></span>Livros e Revistas</a></li>
+                          <li class="item-lista-produtos"><a href="#"><span class="icon icon-cartolina"></span>Cartolina</a></li>
+                          <li class="item-lista-produtos"><a href="#"><span class="icon icon-embalagens-de-papel"></span>Embalagens de papel</a></li>
+                          <li class="item-lista-produtos"><a href="#"><span class="icon icon-papel-de-embalagem"></span>Papel de embalagens</a></li>
+                          <li class="item-lista-produtos"><a href="#"><span class="icon icon-papel-de-escritorio"></span>Papel de escritório</a></li>
+                          <li class="item-lista-produtos"><a href="#"><span class="icon icon-papelao"></span>Papelão</a></li>
+                          <li class="item-lista-produtos"><a href="#"><span class="icon icon-jornal"></span>Jornal</a></li>
+                        </ul>
+
+                        <h4 class="title-lista-produtos"> Plásticos </h4>
+                        <ul class="lista-produtos">
+                              <li class="item-lista-produtos"><a href="#"> <span class="icon-medium icon icon-garrafas-pet"> </span> Garrafas (P.E.T.)</a></li>
+                              <li class="item-lista-produtos"><a href="#"> <span class="icon-medium icon icon-garrafas-de-detergente-pead"> </span> Garrafas de detergente (P.E.A.D.)</a></li>
+                              <li class="item-lista-produtos"><a href="#"> <span class="icon-medium icon icon-sacolas-de-supermercado-pead"> </span> Sacolas de supermercado (P.E.A.D.)</a></li>
+                              <li class="item-lista-produtos"><a href="#"> <span class="icon-medium icon icon-potes-pead"> </span> Potes (P.E.A.D)</a></li>
+                              <li class="item-lista-produtos"><a href="#"> <span class="icon-medium icon icon-utilidades-domesticas-pp"> </span> Utilidades domésticas  (P.E.A.D)</a></li>
+                              <li class="item-lista-produtos"><a href="#"> <span class="icon-medium icon icon-bombonas-pead"> </span> Bombonas (P.E.A.D.)</a></li>
+                              <li class="item-lista-produtos"><a href="#"> <span class="icon-medium icon icon-pecas-termicas-pead"> </span> Peças térmicas  (P.E.A.D.)</a></li>
+                              <li class="item-lista-produtos"><a href="#"> <span class="icon-medium icon icon-embalagem-de-agua-mineral-pvc"> </span> Embalagem de água mineral (P.V.C.)</a></li>
+                              <li class="item-lista-produtos"><a href="#"> <span class="icon-medium icon icon-embalagem-de-oleos-comestiveis-pvc"> </span> Embalagem de óleos comestíveis (P.V.C.) </a></li>
+                              <li class="item-lista-produtos"><a href="#"> <span class="icon-medium icon icon-tubos-pvc"> </span> Tubos (P.V.C.) </a></li>
+                              <li class="item-lista-produtos"><a href="#"> <span class="icon-medium icon icon-esquadrias-pvc"> </span> Esquadrias (P.V.C.) </a></li>
+                              <li class="item-lista-produtos"><a href="#"> <span class="icon-medium icon icon-saco-de-leite-pebd"> </span> Saco de leite (P.E.B.D.) </a></li>
+                              <li class="item-lista-produtos"><a href="#"> <span class="icon-medium icon icon-saco-de-iogurte-pebd"> </span> Saco de iogurte (P.E.B.D.) </a></li>
+                              <li class="item-lista-produtos"><a href="#"> <span class="icon-medium icon icon-saco-de-lixo-pebd"> </span> Saco de lixo (P.E.B.D.) </a></li>
+                              <li class="item-lista-produtos"><a href="#"> <span class="icon-medium icon icon-saco-de-muda-de-plantas-pebd"> </span> Saco de muda de plantas (P.E.B.D.) </a></li>
+                              <li class="item-lista-produtos"><a href="#"> <span class="icon-medium icon icon-pecas-termicas-pp"> </span> Peças térmicas (P.P.) </a></li>
+                              <li class="item-lista-produtos"><a href="#"> <span class="icon-medium icon icon-utilidades-domesticas-pp"> </span> Utilidades domésticas (P.P.) </a></li>
+                              <li class="item-lista-produtos"><a href="#"> <span class="icon-medium icon icon-fios-e-cabos-pp"> </span> Fios e cabos (P.P.) </a></li>
+                              <li class="item-lista-produtos"><a href="#"> <span class="icon-medium icon icon-potes-pp"> </span> Potes (P.P.) </a></li>
+                              <li class="item-lista-produtos"><a href="#"> <span class="icon-medium icon icon-potes-ps"> </span> Potes  (P.S.) </a></li>
+                              <li class="item-lista-produtos"><a href="#"> <span class="icon-medium icon icon-aparelhos-de-barbear-descartaveis-ps"> </span> Aparelhos de barbear  descartáveis (P.S.) </a></li>
+                              <li class="item-lista-produtos"><a href="#"> <span class="icon-medium icon icon-cartuchos-de-impressoras-ps"> </span> Cartuchos de impressoras (P.S.) </a></li>
+                              <li class="item-lista-produtos"><a href="#"> <span class="icon-medium icon icon-calcados"> </span> Calçados  </a></li>
+                              <li class="item-lista-produtos"><a href="#"> <span class="icon-medium icon icon-cds"> </span> CDs </a></li>
+                        </ul>
+
+
+                        <h4 class="title-lista-produtos"> Vidro </h4>
+                        <ul class="lista-produtos">
+                            <li class="item-lista-produtos"><a href="#"> <span class="icon-medium icon icon-garafas"> </span>   Garafas</a></li>
+                            <li class="item-lista-produtos"><a href="#"> <span class="icon-medium icon icon-paineis-de-vidro"> </span> Paineis de vidro</a></li>
+                            <li class="item-lista-produtos"><a href="#"> <span class="icon-medium icon icon-lampadas"> </span> Lâmpadas</a></li>
+                            <li class="item-lista-produtos"><a href="#"> <span class="icon-medium icon icon-espelhos"> </span> Espelhos</a></li>
+                        </ul>
+
+
+                         <h4 class="title-lista-produtos"> Eletrônicos </h4>
+                         <ul class="lista-produtos">
+                            <li class="item-lista-produtos"><a href="#"> <span class="icon-medium icon icon-televisao"> </span> Televisão  </a></li>
+                            <li class="item-lista-produtos"><a href="#"> <span class="icon-medium icon icon-celulares"> </span> Celulares </a></li>
+                            <li class="item-lista-produtos"><a href="#"> <span class="icon-medium icon icon-computadores"> </span> Computadores  </a></li>
+                            <li class="item-lista-produtos"><a href="#"> <span class="icon-medium icon icon-tablets"> </span> Tablets  </a></li>
+                            <li class="item-lista-produtos"><a href="#"> <span class="icon-medium icon icon-reprodutores-de-video"> </span> Reprodutores de video  </a></li>
+                            <li class="item-lista-produtos"><a href="#"> <span class="icon-medium icon icon-equipamentos-de-acesso-web"> </span> Equipamentos de acesso web </a></li>
+                            <li class="item-lista-produtos"><a href="#"> <span class="icon-medium icon icon-fogao"> </span> Fogão </a></li>
+                            <li class="item-lista-produtos"><a href="#"> <span class="icon-medium icon icon-exaustores"> </span> Exaustores </a></li>
+                            <li class="item-lista-produtos"><a href="#"> <span class="icon-medium icon icon-geladeiras"> </span> Geladeiras </a></li>
+                            <li class="item-lista-produtos"><a href="#"> <span class="icon-medium icon icon-freezer"> </span> Freezer </a></li>
+                            <li class="item-lista-produtos"><a href="#"> <span class="icon-medium icon icon-ar-condicionado"> </span> Ar condicionado </a></li>
+                            <li class="item-lista-produtos"><a href="#"> <span class="icon-medium icon icon-telefones"> </span> Telefones </a></li>
+                          </ul>
+
+
+                        <h4 class="title-lista-produtos"> Perigosos </h4>
+                        <ul class="lista-produtos">
+                          <li class="item-lista-produtos"><a href="#"> <span class="icon-medium icon icon-residuo-hospitalar"> </span> Resíduo hospitalar</a></li>
+                          <li class="item-lista-produtos"><a href="#"> <span class="icon-medium icon icon-baterias">  </span> Baterias </a></li>
+                          <li class="item-lista-produtos"><a href="#"> <span class="icon-medium icon icon-pilhas"> </span> Pilhas</a></li>
+                          <li class="item-lista-produtos"><a href="#"> <span class="icon-medium icon icon-residuos-radioativos"> </span> Resíduos radioativos</a></li>
+                          <li class="item-lista-produtos"><a href="#"> <span class="icon-medium icon icon-materiais-toxicos"> </span> Materiais tóxicos</a></li>
+                          <li class="item-lista-produtos"><a href="#"> <span class="icon-medium icon icon-bolsa-de-soro-pvc"> </span> bolsa de soro (P.V.C.)</a></li>
+                          <li class="item-lista-produtos"><a href="#"> <span class="icon-medium icon icon-bolsa-de-sangue-pvc"> </span> bolsa de sangue (P.V.C.)</a></li>
+                        </ul>
+
+                        <h4 class="title-lista-produtos"> Outros </h4>
+                            <ul class="lista-produtos">
+                                <li class="item-lista-produtos"><a href="#"> <span class="icon-medium icon icon-legumes"> </span> Legumes</a></li>
+                                <li class="item-lista-produtos"><a href="#"> <span class="icon-medium icon icon-verduras"> </span> Verduras</a></li>
+                                <li class="item-lista-produtos"><a href="#"> <span class="icon-medium icon icon-frutas"> </span> Frutas</a></li>
+                                <li class="item-lista-produtos"><a href="#"> <span class="icon-medium icon icon-embutidos"> </span> Embutidos</a></li>
+                                <li class="item-lista-produtos"><a href="#"> <span class="icon-medium icon icon-leites-e-derivados"> </span> Leite e derivados</a></li>
+                                <li class="item-lista-produtos"><a href="#"> <span class="icon-medium icon icon-pneus"> </span> Pneus </a></li>
+                                <li class="item-lista-produtos"><a href="#"> <span class="icon-medium icon icon-carnes"> </span> Carnes</a></li>
+                                <li class="item-lista-produtos"><a href="#"> <span class="icon-medium icon icon-oleos"> </span> Óleos </a></li>
+                                <li class="item-lista-produtos"><a href="#"> <span class="icon-medium icon icon-madeira"> </span> Madeira</a></li>
+                                <li class="item-lista-produtos"><a href="#"> <span class="icon-medium icon icon-construcao-demolicao"> </span> Construção e demolição</a></li>
+                            </ul>
+
+
+
+                    </div> <!-- //lista-produto -->
+                      
+                  </div> <!---//col-md-12 -->
+
+              </div><!--//row -->
+        </div> <!--//modal-body -->
+
+         <div class="modal-footer">
+           
+        </div> <!-- //modal-footer -->
+
+      </div> <!-- //modal-content-->
+    </div><!-- //modal-dialog-->
+</div><!-- //Modal Escolha o produto-->
+
+
+
+ 
+
+
+
+
+ <!-- Modal compra de pontos -->
+    <div class="modal modal-default fade ModalCompraDePontos" id="ModalCompraDePontos" data-backdrop="static" data-keyboard="false"  tabindex="-1" role="dialog" aria-labelledby="ModalCompraDePontos" aria-hidden="true">
+      <div class="modal-dialog text-center modal-dialog-small">
+        <div class="modal-content">
+         
+                     <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true"><span class="glyphicon glyphicon-remove"></span></span><span class="sr-only">Close</span></button>
+                          </div>
+         
+                      <div class="modal-body">
+                            <div class="row">
+                                <div class="col-md-12">
+                                          <h4 class="modal-main-icon" ><span class="icon-large icon icon-sucess"> </span></h4>
+                                      <div class="modal-message-impact">
+                                          <h3 class="modal-message-impact-title"> Compra de pontos realizada com sucesso </h3>
+                                           <p class="modal-message-impact-subtitle"> Seu novo saldo é de  5.000 pontos. <p>
+                                      </div> <!--//modal-message-impact-->
+                                      <button type="button" class="btn btn-lg btn-primary btn-block">OK</button>
+                                </div> <!---//col-md-12 -->
+                            </div><!--//row -->
+                      </div> <!--//modal-body -->
+
+                    <div class="modal-footer"></div> <!-- //modal-footer -->
+
+      </div> <!-- //modal-content-->
+    </div><!-- //modal-dialog-->
+</div><!-- //Modal compra de pontos-->
+
+
+
+
+
+
+
+
+ <!-- Modal entrega confirmada -->
+    <div class="modal modal-default fade ModalEntregaConfirmada" id="ModalEntregaConfirmada" data-backdrop="static" data-keyboard="false"  tabindex="-1" role="dialog" aria-labelledby="ModalEntregaConfirmada" aria-hidden="true">
+      <div class="modal-dialog text-center modal-dialog-small">
+        <div class="modal-content">
+         
+                     <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true"><span class="glyphicon glyphicon-remove"></span></span><span class="sr-only">Close</span></button>
+                          </div>
+         
+                      <div class="modal-body">
+                            <div class="row">
+                                <div class="col-md-12">
+                                          <h4 class="modal-main-icon" ><span class="icon-large icon icon-sucess"> </span></h4>
+                                      <div class="modal-message-impact">
+                                          <h3 class="modal-message-impact-title"> Entrega confirmada</h3>
+                                          <p class="modal-message-impact-subtitle"> Seus pontos serão contabilizados<br/> em até 24 horas. <p>
+                                          <p class="modal-message-impact-subtitle"> Obrigado! <p>
+                                      </div> <!--//modal-message-impact-->
+                                      <button type="button" class="btn btn-lg btn-primary btn-block">OK</button>
+                                </div> <!---//col-md-12 -->
+                            </div><!--//row -->
+                      </div> <!--//modal-body -->
+
+                    <div class="modal-footer"></div> <!-- //modal-footer -->
+
+      </div> <!-- //modal-content-->
+    </div><!-- //modal-dialog-->
+</div><!-- //Modal entrega confirmada-->
+
+
+
+
+
+
+
+
+ <!-- Modal Resgate de pontos confirmada -->
+    <div class="modal modal-default fade ModalResgatedePontosConfirmada" id="ModalResgatedePontosConfirmada" data-backdrop="static" data-keyboard="false"  tabindex="-1" role="dialog" aria-labelledby="ModalResgatedePontosConfirmada" aria-hidden="true">
+      <div class="modal-dialog text-center modal-dialog-small">
+        <div class="modal-content">
+         
+                     <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true"><span class="glyphicon glyphicon-remove"></span></span><span class="sr-only">Close</span></button>
+                          </div>
+         
+                      <div class="modal-body">
+                            <div class="row">
+                                <div class="col-md-12">
+                                          <h4 class="modal-main-icon" ><span class="icon-large icon icon-rescue"> </span></h4>
+                                      <div class="modal-message-impact">
+                                          <h3 class="modal-message-impact-title"> <strong>Parabéns!</strong> Resgate realizado com sucesso</h3>
+                                          <p class="modal-message-impact-subtitle"> Valor resgatado: <strong>R$ 75,00</strong> <p>
+                                            <div class="alert  alert-ticket ">
+                                                  <span class="protocol-title">Anote o número de protocolo</span>
+                                                  <span class="protocol-number">JJGX12589647854DPOF12</span>
+                                            </div> <!-- //alert -->
+                                                
+                                       </div> <!--//modal-message-impact-->
+                                 </div> <!---//col-md-12 -->
+                            </div><!--//row -->
+                      </div> <!--//modal-body -->
+
+                    <div class="modal-footer"></div> <!-- //modal-footer -->
+
+      </div> <!-- //modal-content-->
+    </div><!-- //modal-dialog-->
+</div><!-- //Modal Resgate de pontos confirmada-->
+
+
+
+
+
+
+
+
+
+                        <!-- Modal -->
+                        <div class="modal modal-default fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                          <div class="modal-dialog">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                                <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+                              </div>
+                              <div class="modal-body">
+                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore placeat hic repellendus culpa dolorem? Molestias nulla accusamus quibusdam repudiandae. Atque quod eligendi odio ex labore! Hic aperiam, facilis id soluta.</p>
+                              </div>
+                              <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary">Save changes</button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+
+                      <!-- Modal large -->
+                      <div class="modal modal-default fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-lg">
+                          <div class="modal-content">
+                                <div class="modal-header">
+                                  <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                                  <h4 class="modal-title" id="myModalLabel">Modal large title</h4>
+                                </div>
+                                <div class="modal-body">
+                                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore placeat hic repellendus culpa dolorem? Molestias nulla accusamus quibusdam repudiandae. Atque quod eligendi odio ex labore! Hic aperiam, facilis id soluta.</p>
+                                </div>
+                                <div class="modal-footer">
+                                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                  <button type="button" class="btn btn-primary">Save changes</button>
+                                </div>
+                              </div>
+                        </div>
+                      </div>
+
+                    
+
+                  <!-- Modal small -->
+                  <div class="modal modal-default fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-sm">
+                        <div class="modal-content">
+                                <div class="modal-header">
+                                  <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                                  <h4 class="modal-title" id="myModalLabel">Modal small title</h4>
+                                </div>
+                                <div class="modal-body">
+                                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore placeat hic repellendus culpa dolorem? Molestias nulla accusamus quibusdam repudiandae. Atque quod eligendi odio ex labore! Hic aperiam, facilis id soluta.</p>
+                                </div>
+                                <div class="modal-footer">
+                                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                  <button type="button" class="btn btn-primary">Save changes</button>
+                                </div>
+                        </div>
+                    </div>
+                  </div>
+
+
+ 
+
+</section> <!-- //simple-group -->
+
+
+
+
+
+
  <article class="page-frontend page-campanhas">
 
            <h1 class="title-section"> <strong>Campanhas</strong> Sponge </h1>
@@ -2818,623 +3445,6 @@
 
 
 
-
-
-<section class="simple-group" id="section-modals">
-
-
-  <div class="page-header">
-        <h1>Modal</h1>
-      </div>
-
-                      <!-- Tipos de modal-->
-                      <div class="btn-group btn-group-sm">
-                          <button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#ModalCompraDePontos"> ModalCompraDePontos </button>
-                          <button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#ModalResgatedePontosConfirmada"> ModalResgatedePontosConfirmada </button>
-                          <button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#ModalEntregaConfirmada">  ModalEntregaConfirmada </button>
-                      </div>
-
-                    <hr>
-
-                       <div class="btn-group btn-group-sm">
-                          <button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#ModalSelectProduct"> ModalSelectProduct</button>
-                          <button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#ModalLogin">  ModalLogin</button>
-                       </div>
-                       
-                      
-
-                    <hr>
-
-                    <div class="btn-group btn-group-sm">
-                      <!-- Button trigger modal --> <button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal"> Default Modal </button>
-                      <!-- Large modal --> <button class="btn btn-lg btn-primary" data-toggle="modal" data-target=".bs-example-modal-lg">Large modal</button>
-                      <!-- Small modal -->  <button class="btn btn-sm btn-primary " data-toggle="modal" data-target=".bs-example-modal-sm">Small modal</button>
-                      </div>
-
-
-
-
-
-
-
-
-
-                     <!-- Modal compra de pontos -->
-                        <div class="modal modal-default fade ModalCompraDePontos" id="ModalCompraDePontos" data-backdrop="static" data-keyboard="false"  tabindex="-1" role="dialog" aria-labelledby="ModalCompraDePontos" aria-hidden="true">
-                          <div class="modal-dialog text-center modal-dialog-small">
-                            <div class="modal-content">
-                             
-                                         <div class="modal-header">
-                                                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true"><span class="glyphicon glyphicon-remove"></span></span><span class="sr-only">Close</span></button>
-                                              </div>
-                             
-                                          <div class="modal-body">
-                                                <div class="row">
-                                                    <div class="col-md-12">
-                                                              <h4 class="modal-main-icon" ><span class="icon-large icon icon-sucess"> </span></h4>
-                                                          <div class="modal-message-impact">
-                                                              <h3 class="modal-message-impact-title"> Compra de pontos realizada com sucesso </h3>
-                                                               <p class="modal-message-impact-subtitle"> Seu novo saldo é de  5.000 pontos. <p>
-                                                          </div> <!--//modal-message-impact-->
-                                                          <button type="button" class="btn btn-lg btn-primary btn-block">OK</button>
-                                                    </div> <!---//col-md-12 -->
-                                                </div><!--//row -->
-                                          </div> <!--//modal-body -->
-
-                                        <div class="modal-footer"></div> <!-- //modal-footer -->
-
-                          </div> <!-- //modal-content-->
-                        </div><!-- //modal-dialog-->
-                    </div><!-- //Modal compra de pontos-->
-
-
-
-
-
-
-
-
-                     <!-- Modal entrega confirmada -->
-                        <div class="modal modal-default fade ModalEntregaConfirmada" id="ModalEntregaConfirmada" data-backdrop="static" data-keyboard="false"  tabindex="-1" role="dialog" aria-labelledby="ModalEntregaConfirmada" aria-hidden="true">
-                          <div class="modal-dialog text-center modal-dialog-small">
-                            <div class="modal-content">
-                             
-                                         <div class="modal-header">
-                                                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true"><span class="glyphicon glyphicon-remove"></span></span><span class="sr-only">Close</span></button>
-                                              </div>
-                             
-                                          <div class="modal-body">
-                                                <div class="row">
-                                                    <div class="col-md-12">
-                                                              <h4 class="modal-main-icon" ><span class="icon-large icon icon-sucess"> </span></h4>
-                                                          <div class="modal-message-impact">
-                                                              <h3 class="modal-message-impact-title"> Entrega confirmada</h3>
-                                                              <p class="modal-message-impact-subtitle"> Seus pontos serão contabilizados<br/> em até 24 horas. <p>
-                                                              <p class="modal-message-impact-subtitle"> Obrigado! <p>
-                                                          </div> <!--//modal-message-impact-->
-                                                          <button type="button" class="btn btn-lg btn-primary btn-block">OK</button>
-                                                    </div> <!---//col-md-12 -->
-                                                </div><!--//row -->
-                                          </div> <!--//modal-body -->
-
-                                        <div class="modal-footer"></div> <!-- //modal-footer -->
-
-                          </div> <!-- //modal-content-->
-                        </div><!-- //modal-dialog-->
-                    </div><!-- //Modal entrega confirmada-->
-
-
-
-
-
-
-
-
-                     <!-- Modal Resgate de pontos confirmada -->
-                        <div class="modal modal-default fade ModalResgatedePontosConfirmada" id="ModalResgatedePontosConfirmada" data-backdrop="static" data-keyboard="false"  tabindex="-1" role="dialog" aria-labelledby="ModalResgatedePontosConfirmada" aria-hidden="true">
-                          <div class="modal-dialog text-center modal-dialog-small">
-                            <div class="modal-content">
-                             
-                                         <div class="modal-header">
-                                                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true"><span class="glyphicon glyphicon-remove"></span></span><span class="sr-only">Close</span></button>
-                                              </div>
-                             
-                                          <div class="modal-body">
-                                                <div class="row">
-                                                    <div class="col-md-12">
-                                                              <h4 class="modal-main-icon" ><span class="icon-large icon icon-rescue"> </span></h4>
-                                                          <div class="modal-message-impact">
-                                                              <h3 class="modal-message-impact-title"> <strong>Parabéns!</strong> Resgate realizado com sucesso</h3>
-                                                              <p class="modal-message-impact-subtitle"> Valor resgatado: <strong>R$ 75,00</strong> <p>
-                                                                <div class="alert  alert-ticket ">
-                                                                      <span class="protocol-title">Anote o número de protocolo</span>
-                                                                      <span class="protocol-number">JJGX12589647854DPOF12</span>
-                                                                </div> <!-- //alert -->
-                                                                    
-                                                           </div> <!--//modal-message-impact-->
-                                                     </div> <!---//col-md-12 -->
-                                                </div><!--//row -->
-                                          </div> <!--//modal-body -->
-
-                                        <div class="modal-footer"></div> <!-- //modal-footer -->
-
-                          </div> <!-- //modal-content-->
-                        </div><!-- //modal-dialog-->
-                    </div><!-- //Modal Resgate de pontos confirmada-->
-
-
-
-
-
-
-
-
-
-                <!-- Modal Login -->
-                    <div class="modal modal-default  fade ModalLogin" data-focus-on="input:first"  id="ModalLogin" data-backdrop="static" data-keyboard="false"  tabindex="-1" role="dialog" aria-labelledby="ModalLogin" aria-hidden="true">
-                       <div class="modal-dialog">
-                        <div class="modal-content">
-                          <div class="modal-header">
-                            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true"><span class="glyphicon glyphicon-remove"></span></span><span class="sr-only">Close</span></button>
-                            <h4 class="modal-title brand-modal-box" id="myModalLabel"><span class="brand-modal brand-secundary brand-medium"> </span></h4>
-                          </div>
-                          <div class="modal-body">
-
-
-
-                                                <div id="carousel-access-component" class="carousel slide" data-ride="carousel" data-interval="false">
-                                                   
-
-                                                  <!-- Wrapper for slides -->
-                                                  <div class="carousel-inner">
-                                                    
-                                                    <div class="item active">
-                                                        <form class="form-horizontal" role="form">
-                                                              <div class="form-group">
-                                                                <div class="col-sm-12">
-                                                                   <input type="email" class="form-control input-lg" id="inputEmailModalLogin" placeholder="Email">
-                                                                </div>
-                                                              </div>
-                                                              <div class="form-group">
-                                                                <div class="col-sm-12">
-                                                                   <input type="password" class="form-control input-lg" id="inputSenhaModalLogin" placeholder="Senha">
-                                                                </div>
-                                                              </div>
-
-                                                              <div class="form-group">
-                                                                 <div class="col-sm-12">
-                                                                     <button type="button" class="btn btn-lg btn-default btn-block">Participar</button>
-                                                                  </div>
-                                                              </div>
-
-                                                                  <div class="form-group inverse">
-                                                                          <div class="col-md-6 text-center">
-                                                                             <div class="checkbox">
-                                                                                <label for="checkbox-lembrar-senha">
-                                                                                  <input type="checkbox" id="checkbox-lembrar-senha">  Lembrar senha
-                                                                                </label>
-                                                                              </div>
-                                                                          </div>
-
-                                                                          <div class="form-group">
-                                                                            <div class="col-md-6 text-center">
-                                                                              <a class="btn btn-link" href="#" data-target="#carousel-access-component" data-slide-to="1" >Esqueci minha senha</a>
-                                                                            </div>
-                                                                          </div>
-                                                                
-                                                                   </div> <!-- //form-group inverse -->
-
-                                                             
-
-                                                              <div class="modal-footer">
-                                                                  <div class="form-group">
-                                                                          <button type="button" class="btn btn-lg btn-primary btn-block"  data-toggle="modal" data-target=".modal-register">Não tenho conta ainda. Quero me cadastrar.</button>
-                                                                   </div>
-                                                                </div> <!-- //modal-footer -->
-                                                            </form>
-                                                    </div><!-- //item 1 -->
-
-                                                 
-
-
-                                                    <div class="item">
-                                                 <div  class=" well well-lg alert-info" role="alert">
-                                                         <strong> Bold </strong> Criar um texto que avisa o usuário sobre a recuperação de email.
-                                                      </div> <!-- //alert -->
-
-                                                      <div class="alert alert-warning fade in" role="alert">
-                                                        <button type="button" class="close" data-dismiss="alert"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>
-                                                        <strong>Olá! </strong> Criar um texto que avisa o usuário sobre a recuperação de email.
-                                                      </div> <!-- //alert -->
-
-                                                               <form class="form-horizontal" role="form">
-                                                  
-                                                                      <div class="form-group">
-                                                                        <div class="col-sm-12">
-                                                                           <input type="email" class="form-control input-lg" id="inputEmailModalLogin" placeholder="Email">
-                                                                        </div>
-                                                                      </div>
-                                                                       
-                                                                      <div class="form-group">
-                                                                         <div class="col-sm-12">
-                                                                             <button type="button" class="btn btn-lg btn-default btn-block">Recuperar senha</button>
-                                                                          </div>
-                                                                      </div>
-
-
-                                                                      <div class="modal-footer">
-                                                                          <div class="form-group">
-                                                                                 <button type="button" class="btn btn-lg btn-primary btn-block" data-target="#carousel-access-component" data-slide-to="0" >Voltar</button>
-                                                                           </div>
-                                                                        </div> <!-- //modal-footer -->
-                                                              </form>
-
-
-
-                                                      </div><!-- //item 2 -->
-
-                                                   </div> <!-- //carousel-inner -->
-                                                </div> <!-- //carousel-form-access -->
- 
-
-                        </div> <!--//modal-body -->
-                      </div> <!-- //modal-content-->
-                    </div><!-- //modal-dialog-->
-
-                </div><!-- //modal-login-->
-
-
-
-
-
-                  <!-- Modal register -->
-                    <div class="modal modal-default fade ModalRegister" data-focus-on="input:first"  id="ModalRegister" data-backdrop="static" data-keyboard="false"  tabindex="-1" role="dialog" aria-labelledby="ModalRegister" aria-hidden="true">
-                      <div class="modal-dialog">
-                        <div class="modal-content">
-                          
-                          <div class="modal-header">
-                            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true"><span class="glyphicon glyphicon-remove"></span></span><span class="sr-only">Close</span></button>
-                            <h4 class="modal-title brand-modal-box"><span class="brand-modal brand-secundary brand-medium"> </span></h4>
-                          </div> <!-- // modal-header-->
-                         
-                          <div class="modal-body">
-                              <div class="row">
-                                  <div class="col-sm-4"> <span class="icon icon-cidadao"> </span>          <p>Quero Entregar Resíduos</p> </div>
-                                  <div class="col-sm-4"> <span class="icon icon-ponto-de-coleta"> </span>  <p>Quero Receber Resíduos</p></div>
-                                  <div class="col-sm-4"> <span class="icon icon-incentivador"> </span>     <p>Quero criar campanha de recolhimento</p></div>
-                                      
-                                      <div class="col-sm-12  text-center"><p>Você pode escolher mais de uma opção</p></div>
-                              </div><!--//row -->
-                        </div> <!--//modal-body -->
-
-                         <div class="modal-footer">
-                          <div class="form-group">
-                                  <button type="button" class="btn btn-lg btn-primary btn-block ">Cadastrar</button>
-                           </div>
-                        </div> <!-- //modal-footer -->
-
-                      </div> <!-- //modal-content-->
-                    </div><!-- //modal-dialog-->
-                </div><!-- //modal-register-->
-
-
-
-
-
-
-
- <!-- Modal Escolha o produto -->
-    <div class="modal modal-default fade ModalSelectProduct" data-focus-on="input:first"  id="ModalSelectProduct" data-backdrop="static" data-keyboard="false"  tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          
-          <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true"><span class="glyphicon glyphicon-remove"></span></span><span class="sr-only">Close</span></button>
-            </div> <!-- // modal-header-->
-         
-          <div class="modal-body">
-              <div class="row">
-                  
-                  <div class="col-md-12">
-
-                    <div class="lista-produto-component lista-produto-component-overflow">
-                        <h4 class="title-lista-produtos"> Recentes </h4>
-                        <ul class="lista-produtos">
-                          <li class="item-lista-produtos"><a href="#"><span class="icon icon-livros-e-revistas"></span>Papel de Escritório</a></li>
-                          <li class="item-lista-produtos"><a href="#"><span class="icon icon-livros-e-revistas"></span>Papel de Escritório</a></li>
-                          <li class="item-lista-produtos"><a href="#"><span class="icon icon-livros-e-revistas"></span>Papel de Escritório</a></li>
-                        </ul>
-
-                        <h4 class="title-lista-produtos"> Papéis </h4>
-                        <ul class="lista-produtos">
-                          <li class="item-lista-produtos"><a href="#"><span class="icon icon-livros-e-revistas"></span>Livros e Revistas</a></li>
-                          <li class="item-lista-produtos"><a href="#"><span class="icon icon-cartolina"></span>Cartolina</a></li>
-                          <li class="item-lista-produtos"><a href="#"><span class="icon icon-embalagens-de-papel"></span>Embalagens de papel</a></li>
-                          <li class="item-lista-produtos"><a href="#"><span class="icon icon-papel-de-embalagem"></span>Papel de embalagens</a></li>
-                          <li class="item-lista-produtos"><a href="#"><span class="icon icon-papel-de-escritorio"></span>Papel de escritório</a></li>
-                          <li class="item-lista-produtos"><a href="#"><span class="icon icon-papelao"></span>Papelão</a></li>
-                          <li class="item-lista-produtos"><a href="#"><span class="icon icon-jornal"></span>Jornal</a></li>
-                        </ul>
-
-                        <h4 class="title-lista-produtos"> Plásticos </h4>
-                        <ul class="lista-produtos">
-                              <li class="item-lista-produtos"><a href="#"> <span class="icon-medium icon icon-garrafas-pet"> </span> Garrafas (P.E.T.)</a></li>
-                              <li class="item-lista-produtos"><a href="#"> <span class="icon-medium icon icon-garrafas-de-detergente-pead"> </span> Garrafas de detergente (P.E.A.D.)</a></li>
-                              <li class="item-lista-produtos"><a href="#"> <span class="icon-medium icon icon-sacolas-de-supermercado-pead"> </span> Sacolas de supermercado (P.E.A.D.)</a></li>
-                              <li class="item-lista-produtos"><a href="#"> <span class="icon-medium icon icon-potes-pead"> </span> Potes (P.E.A.D)</a></li>
-                              <li class="item-lista-produtos"><a href="#"> <span class="icon-medium icon icon-utilidades-domesticas-pp"> </span> Utilidades domésticas  (P.E.A.D)</a></li>
-                              <li class="item-lista-produtos"><a href="#"> <span class="icon-medium icon icon-bombonas-pead"> </span> Bombonas (P.E.A.D.)</a></li>
-                              <li class="item-lista-produtos"><a href="#"> <span class="icon-medium icon icon-pecas-termicas-pead"> </span> Peças térmicas  (P.E.A.D.)</a></li>
-                              <li class="item-lista-produtos"><a href="#"> <span class="icon-medium icon icon-embalagem-de-agua-mineral-pvc"> </span> Embalagem de água mineral (P.V.C.)</a></li>
-                              <li class="item-lista-produtos"><a href="#"> <span class="icon-medium icon icon-embalagem-de-oleos-comestiveis-pvc"> </span> Embalagem de óleos comestíveis (P.V.C.) </a></li>
-                              <li class="item-lista-produtos"><a href="#"> <span class="icon-medium icon icon-tubos-pvc"> </span> Tubos (P.V.C.) </a></li>
-                              <li class="item-lista-produtos"><a href="#"> <span class="icon-medium icon icon-esquadrias-pvc"> </span> Esquadrias (P.V.C.) </a></li>
-                              <li class="item-lista-produtos"><a href="#"> <span class="icon-medium icon icon-saco-de-leite-pebd"> </span> Saco de leite (P.E.B.D.) </a></li>
-                              <li class="item-lista-produtos"><a href="#"> <span class="icon-medium icon icon-saco-de-iogurte-pebd"> </span> Saco de iogurte (P.E.B.D.) </a></li>
-                              <li class="item-lista-produtos"><a href="#"> <span class="icon-medium icon icon-saco-de-lixo-pebd"> </span> Saco de lixo (P.E.B.D.) </a></li>
-                              <li class="item-lista-produtos"><a href="#"> <span class="icon-medium icon icon-saco-de-muda-de-plantas-pebd"> </span> Saco de muda de plantas (P.E.B.D.) </a></li>
-                              <li class="item-lista-produtos"><a href="#"> <span class="icon-medium icon icon-pecas-termicas-pp"> </span> Peças térmicas (P.P.) </a></li>
-                              <li class="item-lista-produtos"><a href="#"> <span class="icon-medium icon icon-utilidades-domesticas-pp"> </span> Utilidades domésticas (P.P.) </a></li>
-                              <li class="item-lista-produtos"><a href="#"> <span class="icon-medium icon icon-fios-e-cabos-pp"> </span> Fios e cabos (P.P.) </a></li>
-                              <li class="item-lista-produtos"><a href="#"> <span class="icon-medium icon icon-potes-pp"> </span> Potes (P.P.) </a></li>
-                              <li class="item-lista-produtos"><a href="#"> <span class="icon-medium icon icon-potes-ps"> </span> Potes  (P.S.) </a></li>
-                              <li class="item-lista-produtos"><a href="#"> <span class="icon-medium icon icon-aparelhos-de-barbear-descartaveis-ps"> </span> Aparelhos de barbear  descartáveis (P.S.) </a></li>
-                              <li class="item-lista-produtos"><a href="#"> <span class="icon-medium icon icon-cartuchos-de-impressoras-ps"> </span> Cartuchos de impressoras (P.S.) </a></li>
-                              <li class="item-lista-produtos"><a href="#"> <span class="icon-medium icon icon-calcados"> </span> Calçados  </a></li>
-                              <li class="item-lista-produtos"><a href="#"> <span class="icon-medium icon icon-cds"> </span> CDs </a></li>
-                        </ul>
-
-
-                        <h4 class="title-lista-produtos"> Vidro </h4>
-                        <ul class="lista-produtos">
-                            <li class="item-lista-produtos"><a href="#"> <span class="icon-medium icon icon-garafas"> </span>   Garafas</a></li>
-                            <li class="item-lista-produtos"><a href="#"> <span class="icon-medium icon icon-paineis-de-vidro"> </span> Paineis de vidro</a></li>
-                            <li class="item-lista-produtos"><a href="#"> <span class="icon-medium icon icon-lampadas"> </span> Lâmpadas</a></li>
-                            <li class="item-lista-produtos"><a href="#"> <span class="icon-medium icon icon-espelhos"> </span> Espelhos</a></li>
-                        </ul>
-
-
-                         <h4 class="title-lista-produtos"> Eletrônicos </h4>
-                         <ul class="lista-produtos">
-                            <li class="item-lista-produtos"><a href="#"> <span class="icon-medium icon icon-televisao"> </span> Televisão  </a></li>
-                            <li class="item-lista-produtos"><a href="#"> <span class="icon-medium icon icon-celulares"> </span> Celulares </a></li>
-                            <li class="item-lista-produtos"><a href="#"> <span class="icon-medium icon icon-computadores"> </span> Computadores  </a></li>
-                            <li class="item-lista-produtos"><a href="#"> <span class="icon-medium icon icon-tablets"> </span> Tablets  </a></li>
-                            <li class="item-lista-produtos"><a href="#"> <span class="icon-medium icon icon-reprodutores-de-video"> </span> Reprodutores de video  </a></li>
-                            <li class="item-lista-produtos"><a href="#"> <span class="icon-medium icon icon-equipamentos-de-acesso-web"> </span> Equipamentos de acesso web </a></li>
-                            <li class="item-lista-produtos"><a href="#"> <span class="icon-medium icon icon-fogao"> </span> Fogão </a></li>
-                            <li class="item-lista-produtos"><a href="#"> <span class="icon-medium icon icon-exaustores"> </span> Exaustores </a></li>
-                            <li class="item-lista-produtos"><a href="#"> <span class="icon-medium icon icon-geladeiras"> </span> Geladeiras </a></li>
-                            <li class="item-lista-produtos"><a href="#"> <span class="icon-medium icon icon-freezer"> </span> Freezer </a></li>
-                            <li class="item-lista-produtos"><a href="#"> <span class="icon-medium icon icon-ar-condicionado"> </span> Ar condicionado </a></li>
-                            <li class="item-lista-produtos"><a href="#"> <span class="icon-medium icon icon-telefones"> </span> Telefones </a></li>
-                          </ul>
-
-
-                        <h4 class="title-lista-produtos"> Perigosos </h4>
-                        <ul class="lista-produtos">
-                          <li class="item-lista-produtos"><a href="#"> <span class="icon-medium icon icon-residuo-hospitalar"> </span> Resíduo hospitalar</a></li>
-                          <li class="item-lista-produtos"><a href="#"> <span class="icon-medium icon icon-baterias">  </span> Baterias </a></li>
-                          <li class="item-lista-produtos"><a href="#"> <span class="icon-medium icon icon-pilhas"> </span> Pilhas</a></li>
-                          <li class="item-lista-produtos"><a href="#"> <span class="icon-medium icon icon-residuos-radioativos"> </span> Resíduos radioativos</a></li>
-                          <li class="item-lista-produtos"><a href="#"> <span class="icon-medium icon icon-materiais-toxicos"> </span> Materiais tóxicos</a></li>
-                          <li class="item-lista-produtos"><a href="#"> <span class="icon-medium icon icon-bolsa-de-soro-pvc"> </span> bolsa de soro (P.V.C.)</a></li>
-                          <li class="item-lista-produtos"><a href="#"> <span class="icon-medium icon icon-bolsa-de-sangue-pvc"> </span> bolsa de sangue (P.V.C.)</a></li>
-                        </ul>
-
-                        <h4 class="title-lista-produtos"> Outros </h4>
-                            <ul class="lista-produtos">
-                                <li class="item-lista-produtos"><a href="#"> <span class="icon-medium icon icon-legumes"> </span> Legumes</a></li>
-                                <li class="item-lista-produtos"><a href="#"> <span class="icon-medium icon icon-verduras"> </span> Verduras</a></li>
-                                <li class="item-lista-produtos"><a href="#"> <span class="icon-medium icon icon-frutas"> </span> Frutas</a></li>
-                                <li class="item-lista-produtos"><a href="#"> <span class="icon-medium icon icon-embutidos"> </span> Embutidos</a></li>
-                                <li class="item-lista-produtos"><a href="#"> <span class="icon-medium icon icon-leites-e-derivados"> </span> Leite e derivados</a></li>
-                                <li class="item-lista-produtos"><a href="#"> <span class="icon-medium icon icon-pneus"> </span> Pneus </a></li>
-                                <li class="item-lista-produtos"><a href="#"> <span class="icon-medium icon icon-carnes"> </span> Carnes</a></li>
-                                <li class="item-lista-produtos"><a href="#"> <span class="icon-medium icon icon-oleos"> </span> Óleos </a></li>
-                                <li class="item-lista-produtos"><a href="#"> <span class="icon-medium icon icon-madeira"> </span> Madeira</a></li>
-                                <li class="item-lista-produtos"><a href="#"> <span class="icon-medium icon icon-construcao-demolicao"> </span> Construção e demolição</a></li>
-                            </ul>
-
-
-
-                    </div> <!-- //lista-produto -->
-                      
-                  </div> <!---//col-md-12 -->
-
-              </div><!--//row -->
-        </div> <!--//modal-body -->
-
-         <div class="modal-footer">
-           
-        </div> <!-- //modal-footer -->
-
-      </div> <!-- //modal-content-->
-    </div><!-- //modal-dialog-->
-</div><!-- //Modal Escolha o produto-->
-
-
-
- 
-
-
-
-
- <!-- Modal compra de pontos -->
-    <div class="modal modal-default fade ModalCompraDePontos" id="ModalCompraDePontos" data-backdrop="static" data-keyboard="false"  tabindex="-1" role="dialog" aria-labelledby="ModalCompraDePontos" aria-hidden="true">
-      <div class="modal-dialog text-center modal-dialog-small">
-        <div class="modal-content">
-         
-                     <div class="modal-header">
-                            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true"><span class="glyphicon glyphicon-remove"></span></span><span class="sr-only">Close</span></button>
-                          </div>
-         
-                      <div class="modal-body">
-                            <div class="row">
-                                <div class="col-md-12">
-                                          <h4 class="modal-main-icon" ><span class="icon-large icon icon-sucess"> </span></h4>
-                                      <div class="modal-message-impact">
-                                          <h3 class="modal-message-impact-title"> Compra de pontos realizada com sucesso </h3>
-                                           <p class="modal-message-impact-subtitle"> Seu novo saldo é de  5.000 pontos. <p>
-                                      </div> <!--//modal-message-impact-->
-                                      <button type="button" class="btn btn-lg btn-primary btn-block">OK</button>
-                                </div> <!---//col-md-12 -->
-                            </div><!--//row -->
-                      </div> <!--//modal-body -->
-
-                    <div class="modal-footer"></div> <!-- //modal-footer -->
-
-      </div> <!-- //modal-content-->
-    </div><!-- //modal-dialog-->
-</div><!-- //Modal compra de pontos-->
-
-
-
-
-
-
-
-
- <!-- Modal entrega confirmada -->
-    <div class="modal modal-default fade ModalEntregaConfirmada" id="ModalEntregaConfirmada" data-backdrop="static" data-keyboard="false"  tabindex="-1" role="dialog" aria-labelledby="ModalEntregaConfirmada" aria-hidden="true">
-      <div class="modal-dialog text-center modal-dialog-small">
-        <div class="modal-content">
-         
-                     <div class="modal-header">
-                            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true"><span class="glyphicon glyphicon-remove"></span></span><span class="sr-only">Close</span></button>
-                          </div>
-         
-                      <div class="modal-body">
-                            <div class="row">
-                                <div class="col-md-12">
-                                          <h4 class="modal-main-icon" ><span class="icon-large icon icon-sucess"> </span></h4>
-                                      <div class="modal-message-impact">
-                                          <h3 class="modal-message-impact-title"> Entrega confirmada</h3>
-                                          <p class="modal-message-impact-subtitle"> Seus pontos serão contabilizados<br/> em até 24 horas. <p>
-                                          <p class="modal-message-impact-subtitle"> Obrigado! <p>
-                                      </div> <!--//modal-message-impact-->
-                                      <button type="button" class="btn btn-lg btn-primary btn-block">OK</button>
-                                </div> <!---//col-md-12 -->
-                            </div><!--//row -->
-                      </div> <!--//modal-body -->
-
-                    <div class="modal-footer"></div> <!-- //modal-footer -->
-
-      </div> <!-- //modal-content-->
-    </div><!-- //modal-dialog-->
-</div><!-- //Modal entrega confirmada-->
-
-
-
-
-
-
-
-
- <!-- Modal Resgate de pontos confirmada -->
-    <div class="modal modal-default fade ModalResgatedePontosConfirmada" id="ModalResgatedePontosConfirmada" data-backdrop="static" data-keyboard="false"  tabindex="-1" role="dialog" aria-labelledby="ModalResgatedePontosConfirmada" aria-hidden="true">
-      <div class="modal-dialog text-center modal-dialog-small">
-        <div class="modal-content">
-         
-                     <div class="modal-header">
-                            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true"><span class="glyphicon glyphicon-remove"></span></span><span class="sr-only">Close</span></button>
-                          </div>
-         
-                      <div class="modal-body">
-                            <div class="row">
-                                <div class="col-md-12">
-                                          <h4 class="modal-main-icon" ><span class="icon-large icon icon-rescue"> </span></h4>
-                                      <div class="modal-message-impact">
-                                          <h3 class="modal-message-impact-title"> <strong>Parabéns!</strong> Resgate realizado com sucesso</h3>
-                                          <p class="modal-message-impact-subtitle"> Valor resgatado: <strong>R$ 75,00</strong> <p>
-                                            <div class="alert  alert-ticket ">
-                                                  <span class="protocol-title">Anote o número de protocolo</span>
-                                                  <span class="protocol-number">JJGX12589647854DPOF12</span>
-                                            </div> <!-- //alert -->
-                                                
-                                       </div> <!--//modal-message-impact-->
-                                 </div> <!---//col-md-12 -->
-                            </div><!--//row -->
-                      </div> <!--//modal-body -->
-
-                    <div class="modal-footer"></div> <!-- //modal-footer -->
-
-      </div> <!-- //modal-content-->
-    </div><!-- //modal-dialog-->
-</div><!-- //Modal Resgate de pontos confirmada-->
-
-
-
-
-
-
-
-
-
-                        <!-- Modal -->
-                        <div class="modal modal-default fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-                          <div class="modal-dialog">
-                            <div class="modal-content">
-                              <div class="modal-header">
-                                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-                                <h4 class="modal-title" id="myModalLabel">Modal title</h4>
-                              </div>
-                              <div class="modal-body">
-                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore placeat hic repellendus culpa dolorem? Molestias nulla accusamus quibusdam repudiandae. Atque quod eligendi odio ex labore! Hic aperiam, facilis id soluta.</p>
-                              </div>
-                              <div class="modal-footer">
-                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                                <button type="button" class="btn btn-primary">Save changes</button>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-
-
-                      <!-- Modal large -->
-                      <div class="modal modal-default fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-                        <div class="modal-dialog modal-lg">
-                          <div class="modal-content">
-                                <div class="modal-header">
-                                  <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-                                  <h4 class="modal-title" id="myModalLabel">Modal large title</h4>
-                                </div>
-                                <div class="modal-body">
-                                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore placeat hic repellendus culpa dolorem? Molestias nulla accusamus quibusdam repudiandae. Atque quod eligendi odio ex labore! Hic aperiam, facilis id soluta.</p>
-                                </div>
-                                <div class="modal-footer">
-                                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                                  <button type="button" class="btn btn-primary">Save changes</button>
-                                </div>
-                              </div>
-                        </div>
-                      </div>
-
-                    
-
-                  <!-- Modal small -->
-                  <div class="modal modal-default fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
-                    <div class="modal-dialog modal-sm">
-                        <div class="modal-content">
-                                <div class="modal-header">
-                                  <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-                                  <h4 class="modal-title" id="myModalLabel">Modal small title</h4>
-                                </div>
-                                <div class="modal-body">
-                                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore placeat hic repellendus culpa dolorem? Molestias nulla accusamus quibusdam repudiandae. Atque quod eligendi odio ex labore! Hic aperiam, facilis id soluta.</p>
-                                </div>
-                                <div class="modal-footer">
-                                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                                  <button type="button" class="btn btn-primary">Save changes</button>
-                                </div>
-                        </div>
-                    </div>
-                  </div>
-
-
- 
-
-</section> <!-- //simple-group -->
 
  
 
