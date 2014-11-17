@@ -8596,7 +8596,7 @@ button.close {
   width: 200px;
   border-radius: 0;
   margin-left: -30px;
-  font-weight: 100;
+  font-weight: 400;
 }
 /* line 150, ../sass/componentes/_menu-minhas-campanhas.scss */
 .dropdown-main:before {
