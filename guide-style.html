@@ -1936,40 +1936,30 @@
                   </h1>
 
 
-                  <div class=" title-section-secundary title-section-secundary-child">
+                 <div class=" title-section-secundary title-section-secundary-child">
                     <div class="row">
                         <div class="col-sm-12">
                              <span class="titulo">Extrato de pontos</span> 
-                        
-                           
-
                             <ul class="lista-periodo">
-                               <li class="lista-periodo-item"> <span class="label-buttons">Período</span> </li>
-                               <li class="lista-periodo-item"> <a href="#" class="btn btn-primary">7 dias</a> </li>
-                               <li class="lista-periodo-item"><a href="#" class="btn btn-primary"> 15 dias</a></li>
-
                                <li class="lista-periodo-item">
-                                           <button class="btn btn-primary buttondaterangepicker" >
-                                              <i class="fa fa-calendar fa-lg"></i>
-                                             <!--  <span class="reportrange"></span> -->
-                                            </button > 
-
-                                </li>
+                                      <div class="btn-group"  >
+                                        <button type="button" class="btn btn-default disabled">Filtre por período</button>
+                                             <button type="button" class="btn btn-default"> Hoje  </label>
+                                             <button type="button" class="btn btn-default">7 dias </label>
+                                             <button type="button" class="btn btn-default"> 15 dias  </label>
+                                             <button type="button" class="btn btn-primary buttondaterangepicker" name="options" id="option4" autocomplete="off" > <i class="fa fa-calendar fa-lg"></i></button>
+                                    </div> <!-- //btn-group-->
+                                   </li>
                              </ul>
-
-
                            <div class="block-search-component">
                                             <form class="form-search">
                                                 <i class="fa-search fa"></i>
                                                 <input type="search" class="input-search  form-control" placeholder="Pesquisar">
                                            </form>
                             </div> <!--//block-search-component -->
- 
                         </div> <!-- //col-sm-12 -->
-
                     </div> <!-- // row -->
                   </div> <!-- //title-section-secundary title-section-secundary-child -->
-
 
 
             </div>
@@ -3629,7 +3619,9 @@
 
 
     <!-- é pro live load // deletar quando for para produção -->
-    <script> document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>') </script>
+    <script> 
+    // document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>') 
+    </script>
 
   
   </body>
