@@ -92,20 +92,17 @@ $('.input-search').focus();
 $(document).ready(function() {
   $('.buttondaterangepicker').daterangepicker(
     { 
-        //timePicker: true, 
-        //timePickerIncrement: 30, 
-       // format: 'DD/MM/YYYY h:mm A',
 
    opens: 'left',
       ranges: {
          'Hoje': [moment(), moment()],
-         'Ontem': [moment().subtract('days', 1), moment().subtract('days', 1)],
-         'Últimos 7 Dias': [moment().subtract('days', 6), moment()],
-         'Últimos 30 Dias': [moment().subtract('days', 29), moment()],
+         'Ontem': [moment().subtract(1,'days'), moment().subtract(1,'days')],
+         'Últimos 7 Dias': [moment().subtract(6,'days'), moment()],
+         'Últimos 30 Dias': [moment().subtract(29,'days'), moment()],
          'Esse Mês': [moment().startOf('month'), moment().endOf('month')],
-         'Último Mês': [moment().subtract('month', 1).startOf('month'), moment().subtract('month', 1).endOf('month')]
+         'Último Mês': [moment().subtract(1,'month').startOf('month'), moment().subtract(1,'month').endOf('month')]
       },
-      startDate: moment().subtract('days', 29),
+      startDate: moment().subtract(29,'days'),
       endDate: moment()
     },
     function(start, end) {
