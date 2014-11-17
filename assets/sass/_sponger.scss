@@ -173,9 +173,11 @@ section.simple-group{ padding: 120px 0}
  float: right;
  padding: 0;
 
+
 	  .lista-periodo-item{
 	    display: inline-block;
 	    margin-right: 5px;
+	    position: relative;
 
 		    .label-buttons{
 		    	padding: 3px 12px;
@@ -187,6 +189,7 @@ section.simple-group{ padding: 120px 0}
 		    	font-size: 13px;
 		    	font-weight: 100;
 		    	@include border-radius(10px); 
+		    	position: relative;
 		    }
 
 	  }

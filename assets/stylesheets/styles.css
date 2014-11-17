@@ -13992,6 +13992,368 @@ fieldset[disabled] .datepicker table tr td span.active.disabled:hover.active {
   content: "\f20c";
 }
 
+/*!
+ * Stylesheet for the Date Range Picker, for use with Bootstrap 3.x
+ *
+ * Copyright 2013 Dan Grossman ( http://www.dangrossman.info )
+ * Licensed under the Apache License v2.0
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Built for http://www.improvely.com
+ */
+/* line 11, ../sass/_daterangepicker.scss */
+.daterangepicker.dropdown-menu {
+  max-width: none;
+  z-index: 3000;
+}
+
+/* line 16, ../sass/_daterangepicker.scss */
+.daterangepicker.opensleft .ranges, .daterangepicker.opensleft .calendar {
+  float: left;
+  margin: 4px;
+}
+
+/* line 21, ../sass/_daterangepicker.scss */
+.daterangepicker.opensright .ranges, .daterangepicker.opensright .calendar,
+.daterangepicker.openscenter .ranges, .daterangepicker.openscenter .calendar {
+  float: right;
+  margin: 4px;
+}
+
+/* line 27, ../sass/_daterangepicker.scss */
+.daterangepicker.single .ranges, .daterangepicker.single .calendar {
+  float: none;
+}
+
+/* line 31, ../sass/_daterangepicker.scss */
+.daterangepicker .ranges {
+  width: 160px;
+  text-align: left;
+}
+
+/* line 36, ../sass/_daterangepicker.scss */
+.daterangepicker .ranges .range_inputs > div {
+  float: left;
+}
+
+/* line 40, ../sass/_daterangepicker.scss */
+.daterangepicker .ranges .range_inputs > div:nth-child(2) {
+  padding-left: 11px;
+}
+
+/* line 44, ../sass/_daterangepicker.scss */
+.daterangepicker .calendar {
+  display: none;
+  max-width: 270px;
+}
+
+/* line 49, ../sass/_daterangepicker.scss */
+.daterangepicker.show-calendar .calendar {
+  display: block;
+}
+
+/* line 53, ../sass/_daterangepicker.scss */
+.daterangepicker .calendar.single .calendar-date {
+  border: none;
+}
+
+/* line 57, ../sass/_daterangepicker.scss */
+.daterangepicker .calendar th, .daterangepicker .calendar td {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  white-space: nowrap;
+  text-align: center;
+  min-width: 32px;
+}
+
+/* line 64, ../sass/_daterangepicker.scss */
+.daterangepicker .daterangepicker_start_input label,
+.daterangepicker .daterangepicker_end_input label {
+  color: #333;
+  display: block;
+  font-size: 11px;
+  font-weight: normal;
+  height: 20px;
+  line-height: 20px;
+  margin-bottom: 2px;
+  text-shadow: #fff 1px 1px 0px;
+  text-transform: uppercase;
+  width: 74px;
+}
+
+/* line 78, ../sass/_daterangepicker.scss */
+.daterangepicker .ranges input {
+  font-size: 11px;
+}
+
+/* line 82, ../sass/_daterangepicker.scss */
+.daterangepicker .ranges .input-mini {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  color: #555;
+  display: block;
+  font-size: 11px;
+  height: 30px;
+  line-height: 30px;
+  vertical-align: middle;
+  margin: 0 0 10px 0;
+  padding: 0 6px;
+  width: 74px;
+}
+
+/* line 96, ../sass/_daterangepicker.scss */
+.daterangepicker .ranges ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 102, ../sass/_daterangepicker.scss */
+.daterangepicker .ranges li {
+  font-size: 13px;
+  background: #f5f5f5;
+  border: 1px solid #f5f5f5;
+  color: #345326;
+  padding: 3px 12px;
+  margin-bottom: 8px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* line 115, ../sass/_daterangepicker.scss */
+.daterangepicker .ranges li.active, .daterangepicker .ranges li:hover {
+  background: #345326;
+  color: #fff;
+}
+
+/* line 120, ../sass/_daterangepicker.scss */
+.daterangepicker .calendar-date {
+  border: 1px solid #ddd;
+  padding: 4px;
+  border-radius: 4px;
+  background: #fff;
+}
+
+/* line 127, ../sass/_daterangepicker.scss */
+.daterangepicker .calendar-time {
+  text-align: center;
+  margin: 8px auto 0 auto;
+  line-height: 30px;
+}
+
+/* line 133, ../sass/_daterangepicker.scss */
+.daterangepicker {
+  position: absolute;
+  background: #fff;
+  top: 100px;
+  left: 20px;
+  padding: 4px;
+  margin-top: 1px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+
+/* line 145, ../sass/_daterangepicker.scss */
+.daterangepicker.opensleft:before {
+  position: absolute;
+  top: -7px;
+  right: 9px;
+  display: inline-block;
+  border-right: 7px solid transparent;
+  border-bottom: 7px solid #ccc;
+  border-left: 7px solid transparent;
+  border-bottom-color: rgba(0, 0, 0, 0.2);
+  content: '';
+}
+
+/* line 157, ../sass/_daterangepicker.scss */
+.daterangepicker.opensleft:after {
+  position: absolute;
+  top: -6px;
+  right: 10px;
+  display: inline-block;
+  border-right: 6px solid transparent;
+  border-bottom: 6px solid #fff;
+  border-left: 6px solid transparent;
+  content: '';
+}
+
+/* line 168, ../sass/_daterangepicker.scss */
+.daterangepicker.openscenter:before {
+  position: absolute;
+  top: -7px;
+  left: 0;
+  right: 0;
+  width: 0;
+  margin-left: auto;
+  margin-right: auto;
+  display: inline-block;
+  border-right: 7px solid transparent;
+  border-bottom: 7px solid #ccc;
+  border-left: 7px solid transparent;
+  border-bottom-color: rgba(0, 0, 0, 0.2);
+  content: '';
+}
+
+/* line 184, ../sass/_daterangepicker.scss */
+.daterangepicker.openscenter:after {
+  position: absolute;
+  top: -6px;
+  left: 0;
+  right: 0;
+  width: 0;
+  margin-left: auto;
+  margin-right: auto;
+  display: inline-block;
+  border-right: 6px solid transparent;
+  border-bottom: 6px solid #fff;
+  border-left: 6px solid transparent;
+  content: '';
+}
+
+/* line 199, ../sass/_daterangepicker.scss */
+.daterangepicker.opensright:before {
+  position: absolute;
+  top: -7px;
+  left: 9px;
+  display: inline-block;
+  border-right: 7px solid transparent;
+  border-bottom: 7px solid #ccc;
+  border-left: 7px solid transparent;
+  border-bottom-color: rgba(0, 0, 0, 0.2);
+  content: '';
+}
+
+/* line 211, ../sass/_daterangepicker.scss */
+.daterangepicker.opensright:after {
+  position: absolute;
+  top: -6px;
+  left: 10px;
+  display: inline-block;
+  border-right: 6px solid transparent;
+  border-bottom: 6px solid #fff;
+  border-left: 6px solid transparent;
+  content: '';
+}
+
+/* line 222, ../sass/_daterangepicker.scss */
+.daterangepicker table {
+  width: 100%;
+  margin: 0;
+}
+
+/* line 227, ../sass/_daterangepicker.scss */
+.daterangepicker td, .daterangepicker th {
+  text-align: center;
+  width: 20px;
+  height: 20px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+/* line 238, ../sass/_daterangepicker.scss */
+.daterangepicker td.off {
+  color: #999;
+}
+
+/* line 242, ../sass/_daterangepicker.scss */
+.daterangepicker td.disabled, .daterangepicker option.disabled {
+  color: #999;
+}
+
+/* line 246, ../sass/_daterangepicker.scss */
+.daterangepicker td.available:hover, .daterangepicker th.available:hover {
+  background: #eee;
+}
+
+/* line 250, ../sass/_daterangepicker.scss */
+.daterangepicker td.in-range {
+  background: #ccd8bb;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+}
+
+/* line 257, ../sass/_daterangepicker.scss */
+.daterangepicker td.start-date {
+  -webkit-border-radius: 4px 0 0 4px;
+  -moz-border-radius: 4px 0 0 4px;
+  border-radius: 4px 0 0 4px;
+}
+
+/* line 263, ../sass/_daterangepicker.scss */
+.daterangepicker td.end-date {
+  -webkit-border-radius: 0 4px 4px 0;
+  -moz-border-radius: 0 4px 4px 0;
+  border-radius: 0 4px 4px 0;
+}
+
+/* line 269, ../sass/_daterangepicker.scss */
+.daterangepicker td.start-date.end-date {
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+
+/* line 275, ../sass/_daterangepicker.scss */
+.daterangepicker td.active, .daterangepicker td.active:hover {
+  background-color: #345326;
+  color: #fff;
+}
+
+/* line 281, ../sass/_daterangepicker.scss */
+.daterangepicker td.week, .daterangepicker th.week {
+  font-size: 80%;
+  color: #ccc;
+}
+
+/* line 286, ../sass/_daterangepicker.scss */
+.daterangepicker select.monthselect, .daterangepicker select.yearselect {
+  font-size: 12px;
+  padding: 1px;
+  height: auto;
+  margin: 0;
+  cursor: default;
+}
+
+/* line 294, ../sass/_daterangepicker.scss */
+.daterangepicker select.monthselect {
+  margin-right: 2%;
+  width: 56%;
+}
+
+/* line 299, ../sass/_daterangepicker.scss */
+.daterangepicker select.yearselect {
+  width: 40%;
+}
+
+/* line 303, ../sass/_daterangepicker.scss */
+.daterangepicker select.hourselect, .daterangepicker select.minuteselect, .daterangepicker select.secondselect, .daterangepicker select.ampmselect {
+  width: 50px;
+  margin-bottom: 0;
+}
+
+/* line 308, ../sass/_daterangepicker.scss */
+.daterangepicker_start_input {
+  float: left;
+}
+
+/* line 312, ../sass/_daterangepicker.scss */
+.daterangepicker_end_input {
+  float: left;
+  padding-left: 11px;
+}
+
+/* line 317, ../sass/_daterangepicker.scss */
+.daterangepicker th.month {
+  width: auto;
+}
+
 /* line 2, ../sass/_sponger.scss */
 section.simple-group {
   padding: 120px 0;
@@ -14140,17 +14502,18 @@ section.simple-group {
   float: right;
   padding: 0;
 }
-/* line 176, ../sass/_sponger.scss */
+/* line 177, ../sass/_sponger.scss */
 .lista-periodo .lista-periodo-item {
   display: inline-block;
   margin-right: 5px;
+  position: relative;
 }
-/* line 180, ../sass/_sponger.scss */
+/* line 182, ../sass/_sponger.scss */
 .lista-periodo .lista-periodo-item .label-buttons {
   padding: 3px 12px;
   vertical-align: middle;
 }
-/* line 185, ../sass/_sponger.scss */
+/* line 187, ../sass/_sponger.scss */
 .lista-periodo .lista-periodo-item .btn {
   padding: 3px 12px;
   font-size: 13px;
@@ -14159,17 +14522,18 @@ section.simple-group {
   -moz-border-radius: 10px;
   -ms-border-radius: 10px;
   border-radius: 10px;
+  position: relative;
 }
 
-/* line 195, ../sass/_sponger.scss */
+/* line 198, ../sass/_sponger.scss */
 .periodo-calendar-button {
   position: relative;
 }
-/* line 198, ../sass/_sponger.scss */
+/* line 201, ../sass/_sponger.scss */
 .periodo-calendar-button:hover .periodo-calendar-container {
   display: inline-block;
 }
-/* line 200, ../sass/_sponger.scss */
+/* line 203, ../sass/_sponger.scss */
 .periodo-calendar-button .periodo-calendar-container {
   display: none;
   position: absolute;
@@ -14182,7 +14546,7 @@ section.simple-group {
   color: #222;
   padding: 20px;
 }
-/* line 212, ../sass/_sponger.scss */
+/* line 215, ../sass/_sponger.scss */
 .periodo-calendar-button .periodo-calendar-container:before {
   content: "";
   width: 15px;
@@ -14195,24 +14559,24 @@ section.simple-group {
   right: 10px;
 }
 
-/* line 228, ../sass/_sponger.scss */
+/* line 231, ../sass/_sponger.scss */
 .periodo-calendar-container {
   display: none;
 }
 
-/* line 232, ../sass/_sponger.scss */
+/* line 235, ../sass/_sponger.scss */
 .lista-produto-component {
   background: #fff;
   display: inline-block;
   width: 100%;
   border: 1px solid #ccc;
 }
-/* line 238, ../sass/_sponger.scss */
+/* line 241, ../sass/_sponger.scss */
 .lista-produto-component.lista-produto-component-overflow {
   height: 400px;
   overflow-y: scroll;
 }
-/* line 243, ../sass/_sponger.scss */
+/* line 246, ../sass/_sponger.scss */
 .lista-produto-component .title-lista-produtos {
   background: #ecf0e1;
   margin: 0;
@@ -14220,37 +14584,37 @@ section.simple-group {
   margin-bottom: 20px;
   color: #345326;
 }
-/* line 250, ../sass/_sponger.scss */
+/* line 253, ../sass/_sponger.scss */
 .lista-produto-component .lista-produtos {
   display: inline-block;
   padding: 0;
   width: 100%;
   list-style: none;
 }
-/* line 256, ../sass/_sponger.scss */
+/* line 259, ../sass/_sponger.scss */
 .lista-produto-component .lista-produtos .item-lista-produtos {
   display: inline-block;
   margin-left: 5%;
   width: 90%;
   border-bottom: 1px solid #ccc;
 }
-/* line 262, ../sass/_sponger.scss */
+/* line 265, ../sass/_sponger.scss */
 .lista-produto-component .lista-produtos .item-lista-produtos:last-child {
   border-bottom: none;
 }
-/* line 266, ../sass/_sponger.scss */
+/* line 269, ../sass/_sponger.scss */
 .lista-produto-component .lista-produtos .item-lista-produtos a {
   display: block;
   padding: 10px;
   font-size: 16px;
   font-weight: 700;
 }
-/* line 272, ../sass/_sponger.scss */
+/* line 275, ../sass/_sponger.scss */
 .lista-produto-component .lista-produtos .item-lista-produtos a:hover {
   background: #dfdfd0;
   text-decoration: none;
 }
-/* line 279, ../sass/_sponger.scss */
+/* line 282, ../sass/_sponger.scss */
 .lista-produto-component .lista-produtos .icon {
   width: 50px;
   height: 50px;
@@ -14259,7 +14623,7 @@ section.simple-group {
 
 /*'BRAND
 =============================================== */
-/* line 295, ../sass/_sponger.scss */
+/* line 298, ../sass/_sponger.scss */
 .brand-primary {
   background-image: url("../images/brand/brand-primary.svg");
   background-size: cover;
@@ -14267,7 +14631,7 @@ section.simple-group {
   display: block;
 }
 
-/* line 296, ../sass/_sponger.scss */
+/* line 299, ../sass/_sponger.scss */
 .brand-secundary {
   background-image: url("../images/brand/brand-secundary.svg");
   background-size: cover;
@@ -14275,28 +14639,28 @@ section.simple-group {
   display: block;
 }
 
-/* line 298, ../sass/_sponger.scss */
+/* line 301, ../sass/_sponger.scss */
 .brand-large {
   width: 280px;
   height: 110px;
   display: block;
 }
 
-/* line 299, ../sass/_sponger.scss */
+/* line 302, ../sass/_sponger.scss */
 .brand-medium {
   width: 179px;
   height: 69px;
   display: block;
 }
 
-/* line 300, ../sass/_sponger.scss */
+/* line 303, ../sass/_sponger.scss */
 .brand-small {
   width: 88px;
   height: 33px;
   display: block;
 }
 
-/* line 302, ../sass/_sponger.scss */
+/* line 305, ../sass/_sponger.scss */
 .brand-labbo {
   width: 40px;
   height: 14px;
@@ -14308,7 +14672,7 @@ section.simple-group {
 
 /*'BACKGROUND
 =============================================== */
-/* line 307, ../sass/_sponger.scss */
+/* line 310, ../sass/_sponger.scss */
 .background-primary {
   background-image: url("../images/background/background-primary.jpg");
   background-size: cover;
@@ -14316,24 +14680,24 @@ section.simple-group {
   background-position: top center;
 }
 
-/* line 316, ../sass/_sponger.scss */
+/* line 319, ../sass/_sponger.scss */
 .pattern-primary, body {
   background-image: url("../images/background/pattern-primary.jpg");
 }
 
-/* line 317, ../sass/_sponger.scss */
+/* line 320, ../sass/_sponger.scss */
 .pattern-secondary, .menu-campanhas {
   background-image: url("../images/background/pattern-secondary.jpg");
 }
 
-/* line 318, ../sass/_sponger.scss */
+/* line 321, ../sass/_sponger.scss */
 .pattern-tertiary, .menu-filter-campaign, .menu-campanhas:before, .menu-campanhas .box-menu-campanha {
   background-image: url("../images/background/pattern-tertiary.jpg");
 }
 
 /*'Tipografy
 ======================================= */
-/* line 328, ../sass/_sponger.scss */
+/* line 331, ../sass/_sponger.scss */
 .title-section {
   font-size: 28px;
   text-align: center;
@@ -14342,12 +14706,12 @@ section.simple-group {
   color: #345326;
   padding: 10px 0;
 }
-/* line 338, ../sass/_sponger.scss */
+/* line 341, ../sass/_sponger.scss */
 .title-section strong {
   font-weight: 700;
 }
 
-/* line 341, ../sass/_sponger.scss */
+/* line 344, ../sass/_sponger.scss */
 .title-section-secundary {
   background: #507f3b;
   width: 100%;
@@ -14365,32 +14729,32 @@ section.simple-group {
   margin-bottom: 20px;
 }
 
-/* line 357, ../sass/_sponger.scss */
+/* line 360, ../sass/_sponger.scss */
 .title-section-secundary-child {
   font-size: 14px;
   display: inline-block;
 }
-/* line 362, ../sass/_sponger.scss */
+/* line 365, ../sass/_sponger.scss */
 .title-section-secundary-child .text {
   margin-right: 10px;
 }
-/* line 365, ../sass/_sponger.scss */
+/* line 368, ../sass/_sponger.scss */
 .title-section-secundary-child .number {
   font-size: 20px;
 }
-/* line 369, ../sass/_sponger.scss */
+/* line 372, ../sass/_sponger.scss */
 .title-section-secundary-child .titulo {
   font-size: 18px;
   margin: 0;
   padding: 0;
 }
-/* line 375, ../sass/_sponger.scss */
+/* line 378, ../sass/_sponger.scss */
 .title-section-secundary-child .block-search-component {
   width: 300px;
   float: right;
 }
 
-/* line 385, ../sass/_sponger.scss */
+/* line 388, ../sass/_sponger.scss */
 .box-message {
   color: #345326;
   background: #DFDFD0;
@@ -14401,18 +14765,18 @@ section.simple-group {
   border-radius: 15px 0 0 0;
 }
 
-/* line 393, ../sass/_sponger.scss */
+/* line 396, ../sass/_sponger.scss */
 .section-space {
   margin: 20px 0;
 }
 
-/* line 396, ../sass/_sponger.scss */
+/* line 399, ../sass/_sponger.scss */
 h4 {
   font-size: 12px;
   text-transform: uppercase;
 }
 
-/* line 402, ../sass/_sponger.scss */
+/* line 405, ../sass/_sponger.scss */
 .text-observacoes {
   font-style: italic;
   font-size: 13px;
@@ -14422,7 +14786,7 @@ h4 {
 
 /*'NAVBAR
 =============================================== */
-/* line 414, ../sass/_sponger.scss */
+/* line 417, ../sass/_sponger.scss */
 .navbar-brand .brand-primary,
 .navbar-brand .brand-secundary {
   margin-top: -7px;
@@ -14430,31 +14794,31 @@ h4 {
 
 /*'ALERT
 =============================================== */
-/* line 424, ../sass/_sponger.scss */
+/* line 427, ../sass/_sponger.scss */
 .alert .icon-avatar-ana {
   width: 38px;
   height: 38px;
 }
 
-/* line 425, ../sass/_sponger.scss */
+/* line 428, ../sass/_sponger.scss */
 .alert-default {
   background: #eee;
 }
 
-/* line 428, ../sass/_sponger.scss */
+/* line 431, ../sass/_sponger.scss */
 .alert {
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
   -ms-border-radius: 0;
   border-radius: 0;
 }
-/* line 432, ../sass/_sponger.scss */
+/* line 435, ../sass/_sponger.scss */
 .alert .close {
   margin-right: 10px;
   margin-top: 7px;
 }
 
-/* line 440, ../sass/_sponger.scss */
+/* line 443, ../sass/_sponger.scss */
 .alert-ticket {
   background: #345326;
   border-color: #29421e;
@@ -14462,12 +14826,12 @@ h4 {
   text-align: center;
   padding: 0;
 }
-/* line 447, ../sass/_sponger.scss */
+/* line 450, ../sass/_sponger.scss */
 .alert-ticket .protocol-title {
   display: block;
   padding: 5px 0;
 }
-/* line 452, ../sass/_sponger.scss */
+/* line 455, ../sass/_sponger.scss */
 .alert-ticket .protocol-number {
   font-weight: 100;
   display: block;
@@ -14477,64 +14841,64 @@ h4 {
 
 /*'TABLE
 =============================================== */
-/* line 467, ../sass/_sponger.scss */
+/* line 470, ../sass/_sponger.scss */
 .table-sponge {
   margin-bottom: 20px;
 }
-/* line 470, ../sass/_sponger.scss */
+/* line 473, ../sass/_sponger.scss */
 .table-sponge tr > td:first-child,
 .table-sponge tr > th:first-child {
   width: 70px;
   text-align: left;
   vertical-align: top;
 }
-/* line 479, ../sass/_sponger.scss */
+/* line 482, ../sass/_sponger.scss */
 .table-sponge > thead > tr > th, .table-sponge > thead > tr > td, .table-sponge > tbody > tr > th, .table-sponge > tbody > tr > td, .table-sponge > tfoot > tr > th, .table-sponge > tfoot > tr > td {
   border-top: none;
   padding: 15px;
   vertical-align: middle;
   text-align: center;
 }
-/* line 491, ../sass/_sponger.scss */
+/* line 494, ../sass/_sponger.scss */
 .table-sponge > thead > tr > th, .table-sponge > thead > tr > td {
   text-transform: uppercase;
   font-size: 12px;
   padding-bottom: 10px;
   color: #345326;
 }
-/* line 500, ../sass/_sponger.scss */
+/* line 503, ../sass/_sponger.scss */
 .table-sponge tbody tr:nth-child(even) {
   background-color: #d5d5c1;
 }
 
-/* line 511, ../sass/_sponger.scss */
+/* line 514, ../sass/_sponger.scss */
 .table-sponge.table-sponge-with-icon tr > td:first-child {
   width: 70px;
 }
-/* line 514, ../sass/_sponger.scss */
+/* line 517, ../sass/_sponger.scss */
 .table-sponge.table-sponge-with-icon tr > td:nth-child(2) {
   text-align: left;
 }
 
 /*'HEADER
 =============================================== */
-/* line 528, ../sass/_sponger.scss */
+/* line 531, ../sass/_sponger.scss */
 .block-header-primary {
   height-min: 280px;
   background-attachment: fixed;
   position: relative;
 }
-/* line 536, ../sass/_sponger.scss */
+/* line 539, ../sass/_sponger.scss */
 .block-header-primary .block-search-component .form-search {
   margin-bottom: 20px;
 }
-/* line 538, ../sass/_sponger.scss */
+/* line 541, ../sass/_sponger.scss */
 .block-header-primary .block-search-component .form-search .fa {
   right: 20px;
   left: inherit;
   top: 10px;
 }
-/* line 541, ../sass/_sponger.scss */
+/* line 544, ../sass/_sponger.scss */
 .block-header-primary .block-search-component .form-search .input-search {
   padding: 20px;
 }
@@ -14542,7 +14906,7 @@ h4 {
 /* ---- FORM PESQUISA----- */
 /*'header-main
 ========================================== */
-/* line 606, ../sass/_sponger.scss */
+/* line 609, ../sass/_sponger.scss */
 .header-main {
   position: relative;
   background: #fff;
@@ -14555,7 +14919,7 @@ h4 {
   -ms-border-radius: 0 0 15px 15px;
   border-radius: 0 0 15px 15px;
 }
-/* line 614, ../sass/_sponger.scss */
+/* line 617, ../sass/_sponger.scss */
 .header-main .container-brand {
   background: #fff;
   display: inline-block;
@@ -14563,23 +14927,23 @@ h4 {
   width: 100%;
   text-align: center;
 }
-/* line 621, ../sass/_sponger.scss */
+/* line 624, ../sass/_sponger.scss */
 .header-main .brand {
   margin: 0 auto;
   padding: 30px 0;
   display: inline-block;
 }
-/* line 626, ../sass/_sponger.scss */
+/* line 629, ../sass/_sponger.scss */
 .header-main .brand span {
   width: 190px;
   height: 73px;
 }
 
-/* line 632, ../sass/_sponger.scss */
+/* line 635, ../sass/_sponger.scss */
 .container-main-menu {
   position: relative;
 }
-/* line 634, ../sass/_sponger.scss */
+/* line 637, ../sass/_sponger.scss */
 .container-main-menu .button-campanhas-sponge {
   position: relative;
   float: right;
@@ -14592,7 +14956,7 @@ h4 {
   margin-top: -5px;
   font-weight: 100;
 }
-/* line 645, ../sass/_sponger.scss */
+/* line 648, ../sass/_sponger.scss */
 .container-main-menu .button-campanhas-sponge:before {
   z-index: -1000;
   content: "";
@@ -14606,7 +14970,7 @@ h4 {
   -ms-border-radius: 50% 0 0 50%;
   border-radius: 50% 0 0 50%;
 }
-/* line 646, ../sass/_sponger.scss */
+/* line 649, ../sass/_sponger.scss */
 .container-main-menu .button-campanhas-sponge:after {
   z-index: -1000;
   content: "";
@@ -14616,7 +14980,7 @@ h4 {
   right: -10px;
   top: 0;
 }
-/* line 647, ../sass/_sponger.scss */
+/* line 650, ../sass/_sponger.scss */
 .container-main-menu .button-campanhas-sponge .arrow {
   z-index: -1000;
   content: "";
@@ -14629,49 +14993,49 @@ h4 {
   border-bottom: 10px solid transparent;
   border-left: 10px solid #444;
 }
-/* line 650, ../sass/_sponger.scss */
+/* line 653, ../sass/_sponger.scss */
 .container-main-menu .button-campanhas-sponge-default {
   background: #6db152;
   color: #fff;
 }
-/* line 653, ../sass/_sponger.scss */
+/* line 656, ../sass/_sponger.scss */
 .container-main-menu .button-campanhas-sponge-default:before {
   background: #6db152;
 }
-/* line 654, ../sass/_sponger.scss */
+/* line 657, ../sass/_sponger.scss */
 .container-main-menu .button-campanhas-sponge-default:after {
   background: #6db152;
 }
-/* line 656, ../sass/_sponger.scss */
+/* line 659, ../sass/_sponger.scss */
 .container-main-menu .button-campanhas-sponge-default:hover {
   background: #62a149;
 }
-/* line 658, ../sass/_sponger.scss */
+/* line 661, ../sass/_sponger.scss */
 .container-main-menu .button-campanhas-sponge-default:hover:before {
   background: #62a149;
 }
-/* line 659, ../sass/_sponger.scss */
+/* line 662, ../sass/_sponger.scss */
 .container-main-menu .button-campanhas-sponge-default:hover:after {
   background: #62a149;
 }
-/* line 662, ../sass/_sponger.scss */
+/* line 665, ../sass/_sponger.scss */
 .container-main-menu .button-campanhas-sponge-default:active {
   background: #2c4921;
 }
-/* line 664, ../sass/_sponger.scss */
+/* line 667, ../sass/_sponger.scss */
 .container-main-menu .button-campanhas-sponge-default:active:before {
   background: #2c4921;
 }
-/* line 665, ../sass/_sponger.scss */
+/* line 668, ../sass/_sponger.scss */
 .container-main-menu .button-campanhas-sponge-default:active:after {
   background: #2c4921;
 }
-/* line 672, ../sass/_sponger.scss */
+/* line 675, ../sass/_sponger.scss */
 .container-main-menu .main-menu {
   display: inline-block;
   list-style: none;
 }
-/* line 675, ../sass/_sponger.scss */
+/* line 678, ../sass/_sponger.scss */
 .container-main-menu .main-menu li {
   display: inline-block;
   font-size: 14px;
@@ -14679,31 +15043,31 @@ h4 {
   font-weight: 500;
   border-right: 1px solid #345326;
 }
-/* line 682, ../sass/_sponger.scss */
+/* line 685, ../sass/_sponger.scss */
 .container-main-menu .main-menu li:last-child {
   border-right: 0;
 }
-/* line 684, ../sass/_sponger.scss */
+/* line 687, ../sass/_sponger.scss */
 .container-main-menu .main-menu li a {
   display: block;
   padding: 5px 20px;
 }
-/* line 688, ../sass/_sponger.scss */
+/* line 691, ../sass/_sponger.scss */
 .container-main-menu .main-menu li a:hover {
   text-decoration: none;
   background: #ecf0e1;
 }
-/* line 695, ../sass/_sponger.scss */
+/* line 698, ../sass/_sponger.scss */
 .container-main-menu .main-menu.main-menu-one-item {
   float: left;
 }
 
-/* line 717, ../sass/_sponger.scss */
+/* line 720, ../sass/_sponger.scss */
 .sidebar-interno {
   margin-top: 40px;
 }
 
-/* line 731, ../sass/_sponger.scss */
+/* line 734, ../sass/_sponger.scss */
 .form-contato {
   font-weight: 300;
   padding: 50px;
@@ -14711,17 +15075,17 @@ h4 {
   width: 100%;
 }
 
-/* line 742, ../sass/_sponger.scss */
+/* line 745, ../sass/_sponger.scss */
 form {
   display: inline-block;
   width: 100%;
 }
-/* line 748, ../sass/_sponger.scss */
+/* line 751, ../sass/_sponger.scss */
 form label {
   font-weight: 300;
 }
 
-/* line 753, ../sass/_sponger.scss */
+/* line 756, ../sass/_sponger.scss */
 legend {
   margin-top: 0px;
   float: left;
@@ -14731,30 +15095,30 @@ legend {
   border-color: #ccc;
 }
 
-/* line 764, ../sass/_sponger.scss */
+/* line 767, ../sass/_sponger.scss */
 fieldset {
   margin-bottom: 30px;
 }
 
-/* line 767, ../sass/_sponger.scss */
+/* line 770, ../sass/_sponger.scss */
 .input-total {
   border-top: 1px solid #ccc;
   margin: 0 15px;
   text-align: right;
 }
-/* line 772, ../sass/_sponger.scss */
+/* line 775, ../sass/_sponger.scss */
 .input-total .input-total-inner {
   float: right;
   width: 250px;
 }
-/* line 773, ../sass/_sponger.scss */
+/* line 776, ../sass/_sponger.scss */
 .input-total .total-text {
   text-transform: uppercase;
   font-size: 16px;
   font-weight: 500;
   margin-right: 5px;
 }
-/* line 779, ../sass/_sponger.scss */
+/* line 782, ../sass/_sponger.scss */
 .input-total .total-number {
   font-size: 18px;
   padding: 5px 15px;
@@ -14762,7 +15126,7 @@ fieldset {
   background: #d5d5bf;
   font-weight: 300;
 }
-/* line 780, ../sass/_sponger.scss */
+/* line 783, ../sass/_sponger.scss */
 .input-total .total-alert {
   display: inline-block;
   font-style: italic;
@@ -14776,7 +15140,7 @@ fieldset {
   opacity: 0.7;
   filter: alpha(opacity=70);
 }
-/* line 790, ../sass/_sponger.scss */
+/* line 793, ../sass/_sponger.scss */
 .input-total .total-alert:hover {
   text-decoration: none;
   background: red;
@@ -14784,13 +15148,13 @@ fieldset {
   opacity: 1;
   filter: alpha(opacity=100);
 }
-/* line 796, ../sass/_sponger.scss */
+/* line 799, ../sass/_sponger.scss */
 .input-total .total-alert:active {
   box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
   -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
   -moz-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
 }
-/* line 802, ../sass/_sponger.scss */
+/* line 805, ../sass/_sponger.scss */
 .input-total .total-alert:before {
   position: absolute;
   border-left: 5px solid transparent;
@@ -14801,12 +15165,12 @@ fieldset {
   right: 50%;
 }
 
-/* line 815, ../sass/_sponger.scss */
+/* line 818, ../sass/_sponger.scss */
 .submit-form {
   padding: 5px 40px;
 }
 
-/* line 816, ../sass/_sponger.scss */
+/* line 819, ../sass/_sponger.scss */
 .mask-form-button {
   display: inline-block;
   background: #DFDFD0;
@@ -14819,29 +15183,29 @@ fieldset {
   text-align: right;
 }
 
-/* line 827, ../sass/_sponger.scss */
+/* line 830, ../sass/_sponger.scss */
 .element {
   margin-right: 10px;
 }
-/* line 829, ../sass/_sponger.scss */
+/* line 832, ../sass/_sponger.scss */
 .element.checkbox {
   padding: 0;
   padding-top: 3px;
   margin-right: 30px;
 }
 
-/* line 838, ../sass/_sponger.scss */
+/* line 841, ../sass/_sponger.scss */
 .social-media-campaign {
   margin: 0;
   padding: 0;
   float: left;
 }
-/* line 843, ../sass/_sponger.scss */
+/* line 846, ../sass/_sponger.scss */
 .social-media-campaign li {
   display: inline-block;
   margin-top: 5px;
 }
-/* line 844, ../sass/_sponger.scss */
+/* line 847, ../sass/_sponger.scss */
 .social-media-campaign .icon-social-campaign {
   padding: 0;
   width: 25px;
@@ -14861,41 +15225,41 @@ fieldset {
   -o-transition: all 0.5s ease;
   transition: all 0.5s ease;
 }
-/* line 858, ../sass/_sponger.scss */
+/* line 861, ../sass/_sponger.scss */
 .social-media-campaign .icon-social-campaign:hover {
   opacity: 1;
   filter: alpha(opacity=100);
 }
 
-/* line 869, ../sass/_sponger.scss */
+/* line 872, ../sass/_sponger.scss */
 .valor-total-component {
   float: right;
   text-align: right;
   line-height: 1;
 }
-/* line 874, ../sass/_sponger.scss */
+/* line 877, ../sass/_sponger.scss */
 .valor-total-component .title {
   display: block;
   font-size: 14px;
   text-transform: uppercase;
   font-weight: 700;
 }
-/* line 880, ../sass/_sponger.scss */
+/* line 883, ../sass/_sponger.scss */
 .valor-total-component .valor-group {
   color: #507f3b;
   font-weight: 100;
   font-style: italic;
 }
-/* line 884, ../sass/_sponger.scss */
+/* line 887, ../sass/_sponger.scss */
 .valor-total-component .valor-group .moeda {
   font-size: 18px;
 }
-/* line 885, ../sass/_sponger.scss */
+/* line 888, ../sass/_sponger.scss */
 .valor-total-component .valor-group .valor {
   font-size: 30px;
 }
 
-/* line 898, ../sass/_sponger.scss */
+/* line 901, ../sass/_sponger.scss */
 .icon-cartao {
   width: 39px;
   height: 26px;
@@ -14903,12 +15267,12 @@ fieldset {
   vertical-align: middle;
 }
 
-/* line 907, ../sass/_sponger.scss */
+/* line 910, ../sass/_sponger.scss */
 .modal-header button.close {
   opacity: 1;
   color: #fff;
 }
-/* line 911, ../sass/_sponger.scss */
+/* line 914, ../sass/_sponger.scss */
 .modal-header button.close:hover, .modal-header button.close:focus {
   color: #fff;
   text-decoration: none;
@@ -14917,33 +15281,33 @@ fieldset {
   filter: alpha(opacity=50);
 }
 
-/* line 923, ../sass/_sponger.scss */
+/* line 926, ../sass/_sponger.scss */
 .grupo-formas-de-pagamento,
 .grupo-quero-comprar-pontos {
   padding: 10px 0;
 }
 
-/* line 942, ../sass/_sponger.scss */
+/* line 945, ../sass/_sponger.scss */
 .upload-image-product-component {
   display: inline-block;
   margin-bottom: 20px;
 }
-/* line 946, ../sass/_sponger.scss */
+/* line 949, ../sass/_sponger.scss */
 .upload-image-product-component .block-images {
   width: 70px;
   text-align: center;
   float: left;
 }
-/* line 952, ../sass/_sponger.scss */
+/* line 955, ../sass/_sponger.scss */
 .upload-image-product-component .block-images .icon-default .icon {
   margin: 0;
 }
-/* line 954, ../sass/_sponger.scss */
+/* line 957, ../sass/_sponger.scss */
 .upload-image-product-component .block-images .uploaded-by-the-user {
   display: block;
   margin-top: 5px;
 }
-/* line 957, ../sass/_sponger.scss */
+/* line 960, ../sass/_sponger.scss */
 .upload-image-product-component .block-images .uploaded-by-the-user img {
   width: 50px;
   height: 50px;
@@ -14953,56 +15317,56 @@ fieldset {
   border-radius: 50%;
   border: 1px solid #8C8C8C;
 }
-/* line 966, ../sass/_sponger.scss */
+/* line 969, ../sass/_sponger.scss */
 .upload-image-product-component .block-info {
   display: inline-block;
   width: 240px;
   padding-left: 10px;
 }
-/* line 972, ../sass/_sponger.scss */
+/* line 975, ../sass/_sponger.scss */
 .upload-image-product-component .block-info .block-info-product-name {
   margin-bottom: 30px;
   margin-top: 20px;
   font-size: 16px;
 }
-/* line 977, ../sass/_sponger.scss */
+/* line 980, ../sass/_sponger.scss */
 .upload-image-product-component .block-info .list-options-upload {
   display: inline-block;
   list-style: none;
   padding: 0;
   border-top: 1px solid #ccc;
 }
-/* line 983, ../sass/_sponger.scss */
+/* line 986, ../sass/_sponger.scss */
 .upload-image-product-component .block-info .list-options-upload .item-list-options-upload {
   float: left;
 }
-/* line 986, ../sass/_sponger.scss */
+/* line 989, ../sass/_sponger.scss */
 .upload-image-product-component .block-info .list-options-upload .item-list-options-upload:first-child {
   margin-right: 20px;
 }
-/* line 987, ../sass/_sponger.scss */
+/* line 990, ../sass/_sponger.scss */
 .upload-image-product-component .block-info .list-options-upload .item-list-options-upload a {
   float: left;
   font-size: 12px;
 }
-/* line 990, ../sass/_sponger.scss */
+/* line 993, ../sass/_sponger.scss */
 .upload-image-product-component .block-info .list-options-upload .item-list-options-upload a .fa {
   margin-right: 5px;
 }
 
-/* line 1014, ../sass/_sponger.scss */
+/* line 1017, ../sass/_sponger.scss */
 .item-options-rescue {
   display: inline-block;
   width: 100%;
   margin-bottom: 40px;
   padding: 10px 10px;
 }
-/* line 1020, ../sass/_sponger.scss */
+/* line 1023, ../sass/_sponger.scss */
 .item-options-rescue:nth-child(even) {
   background: #dfdfd0;
 }
 
-/* line 1025, ../sass/_sponger.scss */
+/* line 1028, ../sass/_sponger.scss */
 .header-options-rescue {
   width: 100%;
   display: inline-block;
@@ -15011,112 +15375,112 @@ fieldset {
   text-transform: uppercase;
   font-weight: 500;
 }
-/* line 1026, ../sass/_sponger.scss */
+/* line 1029, ../sass/_sponger.scss */
 .header-options-rescue.line {
   border-bottom: 1px solid #ccc;
   padding-bottom: 5px;
   color: #345326;
   font-weight: 700;
 }
-/* line 1041, ../sass/_sponger.scss */
+/* line 1044, ../sass/_sponger.scss */
 .header-options-rescue .col-1, .header-options-rescue .col-2, .header-options-rescue .col-3, .header-options-rescue .col-4, .header-options-rescue .col-5 {
   display: inline-block;
 }
-/* line 1046, ../sass/_sponger.scss */
+/* line 1049, ../sass/_sponger.scss */
 .header-options-rescue .col-1 {
   width: 22.8%;
 }
-/* line 1047, ../sass/_sponger.scss */
+/* line 1050, ../sass/_sponger.scss */
 .header-options-rescue .col-2 {
   width: 15.8%;
   text-align: center;
 }
-/* line 1048, ../sass/_sponger.scss */
+/* line 1051, ../sass/_sponger.scss */
 .header-options-rescue .col-3 {
   width: 19.8%;
   text-align: center;
 }
-/* line 1049, ../sass/_sponger.scss */
+/* line 1052, ../sass/_sponger.scss */
 .header-options-rescue .col-4 {
   width: 19.8%;
   text-align: center;
 }
-/* line 1050, ../sass/_sponger.scss */
+/* line 1053, ../sass/_sponger.scss */
 .header-options-rescue .col-5 {
   width: 18.8%;
   text-align: center;
 }
 
-/* line 1055, ../sass/_sponger.scss */
+/* line 1058, ../sass/_sponger.scss */
 .options-rescue-component {
   padding: 10px 30px 30px;
 }
 
-/* line 1061, ../sass/_sponger.scss */
+/* line 1064, ../sass/_sponger.scss */
 .item-options-rescue .header-options-rescue {
   padding: 10px 0;
 }
 
-/* line 1070, ../sass/_sponger.scss */
+/* line 1073, ../sass/_sponger.scss */
 .group-options-rescue {
   padding-left: 20px;
 }
-/* line 1074, ../sass/_sponger.scss */
+/* line 1077, ../sass/_sponger.scss */
 .group-options-rescue h5 {
   text-transform: uppercase;
   font-size: 12px;
   text-align: left;
 }
-/* line 1079, ../sass/_sponger.scss */
+/* line 1082, ../sass/_sponger.scss */
 .group-options-rescue .text-observacoes {
   margin-top: 10px;
 }
 
-/* line 1090, ../sass/_sponger.scss */
+/* line 1093, ../sass/_sponger.scss */
 .rescue-component {
   padding: 10px 30px 30px;
   display: inline-block;
   vertical-align: middle;
   width: 100%;
 }
-/* line 1097, ../sass/_sponger.scss */
+/* line 1100, ../sass/_sponger.scss */
 .rescue-component .available-value-group {
   float: left;
 }
-/* line 1099, ../sass/_sponger.scss */
+/* line 1102, ../sass/_sponger.scss */
 .rescue-component .available-value-group .available-label {
   font-size: 12px;
   text-transform: uppercase;
   font-weight: 700;
 }
-/* line 1104, ../sass/_sponger.scss */
+/* line 1107, ../sass/_sponger.scss */
 .rescue-component .available-value-group .available-value {
   color: #507f3b;
   font-weight: 100;
   font-style: italic;
 }
-/* line 1108, ../sass/_sponger.scss */
+/* line 1111, ../sass/_sponger.scss */
 .rescue-component .available-value-group .available-value .moeda {
   font-size: 18px;
 }
-/* line 1109, ../sass/_sponger.scss */
+/* line 1112, ../sass/_sponger.scss */
 .rescue-component .available-value-group .available-value .valor {
   font-size: 27px;
 }
-/* line 1114, ../sass/_sponger.scss */
+/* line 1117, ../sass/_sponger.scss */
 .rescue-component .value-for-rescue-group {
   width: 430px;
   float: right;
 }
-/* line 1118, ../sass/_sponger.scss */
+/* line 1121, ../sass/_sponger.scss */
 .rescue-component .value-for-rescue-group form {
   float: right;
 }
-/* line 1120, ../sass/_sponger.scss */
+/* line 1123, ../sass/_sponger.scss */
 .rescue-component .value-for-rescue-group .form-group {
   margin: 0;
 }
-/* line 1124, ../sass/_sponger.scss */
+/* line 1127, ../sass/_sponger.scss */
 .rescue-component .value-for-rescue-group .note {
   font-style: italic;
   text-align: left;

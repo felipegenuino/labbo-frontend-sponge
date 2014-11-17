@@ -1949,26 +1949,12 @@
                                <li class="lista-periodo-item"><a href="#" class="btn btn-primary"> 15 dias</a></li>
 
                                <li class="lista-periodo-item">
-                                  <div class="dropdown periodo-calendar-button">
-                                          <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown">
-                                           <i class="fa fa-calendar"></i>
-                                            <span class="caret"></span>
-                                          </button>
-                                 
-                                          <div class="periodo-calendar-container" role="menu" aria-labelledby="dropdownMenu1">
-                                                   <div class="row">
-                                                  <div class="col-md-6">
-                                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem est aut sunt laboriosam mollitia consequuntur distinctio odit nostrum minus vero inventore, nisi voluptas error dolore enim explicabo asperiores quibusdam. Expedita!
-                                                  </div>
+                                           <button class="btn btn-primary buttondaterangepicker" >
+                                              <i class="fa fa-calendar fa-lg"></i>
+                                             <!--  <span class="reportrange"></span> -->
+                                            </button > 
 
-                                                  <div class="col-md-6">
-                                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem est aut sunt laboriosam mollitia consequuntur distinctio odit nostrum minus vero inventore, nisi voluptas error dolore enim explicabo asperiores quibusdam. Expedita!
-                                                  </div>
-                                                  
-                                                </div>
-                                           </div>
-                                  </div> <!-- //periodo-calendar-button -->
-                               </li>
+                                </li>
                              </ul>
 
 
@@ -3632,15 +3618,19 @@
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="assets/javascripts/bootstrap.js"></script>
     <script src="assets/javascripts/components/jasny-bootstrap.min.js"></script>
-
     <script src="assets/javascripts/components/bootstrap-datepicker.js"></script>
 
- 
+    <script type="text/javascript" src="assets/javascripts/daterangepicker/moment.js"></script>
+    <script type="text/javascript" src="assets/javascripts/daterangepicker/daterangepicker.js"></script>
+
+     
 
      <script src="assets/javascripts/sponge.js"></script>
 
 
- 
+    <!-- é pro live load // deletar quando for para produção -->
+    <script> document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>') </script>
+
   
   </body>
 </html>
