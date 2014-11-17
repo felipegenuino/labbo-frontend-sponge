@@ -1043,8 +1043,91 @@ fieldset{ margin-bottom: 30px;}
 }
 
 
+.options-rescue-component{
+	padding: 10px 30px 30px;
+}
 
 
+.item-options-rescue{
+	.header-options-rescue{
+ 		padding: 10px 0;
+	}
+
+	.body-options-rescue{
+ 
+	}
+}
+
+.group-options-rescue{
+
+	padding-left: 20px;
+	
+	h5{ text-transform: uppercase; font-size: 12px; text-align: left;}
+
+ 
+	//form-group{ margin-right: 10px;}
+
+	.text-observacoes{
+		margin-top: 10px;
+	}
+}
+
+
+
+
+
+
+
+.rescue-component{
+	padding: 10px 30px 30px;
+	display: inline-block;
+	vertical-align: middle;
+	width: 100%;
+
+
+		.available-value-group{
+			float: left;
+				.available-label{ 
+			 		font-size: 12px;
+					text-transform: uppercase;
+					font-weight: 700;}
+
+				.available-value{ 
+					color: $brand-medium;
+					font-weight: 100;
+					font-style: italic;
+					.moeda{font-size: 18px;}
+					.valor{  font-size: 27px; }
+				}
+		}
+	
+
+	.value-for-rescue-group{
+ 		width: 430px;
+		float: right;
+
+		form{float: right;}
+  
+			.form-group{
+				margin: 0;
+ 			}
+
+			.note{
+				font-style: italic;
+				text-align: left;
+				margin: 0 auto;
+				display: block;
+				margin-left: 15px;
+				}
+	}
+
+
+}
+
+
+
+
+ 
 
 
 

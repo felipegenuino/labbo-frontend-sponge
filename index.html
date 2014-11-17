@@ -1958,9 +1958,9 @@
                   
                           <div class="btn-group" data-toggle="buttons">
                               <button type="button" class="btn btn-default disabled">Quero comprar</button>
-                                    <label class="btn btn-primary active">  <input type="radio" name="options" id="option1" autocomplete="off" checked> 5.000 </label>
-                                    <label class="btn btn-primary">         <input type="radio" name="options" id="option2" autocomplete="off"> 10.000  </label>
-                                    <label class="btn btn-primary">         <input type="radio" name="options" id="option3" autocomplete="off"> 15.000  </label>
+                                    <label class="btn btn-default active">  <input type="radio" name="options" id="option1" autocomplete="off" checked> 5.000 </label>
+                                    <label class="btn btn-default">         <input type="radio" name="options" id="option2" autocomplete="off"> 10.000  </label>
+                                    <label class="btn btn-default">         <input type="radio" name="options" id="option3" autocomplete="off"> 15.000  </label>
                                <button type="button" class="btn btn-default disabled">Pontos</button>
                           </div> <!-- //btn-group-->
                           
@@ -2897,35 +2897,72 @@
             </div> <!-- //col-xs-12 -->
  
 
-             <div class=" title-section-secundary title-section-secundary-child">
-                    <div class="row">
-                        <div class="col-sm-12">
-                             <span class="titulo">Resgate</span> 
-                        </div> <!-- //col-sm-12 -->
+       <div class=" title-section-secundary title-section-secundary-child">
+              <div class="row">
+                  <div class="col-sm-12">
+                       <span class="titulo">Resgate</span> 
+                  </div> <!-- //col-sm-12 -->
 
-                    </div> <!-- // row -->
-            </div> <!-- //title-section-secundary  -->
-
-
-
-<p>conteudo aqui</p>
+              </div> <!-- // row -->
+      </div> <!-- //title-section-secundary  -->
 
 
 
-            <div class=" title-section-secundary title-section-secundary-child">
-                      <div class="row">
-                          <div class="col-sm-12">
-                               <span class="titulo">Opções de resgate</span> 
-                          </div> <!-- //col-sm-12 -->
+    <div class="rescue-component">
 
-                      </div> <!-- // row -->
-              </div> <!-- //title-section-secundary  -->
+          <div class="available-value-group">
+             <span class="available-label">Valor disponível:</span> 
+             <span class="available-value"><span class="moeda">R$</span> <span class="valor">75,00</span></span>
+          </div> <!-- //available-value -->
+
+          
+          <div class="value-for-rescue-group">
+
+
+            <form  class="form-horizontal form-inline" role="form">
+              <div class="input-group">
+
+                <span class="input-group-btn">
+                      <button type="button" class="btn btn-default disabled">Valor para resgate:</button>
+                      <button type="button" class="btn btn-default disabled">R$:</button>
+
+                  </span>
+                  <input type="text" placeholder="100,00" value="" class="form-control">
+                  <span class="input-group-btn">
+                    <button class="btn btn-primary" type="button">Resgatar</button>
+                  </span>
+                </div><!-- /input-group -->
+                <small class="note">Obs: Valor mínimo de R$ 100,00</small>
+            </form>
+
+
+
+  
+
+            
+          </div><!-- //value-for-rescue-group -->
+
+
+    </div> <!-- //rescue-component -->
+  
+     
+
+ 
+
+
+
+
+      <div class=" title-section-secundary title-section-secundary-child">
+                <div class="row">
+                    <div class="col-sm-12">
+                         <span class="titulo">Opções de resgate</span> 
+                    </div> <!-- //col-sm-12 -->
+                </div> <!-- // row -->
+        </div> <!-- //title-section-secundary  -->
 
 
 
 <div class="options-rescue-component">
-        
-
     <header class="header-options-rescue line">
       <div class="col-1">  Instituição  </div>
       <div class="col-2">  Valor solicitado  </div>
@@ -2934,131 +2971,97 @@
       <div class="col-5">  Dados Bancários  </div>
     </header>
 
-
      <main class="collapse-options-rescue">
-
-           <section class="item-options-rescue">
-                 <header class="header-options-rescue">
-                    <div class="col-1">  <img  class="brand-sponsor icon-round icon-medium"  src="assets/images/temp/icon-sponsor-pirelli.png" alt="">  Caixa economica </div>
+          <section class="item-options-rescue">
+                <header class="header-options-rescue">
+                    <div class="col-1"> <span class="icon-medium icon icon-bank-caixa hidden-xs hidden-sm"> </span> Caixa economica </div>
                     <div class="col-2">  100,00  </div>
                     <div class="col-3">  0  </div>
                     <div class="col-4">  100,00  </div>
                     <div class="col-5">  <button class="btn btn-primary" data-toggle="collapse" href="#toggle-banco2">Informar </button>  </div>
-                  </header>
-
+                </header>
                 <div class="body-options-rescue">
-                  <div id="toggle-banco2" class="collapse">
+                    <div id="toggle-banco2" class="collapse">
+                         <div class="group-options-rescue">
+                                <h5> Dados Bancários </h5>
+                                     <form class="form-inline" role="form">
+                                          <div class="form-group">
+                                            <label class="sr-only" for="caixaEconomicaBankInputNameUser">Seu nome</label>
+                                            <input type="email" class="form-control" id="caixaEconomicaInputNameUser" placeholder="Digite seu nome">
+                                            </div>
 
+                                          <div class="form-group">
+                                            <label class="sr-only" for="caixaEconomicaInputCPF">CPF</label>
+                                            <input type="text" class="form-control" id="caixaEconomicaInputCPF" placeholder="CPF">
+                                            </div>
 
-                                                 
-                                                <h5> Dados Bancários </h5>
-                                               <form class="form-inline" role="form">
-                                                  <div class="form-group">
-                                                      <div class="input-group">
-                                                        <div class="input-group-addon"><i class="fa fa-university"></i></div>
-                                                        <input class="form-control" type="text" placeholder="Nome do banco">
-                                                      </div>
-                                                    </div>
+                                          <div class="form-group">
+                                            <label class="sr-only" for="caixaEconomicaInputAgencia">Agência</label>
+                                            <input type="text" class="form-control" id="caixaEconomicaInputAgencia" placeholder="Agência">
+                                            </div>
+                                          
 
-                                                    <div class="form-group">
-                                                      <label class="sr-only" for="exampleInputEmail2">Seu nome</label>
-                                                      <input type="email" class="form-control" id="exampleInputEmail2" placeholder="Digite seu nome">
-                                                    </div>
-                                                    
-                                                    <div class="form-group">
-                                                      <label class="sr-only" for="exampleInputPassword2">CPF</label>
-                                                      <input type="number" class="form-control" id="exampleInputPassword2" placeholder="CPF">
-                                                    </div>
+                                          <div class="form-group">
+                                            <label class="sr-only" for="caixaEconomicaInputNumberAccount">Conta</label>
+                                            <input type="number" class="form-control" id="caixaEconomicaInputNumberAccount" placeholder="Conta">
+                                            </div>
 
-                                                      <div class="form-group">
-                                                      <label class="sr-only" for="exampleInputPassword2">Agência</label>
-                                                      <input type="number" class="form-control" id="exampleInputPassword2" placeholder="Agência">
-                                                    </div>
-                                                    
-
-                                                      <div class="form-group">
-                                                      <label class="sr-only" for="exampleInputPassword2">Conta</label>
-                                                      <input type="number" class="form-control" id="exampleInputPassword2" placeholder="Conta">
-                                                    </div>
-
-                                                     <button type="submit" class="btn btn-primary">Resgatar</button>
-                                                  </form>
-
-                                                  <p class="text-observacoes">Obs:  O prazo médio para pagamento de resgate  é de 3 dias úteis a partir da data  de envio dos  dados bancários.</p>
-                                       </div> <!-- //collapse-campaign-inner -->
+                                           <button type="submit" class="btn btn-primary">Resgatar</button>
+                                          </form>
+                                <p class="text-observacoes">Obs:  O prazo médio para pagamento de resgate  é de 3 dias úteis a partir da data  de envio dos  dados bancários.</p>
+                          </div><!-- //group-options-rescue -->
+                    </div> <!-- //collapse-campaign-inner -->
                 </div> <!-- // body-options-rescue -->
+          </section>
 
 
-           </section>
-
-
-
-
-
-
-
-
-
-  <section class="item-options-rescue">
+         <section class="item-options-rescue">
                  <header class="header-options-rescue">
-                    <div class="col-1">  <img  class="brand-sponsor icon-round icon-medium"  src="assets/images/temp/icon-caixa.jpg" alt="">  Caixa economica </div>
+                    <div class="col-1">  <span class="icon-medium icon icon-bank-others hidden-xs hidden-sm"> </span>  Outros Bancos </div>
                     <div class="col-2">  100,00  </div>
                     <div class="col-3">  0  </div>
                     <div class="col-4">  100,00  </div>
                     <div class="col-5">  <button class="btn btn-primary" data-toggle="collapse" href="#toggle-banco3">Informar </button>  </div>
                   </header>
+                  <div class="body-options-rescue">
+                    <div id="toggle-banco3" class="collapse">
+                       <div class="group-options-rescue">
+                              <h5> Dados Bancários </h5>
+                                  <form class="form-inline" role="form">
+                                       <div class="form-group">
+                                          <div class="input-group">
+                                            <div class="input-group-addon"><i class="fa fa-university"></i></div>
+                                            <input class="form-control" type="text" placeholder="Nome do banco">
+                                          </div>
+                                        </div>
 
-                <div class="body-options-rescue">
-                  <div id="toggle-banco3" class="collapse">
+                                        <div class="form-group">
+                                          <label class="sr-only" for="otherBankBankInputNameUser">Seu nome</label>
+                                          <input type="email" class="form-control" id="otherBankInputNameUser" placeholder="Digite seu nome">
+                                          </div>
 
+                                        <div class="form-group">
+                                          <label class="sr-only" for="otherBankInputCPF">CPF</label>
+                                          <input type="text" class="form-control" id="otherBankInputCPF" placeholder="CPF">
+                                          </div>
 
-                                              <fieldset>
-                                                
-                                                <legend> Dados Bancários </legend>
-                                               <form class="form-inline" role="form">
-                                                  <div class="form-group">
-                                                      <div class="input-group">
-                                                        <div class="input-group-addon"><i class="fa fa-university"></i></div>
-                                                        <input class="form-control" type="text" placeholder="Nome do banco">
-                                                      </div>
-                                                    </div>
+                                        <div class="form-group">
+                                          <label class="sr-only" for="otherBankInputAgencia">Agência</label>
+                                          <input type="text" class="form-control" id="otherBankInputAgencia" placeholder="Agência">
+                                          </div>
 
-                                                    <div class="form-group">
-                                                      <label class="sr-only" for="exampleInputEmail2">Seu nome</label>
-                                                      <input type="email" class="form-control" id="exampleInputEmail2" placeholder="Digite seu nome">
-                                                    </div>
-                                                    
-                                                    <div class="form-group">
-                                                      <label class="sr-only" for="exampleInputPassword2">CPF</label>
-                                                      <input type="number" class="form-control" id="exampleInputPassword2" placeholder="CPF">
-                                                    </div>
+                                        <div class="form-group">
+                                          <label class="sr-only" for="otherBankInputNumberAccount">Conta</label>
+                                          <input type="number" class="form-control" id="otherBankInputNumberAccount" placeholder="Conta">
+                                          </div>
 
-                                                      <div class="form-group">
-                                                      <label class="sr-only" for="exampleInputPassword2">Agência</label>
-                                                      <input type="number" class="form-control" id="exampleInputPassword2" placeholder="Agência">
-                                                    </div>
-                                                    
-
-                                                      <div class="form-group">
-                                                      <label class="sr-only" for="exampleInputPassword2">Conta</label>
-                                                      <input type="number" class="form-control" id="exampleInputPassword2" placeholder="Conta">
-                                                    </div>
-
-                                                     <button type="submit" class="btn btn-primary">Resgatar</button>
-                                                  </form>
-
-                                                  <p class="text-observacoes">Obs:  O prazo médio para pagamento de resgate  é de 3 dias úteis a partir da data  de envio dos  dados bancários.</p>
-                                       </div> <!-- //collapse-campaign-inner -->
-                </div> <!-- // body-options-rescue -->
-
-
-           </section>
-
-
-
-
-  
- 
+                                       <button type="submit" class="btn btn-primary">Resgatar</button>
+                                    </form>
+                          <p class="text-observacoes">Obs:  O prazo médio para pagamento de resgate  é de 3 dias úteis a partir da data  de envio dos  dados bancários.</p>
+                        </div><!-- //group-options-rescue -->
+                      </div> <!-- //collapse-campaign-inner -->
+                  </div> <!-- // body-options-rescue -->
+        </section>
     </main> 
 </div> <!-- //options-rescue-component -->
 

@@ -10519,497 +10519,507 @@ fieldset[disabled] .datepicker table tr td span.active.disabled:hover.active {
   margin-right: 10px;
 }
 
-/* line 33, ../sass/componentes/_icones.scss */
+/* line 31, ../sass/componentes/_icones.scss */
+.icon-bank-caixa {
+  background-image: url("../images/icons/icon-bank-caixa.png");
+}
+
+/* line 32, ../sass/componentes/_icones.scss */
+.icon-bank-others {
+  background-image: url("../images/icons/icon-bank-others.png");
+}
+
+/* line 36, ../sass/componentes/_icones.scss */
 .icon-sucess {
   background-image: url("../images/icons/icon-sucess.png");
 }
 
-/* line 34, ../sass/componentes/_icones.scss */
+/* line 37, ../sass/componentes/_icones.scss */
 .icon-rescue {
   background-image: url("../images/icons/icon-rescue.png");
 }
 
-/* line 35, ../sass/componentes/_icones.scss */
+/* line 38, ../sass/componentes/_icones.scss */
 .icon-cidadao {
   background-image: url("../images/icons/icon-cidadao.png");
 }
 
-/* line 36, ../sass/componentes/_icones.scss */
+/* line 39, ../sass/componentes/_icones.scss */
 .icon-ponto-de-coleta {
   background-image: url("../images/icons/icon-ponto-de-coleta.png");
 }
 
-/* line 37, ../sass/componentes/_icones.scss */
+/* line 40, ../sass/componentes/_icones.scss */
 .icon-incentivador {
   background-image: url("../images/icons/icon-incentivador.png");
 }
 
-/* line 40, ../sass/componentes/_icones.scss */
+/* line 43, ../sass/componentes/_icones.scss */
 .icon-cardboard-box {
   background-image: url("../images/icons/icon-cardboard-box.png");
 }
 
-/* line 41, ../sass/componentes/_icones.scss */
+/* line 44, ../sass/componentes/_icones.scss */
 .icon-paper {
   background-image: url("../images/icons/icon-paper.png");
 }
 
-/* line 42, ../sass/componentes/_icones.scss */
+/* line 45, ../sass/componentes/_icones.scss */
 .icon-book {
   background-image: url("../images/icons/icon-book.png");
 }
 
-/* line 43, ../sass/componentes/_icones.scss */
+/* line 46, ../sass/componentes/_icones.scss */
 .icon-package {
   background-image: url("../images/icons/icon-package.png");
 }
 
-/* line 44, ../sass/componentes/_icones.scss */
+/* line 47, ../sass/componentes/_icones.scss */
 .icon-other {
   background-image: url("../images/icons/icon-other.png");
 }
 
-/* line 48, ../sass/componentes/_icones.scss */
+/* line 51, ../sass/componentes/_icones.scss */
 .icon-number-1 {
   background-image: url("../images/icons/icon-number-1.png");
 }
 
-/* line 49, ../sass/componentes/_icones.scss */
+/* line 52, ../sass/componentes/_icones.scss */
 .icon-number-2 {
   background-image: url("../images/icons/icon-number-2.png");
 }
 
-/* line 50, ../sass/componentes/_icones.scss */
+/* line 53, ../sass/componentes/_icones.scss */
 .icon-number-3 {
   background-image: url("../images/icons/icon-number-3.png");
 }
 
-/* line 52, ../sass/componentes/_icones.scss */
+/* line 55, ../sass/componentes/_icones.scss */
 .icon-number-4 {
   background-image: url("../images/icons/icon-number-4.png");
 }
 
-/* line 53, ../sass/componentes/_icones.scss */
+/* line 56, ../sass/componentes/_icones.scss */
 .icon-number-5 {
   background-image: url("../images/icons/icon-number-5.png");
 }
 
-/* line 54, ../sass/componentes/_icones.scss */
+/* line 57, ../sass/componentes/_icones.scss */
 .icon-number-6 {
   background-image: url("../images/icons/icon-number-6.png");
 }
 
-/* line 56, ../sass/componentes/_icones.scss */
+/* line 59, ../sass/componentes/_icones.scss */
 .icon-number-7 {
   background-image: url("../images/icons/icon-number-7.png");
 }
 
-/* line 57, ../sass/componentes/_icones.scss */
+/* line 60, ../sass/componentes/_icones.scss */
 .icon-number-8 {
   background-image: url("../images/icons/icon-number-8.png");
 }
 
-/* line 58, ../sass/componentes/_icones.scss */
+/* line 61, ../sass/componentes/_icones.scss */
 .icon-number-9 {
   background-image: url("../images/icons/icon-number-9.png");
 }
 
-/* line 64, ../sass/componentes/_icones.scss */
+/* line 67, ../sass/componentes/_icones.scss */
 .icon-livros-e-revistas {
   background-image: url("../images/icons/icon-livros-e-revistas.png");
 }
 
-/* line 65, ../sass/componentes/_icones.scss */
+/* line 68, ../sass/componentes/_icones.scss */
 .icon-cartolina {
   background-image: url("../images/icons/icon-cartolina.png");
 }
 
-/* line 66, ../sass/componentes/_icones.scss */
+/* line 69, ../sass/componentes/_icones.scss */
 .icon-embalagens-de-papel {
   background-image: url("../images/icons/icon-embalagens-de-papel.png");
 }
 
-/* line 67, ../sass/componentes/_icones.scss */
+/* line 70, ../sass/componentes/_icones.scss */
 .icon-papel-de-embalagem {
   background-image: url("../images/icons/icon-papel-de-embalagem.png");
 }
 
-/* line 68, ../sass/componentes/_icones.scss */
+/* line 71, ../sass/componentes/_icones.scss */
 .icon-papel-de-escritorio {
   background-image: url("../images/icons/icon-papel-de-escritorio.png");
 }
 
-/* line 69, ../sass/componentes/_icones.scss */
+/* line 72, ../sass/componentes/_icones.scss */
 .icon-papelao {
   background-image: url("../images/icons/icon-papelao.png");
 }
 
-/* line 70, ../sass/componentes/_icones.scss */
+/* line 73, ../sass/componentes/_icones.scss */
 .icon-jornal {
   background-image: url("../images/icons/icon-jornal.png");
 }
 
-/* line 74, ../sass/componentes/_icones.scss */
+/* line 77, ../sass/componentes/_icones.scss */
 .icon-garrafas-pet {
   background-image: url("../images/icons/icon-garrafas-pet.png");
 }
 
-/* line 75, ../sass/componentes/_icones.scss */
+/* line 78, ../sass/componentes/_icones.scss */
 .icon-garrafas-de-detergente-pead {
   background-image: url("../images/icons/icon-garrafas-de-detergente-pead.png");
 }
 
-/* line 76, ../sass/componentes/_icones.scss */
+/* line 79, ../sass/componentes/_icones.scss */
 .icon-sacolas-de-supermercado-pead {
   background-image: url("../images/icons/icon-sacolas-de-supermercado-pead.png");
 }
 
-/* line 77, ../sass/componentes/_icones.scss */
+/* line 80, ../sass/componentes/_icones.scss */
 .icon-potes-pead {
   background-image: url("../images/icons/icon-potes-pead.png");
 }
 
-/* line 78, ../sass/componentes/_icones.scss */
+/* line 81, ../sass/componentes/_icones.scss */
 .icon-utilidades-domesticas-pp {
   background-image: url("../images/icons/icon-utilidades-domesticas-pp.png");
 }
 
-/* line 79, ../sass/componentes/_icones.scss */
+/* line 82, ../sass/componentes/_icones.scss */
 .icon-bombonas-pead {
   background-image: url("../images/icons/icon-bombonas-pead.png");
 }
 
-/* line 80, ../sass/componentes/_icones.scss */
+/* line 83, ../sass/componentes/_icones.scss */
 .icon-pecas-termicas-pead {
   background-image: url("../images/icons/icon-pecas-termicas-pead.png");
 }
 
-/* line 81, ../sass/componentes/_icones.scss */
+/* line 84, ../sass/componentes/_icones.scss */
 .icon-embalagem-de-agua-mineral-pvc {
   background-image: url("../images/icons/icon-embalagem-de-agua-mineral-pvc.png");
 }
 
-/* line 82, ../sass/componentes/_icones.scss */
+/* line 85, ../sass/componentes/_icones.scss */
 .icon-embalagem-de-oleos-comestiveis-pvc {
   background-image: url("../images/icons/icon-embalagem-de-oleos-comestiveis-pvc.png");
 }
 
-/* line 83, ../sass/componentes/_icones.scss */
+/* line 86, ../sass/componentes/_icones.scss */
 .icon-tubos-pvc {
   background-image: url("../images/icons/icon-tubos-pvc.png");
 }
 
-/* line 84, ../sass/componentes/_icones.scss */
+/* line 87, ../sass/componentes/_icones.scss */
 .icon-esquadrias-pvc {
   background-image: url("../images/icons/icon-esquadrias-pvc.png");
 }
 
-/* line 85, ../sass/componentes/_icones.scss */
+/* line 88, ../sass/componentes/_icones.scss */
 .icon-saco-de-leite-pebd {
   background-image: url("../images/icons/icon-saco-de-leite-pebd.png");
 }
 
-/* line 86, ../sass/componentes/_icones.scss */
+/* line 89, ../sass/componentes/_icones.scss */
 .icon-saco-de-iogurte-pebd {
   background-image: url("../images/icons/icon-saco-de-iogurte-pebd.png");
 }
 
-/* line 87, ../sass/componentes/_icones.scss */
+/* line 90, ../sass/componentes/_icones.scss */
 .icon-saco-de-lixo-pebd {
   background-image: url("../images/icons/icon-saco-de-lixo-pebd.png");
 }
 
-/* line 88, ../sass/componentes/_icones.scss */
+/* line 91, ../sass/componentes/_icones.scss */
 .icon-saco-de-muda-de-plantas-pebd {
   background-image: url("../images/icons/icon-saco-de-muda-de-plantas-pebd.png");
 }
 
-/* line 89, ../sass/componentes/_icones.scss */
+/* line 92, ../sass/componentes/_icones.scss */
 .icon-pecas-termicas-pp {
   background-image: url("../images/icons/icon-pecas-termicas-pp.png");
 }
 
-/* line 90, ../sass/componentes/_icones.scss */
+/* line 93, ../sass/componentes/_icones.scss */
 .icon-utilidades-domesticas-pp {
   background-image: url("../images/icons/icon-utilidades-domesticas-pp.png");
 }
 
-/* line 91, ../sass/componentes/_icones.scss */
+/* line 94, ../sass/componentes/_icones.scss */
 .icon-fios-e-cabos-pp {
   background-image: url("../images/icons/icon-fios-e-cabos-pp.png");
 }
 
-/* line 92, ../sass/componentes/_icones.scss */
+/* line 95, ../sass/componentes/_icones.scss */
 .icon-potes-pp {
   background-image: url("../images/icons/icon-potes-pp.png");
 }
 
-/* line 93, ../sass/componentes/_icones.scss */
+/* line 96, ../sass/componentes/_icones.scss */
 .icon-potes-ps {
   background-image: url("../images/icons/icon-potes-ps.png");
 }
 
-/* line 94, ../sass/componentes/_icones.scss */
+/* line 97, ../sass/componentes/_icones.scss */
 .icon-aparelhos-de-barbear-descartaveis-ps {
   background-image: url("../images/icons/icon-aparelhos-de-barbear-descartaveis-ps.png");
 }
 
-/* line 95, ../sass/componentes/_icones.scss */
+/* line 98, ../sass/componentes/_icones.scss */
 .icon-cartuchos-de-impressoras-ps {
   background-image: url("../images/icons/icon-cartuchos-de-impressoras-ps.png");
 }
 
-/* line 96, ../sass/componentes/_icones.scss */
+/* line 99, ../sass/componentes/_icones.scss */
 .icon-calcados {
   background-image: url("../images/icons/icon-calcados.png");
 }
 
-/* line 97, ../sass/componentes/_icones.scss */
+/* line 100, ../sass/componentes/_icones.scss */
 .icon-cds {
   background-image: url("../images/icons/icon-cds.png");
 }
 
-/* line 101, ../sass/componentes/_icones.scss */
+/* line 104, ../sass/componentes/_icones.scss */
 .icon-garafas {
   background-image: url("../images/icons/icon-garafas.png");
 }
 
-/* line 102, ../sass/componentes/_icones.scss */
+/* line 105, ../sass/componentes/_icones.scss */
 .icon-paineis-de-vidro {
   background-image: url("../images/icons/icon-paineis-de-vidro.png");
 }
 
-/* line 103, ../sass/componentes/_icones.scss */
+/* line 106, ../sass/componentes/_icones.scss */
 .icon-lampadas {
   background-image: url("../images/icons/icon-lampadas.png");
 }
 
-/* line 104, ../sass/componentes/_icones.scss */
+/* line 107, ../sass/componentes/_icones.scss */
 .icon-espelhos {
   background-image: url("../images/icons/icon-espelhos.png");
 }
 
-/* line 108, ../sass/componentes/_icones.scss */
+/* line 111, ../sass/componentes/_icones.scss */
 .icon-embalagem-longa-vida {
   background-image: url("../images/icons/icon-embalagem-longa-vida.png");
 }
 
-/* line 109, ../sass/componentes/_icones.scss */
+/* line 112, ../sass/componentes/_icones.scss */
 .icon-maquinas {
   background-image: url("../images/icons/icon-maquinas.png");
 }
 
-/* line 110, ../sass/componentes/_icones.scss */
+/* line 113, ../sass/componentes/_icones.scss */
 .icon-latas {
   background-image: url("../images/icons/icon-latas.png");
 }
 
-/* line 111, ../sass/componentes/_icones.scss */
+/* line 114, ../sass/componentes/_icones.scss */
 .icon-ferramentas {
   background-image: url("../images/icons/icon-ferramentas.png");
 }
 
-/* line 112, ../sass/componentes/_icones.scss */
+/* line 115, ../sass/componentes/_icones.scss */
 .icon-panelas {
   background-image: url("../images/icons/icon-panelas.png");
 }
 
-/* line 113, ../sass/componentes/_icones.scss */
+/* line 116, ../sass/componentes/_icones.scss */
 .icon-caldeiras {
   background-image: url("../images/icons/icon-caldeiras.png");
 }
 
-/* line 117, ../sass/componentes/_icones.scss */
+/* line 120, ../sass/componentes/_icones.scss */
 .icon-televisao {
   background-image: url("../images/icons/icon-televisao.png");
 }
 
-/* line 118, ../sass/componentes/_icones.scss */
+/* line 121, ../sass/componentes/_icones.scss */
 .icon-celulares {
   background-image: url("../images/icons/icon-celulares.png");
 }
 
-/* line 119, ../sass/componentes/_icones.scss */
+/* line 122, ../sass/componentes/_icones.scss */
 .icon-computadores {
   background-image: url("../images/icons/icon-computadores.png");
 }
 
-/* line 120, ../sass/componentes/_icones.scss */
+/* line 123, ../sass/componentes/_icones.scss */
 .icon-tablets {
   background-image: url("../images/icons/icon-tablets.png");
 }
 
-/* line 121, ../sass/componentes/_icones.scss */
+/* line 124, ../sass/componentes/_icones.scss */
 .icon-reprodutores-de-video {
   background-image: url("../images/icons/icon-reprodutores-de-video.png");
 }
 
-/* line 122, ../sass/componentes/_icones.scss */
+/* line 125, ../sass/componentes/_icones.scss */
 .icon-equipamentos-de-acesso-web {
   background-image: url("../images/icons/icon-equipamentos-de-acesso-web.png");
 }
 
-/* line 123, ../sass/componentes/_icones.scss */
+/* line 126, ../sass/componentes/_icones.scss */
 .icon-fogao {
   background-image: url("../images/icons/icon-fogao.png");
 }
 
-/* line 124, ../sass/componentes/_icones.scss */
+/* line 127, ../sass/componentes/_icones.scss */
 .icon-exaustores {
   background-image: url("../images/icons/icon-exaustores.png");
 }
 
-/* line 125, ../sass/componentes/_icones.scss */
+/* line 128, ../sass/componentes/_icones.scss */
 .icon-geladeiras {
   background-image: url("../images/icons/icon-geladeiras.png");
 }
 
-/* line 126, ../sass/componentes/_icones.scss */
+/* line 129, ../sass/componentes/_icones.scss */
 .icon-freezer {
   background-image: url("../images/icons/icon-freezer.png");
 }
 
-/* line 127, ../sass/componentes/_icones.scss */
+/* line 130, ../sass/componentes/_icones.scss */
 .icon-ar-condicionado {
   background-image: url("../images/icons/icon-ar-condicionado.png");
 }
 
-/* line 128, ../sass/componentes/_icones.scss */
+/* line 131, ../sass/componentes/_icones.scss */
 .icon-telefones {
   background-image: url("../images/icons/icon-telefones.png");
 }
 
-/* line 132, ../sass/componentes/_icones.scss */
+/* line 135, ../sass/componentes/_icones.scss */
 .icon-residuo-hospitalar {
   background-image: url("../images/icons/icon-residuo-hospitalar.png");
 }
 
-/* line 133, ../sass/componentes/_icones.scss */
+/* line 136, ../sass/componentes/_icones.scss */
 .icon-baterias {
   background-image: url("../images/icons/icon-baterias.png");
 }
 
-/* line 134, ../sass/componentes/_icones.scss */
+/* line 137, ../sass/componentes/_icones.scss */
 .icon-pilhas {
   background-image: url("../images/icons/icon-pilhas.png");
 }
 
-/* line 135, ../sass/componentes/_icones.scss */
+/* line 138, ../sass/componentes/_icones.scss */
 .icon-residuos-radioativos {
   background-image: url("../images/icons/icon-residuos-radioativos.png");
 }
 
-/* line 136, ../sass/componentes/_icones.scss */
+/* line 139, ../sass/componentes/_icones.scss */
 .icon-materiais-toxicos {
   background-image: url("../images/icons/icon-materiais-toxicos.png");
 }
 
-/* line 137, ../sass/componentes/_icones.scss */
+/* line 140, ../sass/componentes/_icones.scss */
 .icon-bolsa-de-soro-pvc {
   background-image: url("../images/icons/icon-bolsa-de-soro-pvc.png");
 }
 
-/* line 138, ../sass/componentes/_icones.scss */
+/* line 141, ../sass/componentes/_icones.scss */
 .icon-bolsa-de-sangue-pvc {
   background-image: url("../images/icons/icon-bolsa-de-sangue-pvc.png");
 }
 
-/* line 143, ../sass/componentes/_icones.scss */
+/* line 146, ../sass/componentes/_icones.scss */
 .icon-legumes {
   background-image: url("../images/icons/icon-legumes.png");
 }
 
-/* line 144, ../sass/componentes/_icones.scss */
+/* line 147, ../sass/componentes/_icones.scss */
 .icon-verduras {
   background-image: url("../images/icons/icon-verduras.png");
 }
 
-/* line 145, ../sass/componentes/_icones.scss */
+/* line 148, ../sass/componentes/_icones.scss */
 .icon-frutas {
   background-image: url("../images/icons/icon-frutas.png");
 }
 
-/* line 146, ../sass/componentes/_icones.scss */
+/* line 149, ../sass/componentes/_icones.scss */
 .icon-embutidos {
   background-image: url("../images/icons/icon-embutidos.png");
 }
 
-/* line 147, ../sass/componentes/_icones.scss */
+/* line 150, ../sass/componentes/_icones.scss */
 .icon-leites-e-derivados {
   background-image: url("../images/icons/icon-leites-e-derivados.png");
 }
 
-/* line 148, ../sass/componentes/_icones.scss */
+/* line 151, ../sass/componentes/_icones.scss */
 .icon-pneus {
   background-image: url("../images/icons/icon-pneus.png");
 }
 
-/* line 149, ../sass/componentes/_icones.scss */
+/* line 152, ../sass/componentes/_icones.scss */
 .icon-carnes {
   background-image: url("../images/icons/icon-carnes.png");
 }
 
-/* line 150, ../sass/componentes/_icones.scss */
+/* line 153, ../sass/componentes/_icones.scss */
 .icon-oleos {
   background-image: url("../images/icons/icon-oleos.png");
 }
 
-/* line 151, ../sass/componentes/_icones.scss */
+/* line 154, ../sass/componentes/_icones.scss */
 .icon-madeira {
   background-image: url("../images/icons/icon-madeira.png");
 }
 
-/* line 152, ../sass/componentes/_icones.scss */
+/* line 155, ../sass/componentes/_icones.scss */
 .icon-construcao-demolicao {
   background-image: url("../images/icons/icon-construcao-demolicao.png");
 }
 
-/* line 157, ../sass/componentes/_icones.scss */
+/* line 160, ../sass/componentes/_icones.scss */
 .icon-avatar-ana {
   background-image: url("../images/icons/icon-avatar-ana.png");
 }
 
-/* line 161, ../sass/componentes/_icones.scss */
+/* line 164, ../sass/componentes/_icones.scss */
 .icon-social-twitter {
   background-image: url("../images/icons/icon-social-twitter.png");
 }
 
-/* line 162, ../sass/componentes/_icones.scss */
+/* line 165, ../sass/componentes/_icones.scss */
 .icon-social-linkedin {
   background-image: url("../images/icons/icon-social-linkedin.png");
 }
 
-/* line 163, ../sass/componentes/_icones.scss */
+/* line 166, ../sass/componentes/_icones.scss */
 .icon-social-youtube {
   background-image: url("../images/icons/icon-social-youtube.png");
 }
 
-/* line 164, ../sass/componentes/_icones.scss */
+/* line 167, ../sass/componentes/_icones.scss */
 .icon-social-instagram {
   background-image: url("../images/icons/icon-social-instagram.png");
 }
 
-/* line 165, ../sass/componentes/_icones.scss */
+/* line 168, ../sass/componentes/_icones.scss */
 .icon-social-facebook {
   background-image: url("../images/icons/icon-social-facebook.png");
 }
 
-/* line 175, ../sass/componentes/_icones.scss */
+/* line 178, ../sass/componentes/_icones.scss */
 .icon-payment-visa {
   background-image: url("../images/icons/icon-payment-visa.jpg");
 }
 
-/* line 176, ../sass/componentes/_icones.scss */
+/* line 179, ../sass/componentes/_icones.scss */
 .icon-payment-mastercard {
   background-image: url("../images/icons/icon-payment-mastercard.jpg");
 }
 
-/* line 177, ../sass/componentes/_icones.scss */
+/* line 180, ../sass/componentes/_icones.scss */
 .icon-payment-paypal {
   background-image: url("../images/icons/icon-payment-paypal.jpg");
 }
 
-/* line 178, ../sass/componentes/_icones.scss */
+/* line 181, ../sass/componentes/_icones.scss */
 .icon-payment-boleto {
   background-image: url("../images/icons/icon-payment-boleto.jpg");
 }
@@ -15024,4 +15034,82 @@ fieldset {
 .header-options-rescue .col-5 {
   width: 18.8%;
   text-align: center;
+}
+
+/* line 1046, ../sass/_sponger.scss */
+.options-rescue-component {
+  padding: 10px 30px 30px;
+}
+
+/* line 1052, ../sass/_sponger.scss */
+.item-options-rescue .header-options-rescue {
+  padding: 10px 0;
+}
+
+/* line 1061, ../sass/_sponger.scss */
+.group-options-rescue {
+  padding-left: 20px;
+}
+/* line 1065, ../sass/_sponger.scss */
+.group-options-rescue h5 {
+  text-transform: uppercase;
+  font-size: 12px;
+  text-align: left;
+}
+/* line 1070, ../sass/_sponger.scss */
+.group-options-rescue .text-observacoes {
+  margin-top: 10px;
+}
+
+/* line 1081, ../sass/_sponger.scss */
+.rescue-component {
+  padding: 10px 30px 30px;
+  display: inline-block;
+  vertical-align: middle;
+  width: 100%;
+}
+/* line 1088, ../sass/_sponger.scss */
+.rescue-component .available-value-group {
+  float: left;
+}
+/* line 1090, ../sass/_sponger.scss */
+.rescue-component .available-value-group .available-label {
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+/* line 1095, ../sass/_sponger.scss */
+.rescue-component .available-value-group .available-value {
+  color: #507f3b;
+  font-weight: 100;
+  font-style: italic;
+}
+/* line 1099, ../sass/_sponger.scss */
+.rescue-component .available-value-group .available-value .moeda {
+  font-size: 18px;
+}
+/* line 1100, ../sass/_sponger.scss */
+.rescue-component .available-value-group .available-value .valor {
+  font-size: 27px;
+}
+/* line 1105, ../sass/_sponger.scss */
+.rescue-component .value-for-rescue-group {
+  width: 430px;
+  float: right;
+}
+/* line 1109, ../sass/_sponger.scss */
+.rescue-component .value-for-rescue-group form {
+  float: right;
+}
+/* line 1111, ../sass/_sponger.scss */
+.rescue-component .value-for-rescue-group .form-group {
+  margin: 0;
+}
+/* line 1115, ../sass/_sponger.scss */
+.rescue-component .value-for-rescue-group .note {
+  font-style: italic;
+  text-align: left;
+  margin: 0 auto;
+  display: block;
+  margin-left: 15px;
 }
